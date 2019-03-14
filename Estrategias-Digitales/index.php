@@ -24,7 +24,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Design Thinking</title>
+    <title>Estrategias Digitales </title>
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/emfavicon.png" />
 
 
@@ -114,17 +114,17 @@
 
     <!-- Section no. 1: Hero Section -->
     <div class="hero-container">
-        <div class="hero-data">
+        <div class="hero-data hero_DT">
             <div class="hero-data-cont">
                 <div class="hero-title">
                     <div class="MIT-back openRe fs16 blanco">
                         <span class="openBo">NUEVO</span> programa <i>online</i>
                     </div>
                     <div class="robotoRE fs26 blanco">
-                        DESIGN <span class="robotoBo">THINKING</span>
+                        ESTRATEGIAS <span class="robotoBo">DIGITALES</span>
                     </div>
                     <div class="robotoBo fs16 blanco">
-                        Diseño de soluciones para la innovación
+                        Innovación empresarial y nuevos modelos de negocio
                     </div>
                 </div>
             </div>
@@ -192,32 +192,21 @@
 
         <div class="informacion-container">
             <div class="informacion-title fs24 crimsonRe negro23">
-                SOLUCIONES REALES
-                <span class="crimsonBo"> PARA PERSONAS REALES</span>
+               CONOCE LAS CLAVES
+                <span class="crimsonBo">DEL ÉXITO DIGITAL</span>
             </div> <!-- informacion-title -->
 
             <div class="informacion robotoRe fs16">
-                Innovar no es opcional… pero tampoco es fruto de inspiración divina; requiere de
-                inteligencia, disciplina y la generación <a class="button-enable robotoBo fs16 rosa51">...más</a>
+                Las señales son claras: la proliferación de nuevos canales de comunicación, el creciente poder de los clientes y la intervención <a class="button-enable robotoBo fs16 rosa51">...más</a>
 
                 <span class="enable">
-                    de soluciones para problemas concretos y
-                    necesidades sentidas, colocando a las personas en el centro de los procesos.Hoy, la
-                    reinvención es, más que un tema de estética y funcionalidad, una cuestión de empatía.
+                    de fuerzas disruptivas implican un reto sin precedentes para el mundo empresarial; el llamado "desafío digital".
                     <br>
                     <br>
-                    Ahí es donde entra Design Thinking: un enfoque de innovación que integra aspectos del
-                    diseño, la ingeniería y la mercadotecnia para la creación sistemática de soluciones
-                    centradas en las necesidades y comportamiento de los clientes.
+                    Pero las estrategias digitales necesarias para hacerle frente no son obra de generación espontánea, ni dependen exclusivamente de la adquisición de las últimas herramientas tecnológicas; requieren de líderes capaces de plantearlas, ejecutarlas, medirlas y optimizarlas en línea con sus metas empresariales. 
                     <br>
                     <br>
-                    En este <span class="robotoBo">curso de Steve Eppinger, creador del Centro para la Innovación en el
-                        Desarrollo
-                        de Productos del MIT</span>, aprenderás a utilizar técnicas de design thinking para resolver
-                    los
-                    problemas de tu empresa, re-pensar la oferta de tus productos y servicios, crecer en los
-                    mercados que te interesan, dar mayor valor a tus clientes, e innovar para ser más
-                    competitivo.
+                   Descubre los cinco dominios de las estrategias digitales y da una nueva dimensión a tu negocio de la mano de David Rogers, creador del modelo de redes de clientes y autor del bestseller The <i>Digital Transformation Playbook. </i>
                 </span>
             </div> <!-- informacion -->
             <span class="enable">
@@ -383,14 +372,16 @@
             Plan de pagos flexibles
         </div>
         <div class="modal-pagos-descripcion fs14 robotoRe negro23">
-            La opción de pagos flexible permite al alumno pagar la cuota del curso en parcialidades.
-            <br>
-            Esta opción está disponible en la solicitud de inscripción y deberá seleccionarse antes de realizar el
-            pago.
+            La opción de pagos flexible permite al alumno pagar la cuota del
+            curso
+            en parcialidades.Esta opción está disponible en la solicitud de inscripción y deberá seleccionarse
+            antes de
+            realizar el pago.
         </div>
         <div class="modal-pagos-subtitle robotoRe fs16 negro46">
-            Las siguientes opciones de pago están disponibles para el
-            <span class="robotoBo">Curso de Design Thinking:</span>
+            Las siguientes opciones de pago están disponibles para el <strong>Curso
+                        de
+                        Estrategias Digitales:</strong>
         </div>
         <div class="pagos">
             <div class="pagos-title fs18 openBo gris70">
@@ -409,8 +400,7 @@
                 al inicio.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$594 USD</span> a pagar
-                del 03 de Marzo de 2019 .
+                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$594 USD</span> a partir del 06 de Abril del 2019
             </div>
         </div>
         <div class="pagos no-border">
@@ -422,12 +412,10 @@
                 al inicio.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La segunda parcialidad de <span class="robotoBo">$435 USD</span> a pagar
-                del 03 de marzo de 2019.
+                <div class="dot-pagos"></div>La segunda parcialidad de <span class="robotoBo">$435 USD</span> a partir del 06 de Abril del 2019
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$435 USD</span> a pagar
-                del 23 de Marzo de 2019 .
+                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$435 USD</span> a partir del 01 de Mayo del 2019
             </div>
         </div>
     </div> <!-- modal-pagos-flexibles -->
@@ -1268,7 +1256,7 @@
                         </a>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div class="cont-slide">
                 <div class="slide">
                     <div class="icn-comillas">
