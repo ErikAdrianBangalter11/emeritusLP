@@ -119,7 +119,7 @@
             <div class="hero-data-cont">
                 <div class="hero-title">
                     <div class="CBS-back openRe fs16 blanco">
-                        <span class="openBo">NUEVO</span> programa <i>online</i>
+                        <span class="openBo">NUEVO</span> Programa <i>online</i>
                     </div>
                     <div class="robotoRE fs26 blanco">
                         MARKETING <span class="robotoBo">DIGITAL</span>

@@ -362,6 +362,20 @@ img {
   border: 5px solid #B30838;
 }
 
+.hero_DT {
+  display: flex;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 28px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  background-size: auto, cover;
+  box-shadow: 0 0 6px 0 #fff;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%), url("../img/jpg/main-image-ED.jpg") !important;
+  background-position: 0px 0px, 100% 0px !important;
+}
 body {
   overflow-x: hidden;
 }
@@ -522,7 +536,6 @@ header {
 .hero-container .hero-data {
   width: 100%;
   position: relative;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url("../img/jpg/hero-image-mobile.jpg") no-repeat;
   background-size: cover;
   background-position-y: 10% !important;
   background-position-x: center !important;
@@ -646,7 +659,6 @@ header {
   }
   .hero-container .hero-data {
     height: 410px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 25%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.4) 75%), url("../img/jpg/hero-image-2.jpg") !important;
     background-position-y: 55% !important;
     background-position-x: center !important;
   }
@@ -1313,6 +1325,7 @@ header {
   line-height: 20px;
   margin-top: 20px;
 }
+
 @media only screen and (min-width: 396px) {
   .profesor-data {
     max-width: 240px;
