@@ -1697,10 +1697,6 @@ header {
   cursor: auto !important;
 }
 
-.active {
-  border-bottom: none;
-}
-
 @media only screen and (min-width: 1024px) {
   .plan-de-estudios-container {
     padding: 90px 18px;
@@ -1735,6 +1731,9 @@ header {
 .modulo-cont .collapsible-header {
   position: relative;
   padding: 18px 0;
+}
+.modulo-cont .collapsible-header.active {
+  border-bottom: none;
 }
 .modulo-cont .collapsible-header .module-title {
   width: 65%;
