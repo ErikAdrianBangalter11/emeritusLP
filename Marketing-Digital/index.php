@@ -24,8 +24,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marketing Digital</title>
-    <link rel="shortcut icon" type="image/png" href="../assets/img/png/emfavicon.png" />
+    <title>Marketing Digital | Redes sociales, lealtad, planeación y analítica</title>
+    <link href="../assets/img/png/emfavicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="../assets/img/png/emfavicon.png" rel="apple-touch-icon">
 
 
 
@@ -56,28 +57,26 @@
 </head>
 
 <body>
-
-
     
     <?php
-    //If the HTTPS is not found to be "on"
-    if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
-    {
-        //Tell the browser to redirect to the HTTPS URL.
-        header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
-        //Prevent the rest of the script from executing.
-        exit;
-    }
+        //If the HTTPS is not found to be "on"
+        if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+        {
+            //Tell the browser to redirect to the HTTPS URL.
+            header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+            //Prevent the rest of the script from executing.
+            exit;
+        }
     ?>
 
   <!-- Getting the querystring -->
     <?php
-    $queryStringArray = array();
-    foreach($_GET as $key=>$value){
-        $parameter = $key."=".$value;
-        array_push($queryStringArray, $parameter);
-    }
-    $queryString = implode("&", $queryStringArray);
+        $queryStringArray = array();
+        foreach($_GET as $key=>$value){
+            $parameter = $key."=".$value;
+            array_push($queryStringArray, $parameter);
+        }
+        $queryString = implode("&", $queryStringArray);
     ?>
 
 
@@ -272,19 +271,19 @@
                 <form class="form-cont" method="POST" action="https://www2.emeritus.org/l/134351/2018-07-05/3zgtr6">
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="text" id="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                        <input class="robotoRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
                             required>
                         <label class="robotoRe mdl-textfield__label" for="first_name">Nombre(s)</label>
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="text" id="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                        <input class="robotoRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
                             required>
                         <label class="robotoRe mdl-textfield__label" for="last_name">Apellido(s)</label>
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                        <input class="robotoRe mdl-textfield__input" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
                             required>
                         <label class="robotoRe mdl-textfield__label" for="email">Email</label>
                     </div>
@@ -310,7 +309,7 @@
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="tel" id="mobile" maxlength="15" minlength="5"
+                        <input class="robotoRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="15" minlength="5"
                             onkeypress="return valida(event)" pattern="[0-9]+" required>
                         <label class="robotoRe mdl-textfield__label" for="mobile">Número de celular</label>
                     </div>
@@ -325,7 +324,7 @@
                         <input type="hidden" name="browser" id="browser" value="">
                         <input type="hidden" name="course" id="course" value="Marketing Digital">
                         <!--This value is different in each in the pages-->
-                        <input type="hidden" name="retURL" value="https://latam.emeritus.org/programas/Thank-you-page-MD.php?<?php echo $queryString; ?>">
+                        <input type="hidden" name="retURL" value="https://latam.emeritus.org/programas/Thank-you-page-MD.php">
                         <button class="robotoRe fs18 blanco" type="submit">
                             Descarga el folleto
                             <img src="../assets/img/svg/icon-descargar.svg" alt="Download">
@@ -490,13 +489,8 @@
                     el negocio para adaptar y prevalecer en la era digital).
                 </div>
             </div>
-            <div class="profesor-media desktop">
-                <iframe width="600" height="350" src="https://www.youtube.com/embed/mi0yND2utX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="profesor-media movil">
-                <iframe width="360" height="350" src="https://www.youtube.com/embed/mi0yND2utX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <div class="video-container">
+                <iframe  src="https://www.youtube.com/embed/mi0yND2utX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -1420,12 +1414,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex2" rel="modal:open">
                 <div>
-                    <img src="../assets/img/png/certificado.png" alt="Certificado">
+                    <img src="../assets/img/png/certificado.jpg" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex2" class="modal modal-certificado">
-                <img src="../assets/img/jpg/big-ceritificate-1.jpg" alt="Certificado">
+                <img src="../assets/img/jpg/big-certificate-1.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title crimsonBo fs24 blanco">
