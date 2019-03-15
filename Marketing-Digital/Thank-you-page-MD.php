@@ -22,10 +22,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <title>Marketing Digital</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta http-equiv="refresh" CONTENT="1;URL= http://bit.ly/2IZ7mOJ">
-  <link rel="stylesheet" href="assets/scss/stylesheet.css">
-  <link href="assets/scss/thank-you-page.css" rel="stylesheet" type="text/css">
-  <link href="emfavicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="emfavicon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="../assets/scss/stylesheet.css">
+  <link href="../assets/scss/thank-you-page.css" rel="stylesheet" type="text/css">
+  <link href="../assets/img/png/emfavicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../assets/img/png/emfavicon.png" rel="apple-touch-icon">
 </head>
 <body class="altura-auto">
 
@@ -40,9 +40,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
     <div class="c-thank-desk">
-      <div class="logo"><a href="https://latam.emeritus.org/programas/Marketing-Digital/" target="_blank"><img src="assets/img/svg/emeritus-logo-complete-TYP.svg" alt=""></a></div>
+      <div class="logo"><a href="https://latam.emeritus.org/programas/Marketing-Digital/" target="_blank"><img src="../assets/img/svg/emeritus-logo-complete-TYP.svg" alt=""></a></div>
       <div class="c-thank-cont">
-        <div class="c-icon-check"><img src="assets/img/svg/check.svg"></div>
+        <div class="c-icon-check"><img src="../assets/img/svg/check.svg"></div>
         <div class="c-thank-tittles">
           <div class="text-tittle-pri fs50">¡Gracias!</div>
           <div class="text-tittle-sub fs22">Gracias por tu interés en el programa
@@ -55,9 +55,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="c-thank-footer-desk">
       <div class="thank-footer-tittle">Conéctate con nosotros</div>
       <div class="thank-footer-icons">
-        <div class="footer-icon"> <a target="_blank" href="https://www.facebook.com/EMERITUS.INST/"><img src="assets/img/svg/facebook.svg"></a> </div>
-        <div class="footer-icon"> <a target="_blank" href="https://twitter.com/EMERITUS_INST"><img src="assets/img/svg/twitter.svg"></a></div>
-        <div class="footer-icon"> <a target="_blank" href="https://www.linkedin.com/school/emeritus-institute-of-management/"><img src="assets/img/svg/linkedin-circle.svg"></a></div>
+        <div class="footer-icon"> <a target="_blank" href="https://www.facebook.com/EMERITUS.INST/"><img src="../assets/img/svg/facebook.svg"></a> </div>
+        <div class="footer-icon"> <a target="_blank" href="https://twitter.com/EMERITUS_INST"><img src="../assets/img/svg/twitter.svg"></a></div>
+        <div class="footer-icon"> <a target="_blank" href="https://www.linkedin.com/school/emeritus-institute-of-management/"><img src="../assets/img/svg/linkedin-circle.svg"></a></div>
       </div>
     </div>
       </div>

@@ -59,27 +59,27 @@
 <body>
 
 
+    
     <?php
-        //If the HTTPS is not found to be "on"
-        //if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
-        //{
-            //Tell the browser to redirect to the HTTPS URL.
-            //header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
-            //Prevent the rest of the script from executing.
-            //exit;
-        //}
-        ?>
+    //If the HTTPS is not found to be "on"
+    if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+    {
+        //Tell the browser to redirect to the HTTPS URL.
+        header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+        //Prevent the rest of the script from executing.
+        exit;
+    }
+    ?>
 
-
-    <!-- Getting the querystring -->
+  <!-- Getting the querystring -->
     <?php
-        $queryStringArray = array();
-        foreach($_GET as $key=>$value){
-            $parameter = $key."=".$value;
-            array_push($queryStringArray, $parameter);
-        }
-        $queryString = implode("&", $queryStringArray);
-        ?>
+    $queryStringArray = array();
+    foreach($_GET as $key=>$value){
+        $parameter = $key."=".$value;
+        array_push($queryStringArray, $parameter);
+    }
+    $queryString = implode("&", $queryStringArray);
+    ?>
 
 
     <!-- Google Tag Manager (noscript) INTOConsultancy-->
@@ -115,7 +115,7 @@
 
     <!-- Section no. 1: Hero Section -->
     <div class="hero-container">
-        <div class="hero-data">
+        <div class="hero-data hero_MD">
             <div class="hero-data-cont">
                 <div class="hero-title">
                     <div class="CBS-back openRe fs16 blanco">

@@ -377,27 +377,32 @@ img {
     border: 5px solid #B30838;
 }
 
-//
+//Background image's
+.hero_MD {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%),
+    url('../img/jpg/hero-image-mobile.jpg');
+    @media only screen and (min-width: 1024px) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%),
+        url('../img/jpg/hero-image-2.jpg') !important;
+    }
+}
+
 .hero_DT {
-    display: flex;
-    width: 100%;
-    padding-top: 130px;
-    padding-bottom: 28px;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: end;
-    align-items: flex-end;
-    background-size: auto,
-    cover;
-    box-shadow: 0 0 6px 0 #fff;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%),
     url('../img/jpg/main-image-ED.jpg') !important;
-    background-position: 0px 0px,
-    100% 0px !important;
-
+    background-position: 0px 0px, 100% 0px !important;
     @media only screen and (max-width: 1024px) {}
 }
 
+.hero_DC {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%), url('../img/jpg/hero-image-mobile-DC.jpg');
+    background-position-x: center;
+    @media only screen and (min-width: 1024px) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%), url('../img/jpg/hero-image-desktop-DC.jpg')!important;
+    }
+}
+
+//
 body {
     overflow-x: hidden;
 }
@@ -995,7 +1000,7 @@ header {
     padding: 35px 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: initial;
     justify-content: center;
     margin: 0 auto;
     max-width: 1140px;
@@ -1573,9 +1578,12 @@ header {
 }
 
 //
+
 //SECCIÓN TUTORES EXPERTOS
 .tutores-expertos-container {
     width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
     padding: 40px 18px;
     background-color: #ffffff;
 
@@ -1596,7 +1604,7 @@ header {
     .tutor-container {
         width: 100%;
         margin: 0 auto;
-        max-width: 1160px;
+        max-width: 1170px;
         display: flex;
         flex-wrap: wrap;
         align-items: initial;
@@ -1609,7 +1617,7 @@ header {
     }
 
     .tutor-cont-v1 {
-        max-width: 560px !important;
+        max-width: 550px !important;
         padding: 35px 15px;
     }
 
@@ -1892,6 +1900,15 @@ header {
     max-width: 745px;
 }
 
+.desactive {
+    cursor: auto!important;
+}
+
+.active {
+    border-bottom: none;
+}
+
+
 @media only screen and (min-width: 1024px) {
     .plan-de-estudios-container {
         padding: 90px 18px;
@@ -1938,10 +1955,6 @@ header {
         position: relative;
         padding: 18px 0;
 
-        &.active {
-            border-bottom: none;
-        }
-
         .module-title {
             width: 65%;
             margin-left: 10px;
@@ -1983,15 +1996,6 @@ header {
     border-radius: 2px;
     border: 3px solid #FB5151;
     background-image: url("../img/svg/minus.svg");
-}
-
-.collapsible-header {
-    position: relative;
-    padding: 18px;
-
-    &.active {
-        border-bottom: none;
-    }
 }
 
 //
@@ -2266,7 +2270,7 @@ header {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: initial;
         margin: 0 auto;
         background-color: #EBF4F5;
 
@@ -2278,13 +2282,13 @@ header {
             margin: 10px 0;
 
             .tu-viaje-img {
-                width: 50px;
-                height: 40px;
+                width: 90px;
+                height: 60px;
                 margin: 0 auto;
 
                 img {
-                    width: 50px;
-                    height: 40px;
+                    width: 90px;
+                    height: 60px;
                     margin: 0 auto;
                 }
             }
@@ -2322,13 +2326,13 @@ header {
                 margin: 40px 0 0;
 
                 .tu-viaje-img {
-                    width: 85px;
-                    height: 50px;
+                    width: 95px;
+                    height: 60px;
                     margin: 0 auto;
 
                     img {
-                        width: 85px;
-                        height: 50px;
+                        width: 95px;
+                        height: 60px;
                         margin: 0 auto;
                     }
                 }
@@ -2336,12 +2340,12 @@ header {
                 .tu-viaje-numero {
                     line-height: 41px;
                     font-size: 30px;
-                    margin: 20px auto 0;
+                    margin: 10px auto 0;
                 }
 
                 .tu-viaje-name {
                     line-height: 24px;
-                    margin: 20px auto;
+                    margin: 10px auto;
                     text-align: center;
                 }
             }

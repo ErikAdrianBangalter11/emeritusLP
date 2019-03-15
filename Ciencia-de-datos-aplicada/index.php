@@ -95,7 +95,7 @@
     <header>
         <div class="header-container">
             <a href="https://latam.emeritus.org/" target="_blank" rel="noopener noreferrer">
-                <img class="Logo-one" src="../assets/img/svg/emeritus-logo-light.svg" alt="Emeritus LATAM">
+                <img class="Logo-one" src="../assets/img/svg/emeritus-logo-light.svg" alt="Emeritus-Latam">
             </a>
 
             <div class="dinamic">
@@ -115,7 +115,7 @@
 
     <!-- Section no. 1: Hero Section -->
     <div class="hero-container">
-        <div class="hero-data">
+        <div class="hero-data hero_DC">
             <div class="hero-data-cont">
                 <div class="hero-title">
                     <div class="CBS-back openRe fs16 blanco">
@@ -133,7 +133,7 @@
             <div class="logo-universidad-title fs12 robotoRe gris6E">
                 <i>En colaboración con</i>
             </div>
-            <img src="../assets/img/svg/logo-columbia-business-school-executive-education.svg" alt="Columbia Business School">
+            <img src="../assets/img/svg/Columbia-Engineering.svg" alt="Columbia Engineering">
         </div>
 
         <div class="precio-container">
@@ -181,7 +181,7 @@
         <div class="logo-universidad-title fs12 robotoRe gris6E">
             <i>En colaboración con</i>
         </div>
-        <img src="../assets/img/svg/logo-columbia-business-school-executive-education.svg" alt="Columbia Business School">
+        <img src="../assets/img/svg/Columbia-Engineering.svg" alt="Columbia Engineering">
     </div>
 
 
@@ -189,75 +189,38 @@
     <div class="informacion-formulario-container">
 
         <div class="informacion-container">
-            <div class="informacion-title fs24 crimsonRe negro23">
-                MARKETING DIGITAL
-                <br>
-                <span class="crimsonBo"> BASADO EN REDES DE CLIENTES </span>
-            </div> <!-- informacion-title -->
 
-            <div class="informacion robotoRe fs16">
-                El surgimiento de las tecnologías digitales ha transformado profundamente la manera de
-                hacer mercadotecnia. <a class="button-enable robotoBo fs16 rosa51">...más</a>
+            <div class="informacion robotoRe fs16" style="margin: 0;">
+            Actualmente a los datos se les considera como la nueva moneda a nivel global, y su 
+            espectacular crecimiento está transformando a todas las industrias y requiriendo de 
+            profesionales que puedan explotar todo su potencial. Desde la industria de la salud hasta 
+            finanzas y entretenimiento <a class="button-enable robotoBo fs16 rosa51">...más</a>
 
                 <span class="enable">
-                    Empujado por la fuerza del cambio, el marketing tradicional basado en mercados masivos, ha ido
-                    cediendo su lugar a <span class="robotoBo">un nuevo marketing que sitúa al cliente en
-                        el centro del negocio.</span>
+                    , ciberseguridad y más, la necesidad de científicos de datos 
+                    continúa creciendo, así como las oportunidades de avanzar profesionalmente en esa 
+                    área. 
                     <br>
                     <br>
-                    <span class="robotoBo">Descubre los secretos del marketing digital de la mano de David Rogers,
-                        creador
-                        del modelo de redes de clientes.</span> Aprende a planear, implementar y medir el impacto de
-                    estrategias digitales mediante casos reales y el uso de simuladores que te permitirán
-                    conectar mejor con tus clientes, tanto B2C como B2B.
+                    Con el objetivo de llenar esta brecha profesional y, aún más, utilizar la ciencia de datos 
+                    para resolver problemas del mundo real, Columbia Engineering Executive Education se 
+                    asoció con EMERITUS para crear el curso de Ciencia de Datos Aplicada. 
+                    <br>
+                    <br>
+                    El enfoque del curso se centra en enseñar los conceptos y estadísticas de 
+                    la Ciencia de datos. 
+                    <br>
+                    <br>
+                    Pretendemos ir más allá de la teoría. Nuestra dinámica de aprendizaje invita a los 
+                    participantes a iniciar una conversación de la mano de expertos y enriquecida con 
+                    profesionales en el campo de la ciencia de datos. Esperamos que los estudiantes 
+                    dediquen entre 6 a 8 horas a la semana. 
+                    <br>
+                    <br>
+                    Una vez completado el curso de forma exitosa, cada participante recibirá un certificado 
+                    digital de EMERITUS en colaboración con Columbia Engineering Executive Education.
                 </span>
             </div> <!-- informacion -->
-            <span class="enable">
-                <div class="informacion-relevante">
-
-                    <div class="relevante-container">
-                        <div class="No-relevante fs44 robotoBo azulBC">
-                            25%
-                        </div>
-                        <div class="desc fs20 robotoBo cafe6C">
-                            de la economía mundial será digital hacia 2020.
-                        </div>
-                        <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: ÍNDICE DEL VALOR ECONÓMICO DIGITAL.
-                        </div>
-                    </div> <!-- relevante-container -->
-
-                    <div class="relevante-container">
-                        <div class="fs30 robotoRe rosa75">
-                            <div class="desktop">Más de <span class="robotoBo fs44">3 mil millones</span></div>
-                            <div class="N-relevanteo movil"> Más de <br><span class="robotoBo fs44">3 mil millones</span></div>
-                        </div>
-                        <div class="desc fs20 robotoBo cafe6C">
-                            de personas en todo el mundo usan ya redes sociales mensualmente.
-                        </div>
-                        <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: HOOTSUITE, REPORTE DIGITAL 2018.
-                        </div>
-                    </div><!-- relevante-container -->
-
-                    <div class="relevante-container">
-                        <div class="fs30 robotoRe azulBC">
-                            <div class="desktop">En 2020, <span class="robotoBo fs44">más del 85%</span></div>
-                            <div class="No-relevante movil">En 2020, <br><span class="robotoBo fs44">más del 85%</span></div>
-                        </div>
-
-                        <div class="desc fs20 robotoBo cafe6C">
-                            de las comunicaciones entre marcas y clientes se
-                            llevará a cabo sin intervenciones humanas.
-                        </div>
-
-                        <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: GARTNER, 2018.
-                        </div>
-                    </div> <!-- relevante-container -->
-
-                </div>
-            </span>
         </div> <!-- informacion-container -->
 
         <!--
@@ -420,202 +383,130 @@
     </div> <!-- modal-pagos-flexibles -->
 
 
-    <!-- Section no. 5: Certificate -->
-    <div class="el-certificado-container">
-        <div class="el-certificado-title crimsonRe fs24 negro28">
-            EL CERTIFICADO EN
-            <span class="crimsonBo">
-                MARKETING DIGITAL ES PARA TI SI:
-            </span>
-        </div>
-        <div class="el-certificado-img">
-            <img class="el-certificado-desktop" src="../assets/img/jpg/es-para-ti-si-imagen.jpg" alt="El certificado en marketing digital">
-            <img class="el-certificado-movil" src="../assets/img/jpg/es-para-ti-si-imagen-movil.jpg" alt="El certificado en marketing digital">
-        </div>
-        <div class="el-certificado-requisitos-cont">
-            <div class="requisito fs16 robotoRe negro">
-                Eres un profesional de la mercadotecnia y
-                quieres trascender la manera tradicional
-                de hacer marketing.
-            </div>
-            <div class="requisito fs16 robotoRe negro">
-                Tienes experiencia en el área de
-                negocios y deseas completar tus
-                conocimientos para mantenerte vigente
-                en tu profesión.
-            </div>
-            <div class="requisito fs16 robotoRe negro">
-                Necesitas comunicarte con tus clientes
-                digitalmente.
-            </div>
-            <div class="requisito fs16 robotoRe negro">
-                Eres emprendedor y quieres impulsar el
-                crecimiento de tu negocio utilizando el
-                nuevo marketing basado en el modelo de
-                red de clientes.
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Section no. 6: Profesors -->
-    <div class="profesor-container">
-        <div class="profesor-title crimsonBo fs24 negro28">
-            Profesorado
-        </div>
-        <div class="profesor-cont">
-            <div class="profesor-desc">
-                <div class="profesor-desc-cont">
-                    <div class="profesor-img">
-                        <img class="CBS-bord" src="../assets/img/jpg/rogers250x250.jpg" alt="David Rogers">
-                    </div>
-                    <div class="profesor-data">
-                        <div class="robotoRe fs16 negro46">Autor y profesor titular</div>
-                        <div class="robotoBo fs18 negro46">David Rogers</div>
-                        <div class="robotoRe fs16 azulC4"> <i> Columbia Business School </i> </div>
-                    </div>
-                </div>
-                <div class="profesor-description robotoRe fs14 negro46">
-                    Experto mundialmente reconocido por su conocimiento en materia de
-                    marcas y estrategias de negocios digitales, <span class="robotoBo"> David Rogers es el creador del
-                        modelo pionero de redes de clientes.</span>
-                    <br><br>
-                    Académico destacado de la Columbia Business School, ha escrito varios
-                    libros sobre el tema, entre los que destacan <i>The Network Is Your Customer</i>
-                    (La red es tu cliente) y el recientemente publicado <i>The Digital
-                        Transformation Playbook: Rethink Your Business to Adapt and Thrive in the
-                        Digital Age</i> (Manual de estrategias para la transformación digital: Repensar
-                    el negocio para adaptar y prevalecer en la era digital).
-                </div>
-            </div>
-            <div class="profesor-media desktop">
-                <iframe width="600" height="350" src="https://www.youtube.com/embed/mi0yND2utX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="profesor-media movil">
-                <iframe width="360" height="350" src="https://www.youtube.com/embed/mi0yND2utX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Section no. 7: Experts -->
-    <div class="tutores-expertos-container">
+    <!-- Section no. 5: Professor -->
+    <div class="tutores-expertos-container" style="border-top: 3px solid #efefef;">
         <div class="tutores-expertos-title crimsonBo fs32 negro28">
-            Tutores expertos
-        </div>
-        <div class="tutores-expertos-subtitle robotoBo fs18 gris61">
-            Para culminar tu viaje de aprendizaje con éxito cuentas con la
-            asesoría de expertos en Marketing Digital en español, quienes
-            te acompañarán y resolverán cualquier duda que tengas:
+            PROFESORADO
         </div>
         <div class="tutor-container">
-            <div class="tutor-cont tutor-cont-v1">
+            <div class="tutor-cont tutor-cont-v2" style="box-shadow: 0 2px 10px -2px white;">
                 <div class="tutor-desc">
                     <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/Pilar-barrio-2.jpg" alt="Pilar Barrio">
+                        <img src="../assets/img/jpg/professor-Vineet-Goyal.jpg" alt="Vineet-Goyal">
                     </div>
                     <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Pilar Barrio</div>
+                        <div class="robotoBo fs20 negro46">Vineet Goyal</div>
                     </div>
                 </div>
                 <hr>
-                <div class="tutor-description robotoRe fs16 negro23">
-                    Moderadora de Emeritus Institute of Management, Pilar ha
-                    destacado como consultora y formadora de equipos de
-                    marketing digital. Directora de Barrio Digital, comunidad de
-                    expertos que da servicios de estrategia digital a startups y
-                    negocios a nivel mundial, ha colaborado con grandes empresas
-                    como Coca Cola, GM, Nestlé, Sony y BBC.
-                    <br><br>
-                    Pilar se desempeña también como facilitadora de las
-                    masterclasses de la Google Digital Academy en Europa, en
-                    temas como marketing programático, estrategia de móviles y
-                    soluciones creativas para marcas.
+                <div class="tutor-description">
+                    <img src="../assets/img/svg/Columbia-Engineering.svg" alt="Columbia Engineering" style="width: 230px; display: block; margin: 0 auto;">
                 </div>
             </div>
-            <div class="tutor-cont tutor-cont-v1">
+            <div class="tutor-cont tutor-cont-v2" style="box-shadow: 0 2px 10px -2px white;">
                 <div class="tutor-desc">
                     <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/renato-herrera.jpg" alt="Renato Herrera">
+                        <img src="../assets/img/jpg/professor-Costis-Maglaras.jpg" alt="Costis-Maglaras">
                     </div>
                     <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Renato Herrera</div>
+                        <div class="robotoBo fs20 negro46">Costis Maglaras</div>
                     </div>
                 </div>
                 <hr>
-                <div class="tutor-description robotoRe fs16 negro23">
-                    Moderador de Emeritus Institute of Management, Renato
-                    cuenta con más 10 años de experiencia en comunicación
-                    digital, en puestos de media planning, estrategia digital, social
-                    media, contenido y creatividad.
-                    <br><br>
-                    Emprendedor de negocios e-commerce global y asesor en
-                    contenidos y negocios digitales, Renato ha colaborado con
-                    marcas como Nike, Bud Light, Telefónica Movistar, Diageo y
-                    Liverpool.
+                <div class="tutor-description">
+                    <img src="../assets/img/svg/Columbia-Engineering.svg" alt="Columbia Engineering" style="width: 230px; display: block; margin: 0 auto;">
+                </div>
+            </div>
+            <div class="tutor-cont tutor-cont-v2" style="box-shadow: 0 2px 10px -2px white;">
+                <div class="tutor-desc">
+                    <div class="tutor-imagen">
+                        <img src="../assets/img/jpg/Hardeep-Johar.jpg" alt="Hardeep-Johar">
+                    </div>
+                    <div class="tutor-data">
+                        <div class="robotoBo fs20 negro46">Hardeep Johar</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="tutor-description">
+                    <img src="../assets/img/svg/Columbia-Engineering.svg" alt="Columbia Engineering" style="width: 230px; display: block; margin: 0 auto;">
                 </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Section no. 8: Certificate  -->
-    <div class="con-certificado-container">
-        <div class="con-certificado-title fs28 crimsonRe">
-            CON CERTIFICADO EN <span class="crimsonBo">MARKETING DIGITAL APRENDERÁS A:</span>
-        </div>
-        <div class="con-certificado-cont">
-            <div class="con-certificado-img">
-                <img src="../assets/img/jpg/aprenderas-a-imagen.jpg" alt="aprenderas-a-imagen">
-            </div>
+    <!-- Section no. 6: Journey -->
+    <div class="tu-viaje-container">
+        <div class="tu-viaje-title crimsonBo fs24 negro28">LO MÁS DESTACADO DEL CURSO</div>
+        <div class="tu-viaje-cont" style="max-width: 810px;">
 
-            <div class="con-certificado-flex">
-
-                <div class="con-certificado-pasos">
-                    <div class="paso-cont">
-                        <div class="paso-numero fs35 crimsonBo negro46">
-                            1
-                        </div>
-                        <div class="paso-texto fs16">
-                            Diseñar, planear y ejecutar con éxito una estrategia de
-                            marketing digital para tu marca o negocio, tanto B2C como B2B.
-                        </div>
-                    </div>
-                    <div class="paso-cont">
-                        <div class="paso-numero fs35 crimsonBo negro46">
-                            2
-                        </div>
-                        <div class="paso-texto fs16">
-                            Capitalizar los conocimientos que encierran los éxitos, fracasos
-                            y mejores prácticas de marcas en redes sociales.
-                        </div>
-                    </div>
-
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="../assets/img/svg/video-lectures.svg" alt="Clases-en-video">
                 </div>
-                <div class="con-certificado-pasos">
-                    <div class="paso-cont">
-                        <div class="paso-numero fs35 crimsonBo negro46">
-                            3
-                        </div>
-                        <div class="paso-texto fs16">
-                            Establecer una conversación efectiva con tus consumidores y generar
-                            lealtad a tu marca a través de estrategias digitales de acceso, conexión
-                            y colaboración.
-                        </div>
-                    </div>
-                    <div class="paso-cont">
-                        <div class="paso-numero fs35 crimsonBo negro46">
-                            4
-                        </div>
-                        <div class="paso-texto fs16">
-                            Identificar, usar e interpretar indicadores y métricas para optimizar tu
-                            inversión en marketing digital.
-                        </div>
-                    </div>
+                <div class="tu-viaje-numero robotoBo fs24 gris6E">
+                    120
+                </div>
+                <div class="tu-viaje-name robotoBo fs16 gris61">
+                    Clases en video
                 </div>
             </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="../assets/img/svg/tareas.svg" alt="Cuestionarios-Tareas">
+                </div>
+                <div class="tu-viaje-numero robotoBo fs24 gris6E">
+                    12
+                </div>
+                <div class="tu-viaje-name robotoBo fs16 gris61">
+                    Cuestionarios / Tareas
+                </div>
+            </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="../assets/img/svg/discussions.svg" alt="Discusiones">
+                </div>
+                <div class="tu-viaje-numero robotoBo fs24 gris6E">
+                    9
+                </div>
+                <div class="tu-viaje-name robotoBo fs16 gris61">
+                    Sesiones de preguntas y respuestas con líderes del curso
+                </div>
+            </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="../assets/img/svg/simulations.svg" alt="Foros-de-discusión">
+                </div>
+                <div class="tu-viaje-numero robotoBo fs24 gris6E">
+                    3
+                </div>
+                <div class="tu-viaje-name robotoBo fs16 gris61">
+                    Foros de discusión
+                </div>
+            </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="../assets/img/svg/proyecto-final.svg" alt="Proyectos de aplicación">
+                </div>
+                <div class="tu-viaje-numero robotoBo fs24 gris6E">
+                    1
+                </div>
+                <div class="tu-viaje-name robotoBo fs16 gris61">
+                    Proyectos de aplicación
+                </div>
+            </div>
+            <div class="tu-viaje-icon">
+                <div class="tu-viaje-img">
+                    <img src="../assets/img/svg/sesiones-online.svg" alt="sesiones-online">
+                </div>
+                <div class="tu-viaje-numero robotoBo fs24 gris6E">
+                    9
+                </div>
+                <div class="tu-viaje-name robotoBo fs16 gris61">
+                    Enseñanza en línea en vivo
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -627,10 +518,158 @@
         </div>
         <div class="modulos-container">
             <ul class="collapsible">
+                <li class="desactive modulo-cont">
+                    <div class="robotoBo fs18 negro19" style="margin: 18px auto 0;">HERRAMIENTAS Y GESTIÓN DE DATOS</div>
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 1</div>
+                        <div class="module-title robotoBo negro23">
+                            Conocimientos básicos de Python. 
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            Traducir procedimientos a códigos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 2</div>
+                        <div class="module-title robotoBo negro23">
+                            Python intermedio
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            Introducción a estructura de datos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 3</div>
+                        <div class="module-title robotoBo negro23">
+                            Bases de datos relacionales
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Donde están almacenados los datos (la mayoría)
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 4</div>
+                        <div class="module-title robotoBo negro23">
+                            SQL
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Formatos de bases de datos ubicuos/lenguajes
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="robotoBo fs18 negro19" style="margin: 18px auto 0;">ESTADÍSTICAS Y ANÁLISIS EXPLORATORIO DE DATOS</div>
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 5</div>
+                        <div class="module-title robotoBo negro23">
+                            Distribuciones estadísticas
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                La forma de los datos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 6</div>
+                        <div class="module-title robotoBo negro23">
+                            Muestreo
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Cuando no tienes todos los datos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 7</div>
+                        <div class="module-title robotoBo negro23">
+                            Prueba de hipótesis
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Responder preguntas sobre tus datos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 8</div>
+                        <div class="module-title robotoBo negro23">
+                            Análisis de datos y visualización
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Utilizar NumPy de Python para el análisis
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 9</div>
+                        <div class="module-title robotoBo negro23">
+                            Análisis de datos y visualización
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Utilizar Pandas de Python para la manipulación de datos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="robotoBo fs18 negro19" style="margin: 18px auto 0;">LOS CONOCIMIENTOS BÁSICOS DE MACHINE LEARNING (APRENDIZAJE AUTOMÁTICO)</div>
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 10</div>
+                        <div class="module-title robotoBo negro23">
+                            Minería de textos
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Entendimiento automático de textos
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 11</div>
+                        <div class="module-title robotoBo negro23">
+                            Regresión y clasificación
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Métodos de aprendizaje automático para predicción
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="desactive modulo-cont">
+                    <div class="collapsible-header desactive robotoBo fs16">
+                        <div class="No negro46">Módulo 12</div>
+                        <div class="module-title robotoBo negro23">
+                            Agrupación y árboles de decisión
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                                Métodos de representación para aprendizaje automático
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Section no. 10: Q&A -->
+    <div class="plan-de-estudios-container">
+        <div class="plan-de-estudios-title crimsonBo fs30 negro19">
+            Plan de estudios
+        </div>
+        <div class="modulos-container">
+            <ul class="collapsible">
                 <li class="active modulo-cont">
+                    <div class="robotoBo fs18 negro19">HERRAMIENTAS Y GESTIÓN DE DATOS</div>
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 1</div>
-                        <div class="module-title robotoRe negro23">Del marketing masivo a las redes de clientes. </div>
+                        <div class="module-title robotoRe negro23">Conocimientos básicos de Python. </div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
@@ -1284,58 +1323,6 @@
                         <div class="negro23 fs16">•</div>
                         <div class="text fs16 robotoRe negro23">Destaca, toma la delantera.</div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Section no. 11: Journey -->
-    <div class="tu-viaje-container">
-        <div class="tu-viaje-title crimsonBo fs24 negro28">Tu viaje de aprendizaje</div>
-        <div class="tu-viaje-cont">
-            <div class="tu-viaje-icon">
-                <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/video-lectures.svg" alt="Clases en video">
-                </div>
-                <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    120
-                </div>
-                <div class="tu-viaje-name robotoBo fs16 gris61">
-                    Clases en video
-                </div>
-            </div>
-            <div class="tu-viaje-icon">
-                <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/real-world-applications.svg" alt="Aplicaciones del mundo real">
-                </div>
-                <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    10
-                </div>
-                <div class="tu-viaje-name robotoBo fs16 gris61">
-                    Aplicaciones del mundo real
-                </div>
-            </div>
-            <div class="tu-viaje-icon">
-                <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/discussions.svg" alt="Discusiones">
-                </div>
-                <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    5
-                </div>
-                <div class="tu-viaje-name robotoBo fs16 gris61">
-                    Discusiones
-                </div>
-            </div>
-            <div class="tu-viaje-icon">
-                <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/estudios-de-caso.svg" alt="Estudios de caso">
-                </div>
-                <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    2
-                </div>
-                <div class="tu-viaje-name robotoBo fs16 gris61">
-                    Estudios de caso
                 </div>
             </div>
         </div>
