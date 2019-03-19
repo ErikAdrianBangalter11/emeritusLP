@@ -45,7 +45,7 @@
     <!-- Script for register the UTM parameters in Logs -->
 
     <!-- Styling -->
-    <link rel="stylesheet" href="../assets/scss/stylesheet.css"> <!-- Custom Styling -->
+    <link rel="stylesheet" href="../assets/css/stylesheet.css"> <!-- Custom Styling -->
     <link rel="stylesheet" href="../assets/libs/mdl/material.min.css"> <!-- Material Design -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <!-- Modals -->

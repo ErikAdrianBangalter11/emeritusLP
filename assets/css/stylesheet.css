@@ -1696,6 +1696,9 @@ header {
 .desactive {
   cursor: auto !important;
 }
+.desactive.active {
+  border-bottom: 1px solid #C5CBC0 !important;
+}
 
 @media only screen and (min-width: 1024px) {
   .plan-de-estudios-container {

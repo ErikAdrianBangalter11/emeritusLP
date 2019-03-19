@@ -1919,6 +1919,9 @@ header {
 
 .desactive {
     cursor: auto!important;
+    &.active{
+        border-bottom: 1px solid #C5CBC0!important;
+    }
 }
 
 
