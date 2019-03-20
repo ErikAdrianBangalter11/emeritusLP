@@ -1959,7 +1959,7 @@ header {
         .modulo-cont {
             &:last-child {
                 .collapsible-header {
-                    border-bottom: none;
+                    // border-bottom: none;
                 }
             }
         }
@@ -2017,6 +2017,12 @@ header {
     background-image: url("../img/svg/minus.svg");
 }
 
+.prerrequisitos{
+    margin-top: 30px!important;
+    padding: 20px;
+    line-height: 22px;
+    background-color: #EBF4F5;
+}
 //
 .collapsible .collection {
     margin: 0;
@@ -2160,11 +2166,71 @@ header {
 }
 
 //
+//SECCIÓN PROYECTOS DE APLICACIÓN
+.proyectos-container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 35px 17px;
+    border-bottom: 2px solid #c6cfd1;
+    .proyectos-title{
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 28px;
+    }
+    .proyectos-cont{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: initial;
+        justify-content: center;
+        margin-top: 30px;
+        max-width: 1160px;
+        .proyecto{
+            width: 100%;
+            margin: 15px 0;
+            padding: 30px 17px;
+            background-color: #EFEFEF;
+            max-width: 520px;
+            .proyecto-img{
+                img{
+                    width: 70px;
+                    height: 70px;
+                    margin: 0 auto;
+                    display: block;
+                }
+            }
+            .proyecto-title{
+                margin: 15px 0;
+                text-align: center;
+                line-height: 22px;
+            }
+            .proyecto-descripcion{
+                text-align: center;
+                line-height: 22px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1160px){
+    .proyectos-container{
+        padding: 90px 0;
+    }
+    .proyecto{
+        margin: 15px!important;
+        padding: 40px 27px!important;
+    }
+}
+//
 //SECCIÓN BENEFICIOS
 .beneficios-container {
     width: 100%;
+    margin: 0 auto;
+    max-width: 1160px;
     padding: 35px 9px;
     background-color: #fff;
+    border-bottom: 2px solid #c6cfd1;
 
     .beneficios-title {
         width: 100%;

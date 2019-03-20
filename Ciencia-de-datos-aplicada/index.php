@@ -524,7 +524,7 @@
                         <div class="No negro46">Módulo 1</div>
                         <div class="module-title robotoBo negro23">
                             Conocimientos básicos de Python. 
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="robotoRe negro23" style="margin-left: 0!important;">
                             Traducir procedimientos a códigos
                             </div>
                         </div>
@@ -535,7 +535,7 @@
                         <div class="No negro46">Módulo 2</div>
                         <div class="module-title robotoBo negro23">
                             Python intermedio
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                             Introducción a estructura de datos
                             </div>
                         </div>
@@ -546,7 +546,7 @@
                         <div class="No negro46">Módulo 3</div>
                         <div class="module-title robotoBo negro23">
                             Bases de datos relacionales
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Donde están almacenados los datos (la mayoría)
                             </div>
                         </div>
@@ -557,7 +557,7 @@
                         <div class="No negro46">Módulo 4</div>
                         <div class="module-title robotoBo negro23">
                             SQL
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Formatos de bases de datos ubicuos/lenguajes
                             </div>
                         </div>
@@ -569,7 +569,7 @@
                         <div class="No negro46">Módulo 5</div>
                         <div class="module-title robotoBo negro23">
                             Distribuciones estadísticas
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 La forma de los datos
                             </div>
                         </div>
@@ -580,7 +580,7 @@
                         <div class="No negro46">Módulo 6</div>
                         <div class="module-title robotoBo negro23">
                             Muestreo
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Cuando no tienes todos los datos
                             </div>
                         </div>
@@ -591,7 +591,7 @@
                         <div class="No negro46">Módulo 7</div>
                         <div class="module-title robotoBo negro23">
                             Prueba de hipótesis
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Responder preguntas sobre tus datos
                             </div>
                         </div>
@@ -602,7 +602,7 @@
                         <div class="No negro46">Módulo 8</div>
                         <div class="module-title robotoBo negro23">
                             Análisis de datos y visualización
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Utilizar NumPy de Python para el análisis
                             </div>
                         </div>
@@ -613,7 +613,7 @@
                         <div class="No negro46">Módulo 9</div>
                         <div class="module-title robotoBo negro23">
                             Análisis de datos y visualización
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Utilizar Pandas de Python para la manipulación de datos
                             </div>
                         </div>
@@ -625,7 +625,7 @@
                         <div class="No negro46">Módulo 10</div>
                         <div class="module-title robotoBo negro23">
                             Minería de textos
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Entendimiento automático de textos
                             </div>
                         </div>
@@ -636,7 +636,7 @@
                         <div class="No negro46">Módulo 11</div>
                         <div class="module-title robotoBo negro23">
                             Regresión y clasificación
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Métodos de aprendizaje automático para predicción
                             </div>
                         </div>
@@ -647,574 +647,88 @@
                         <div class="No negro46">Módulo 12</div>
                         <div class="module-title robotoBo negro23">
                             Agrupación y árboles de decisión
-                            <div class="module-title robotoRe negro23" style="margin-left: 0!important;">
+                            <div class="module-title robotoRe negro23" style="margin-left: 0!important; width: 100%">
                                 Métodos de representación para aprendizaje automático
                             </div>
                         </div>
                     </div>
                 </li>
             </ul>
+            <div class="prerrequisitos robotoRe fs16 negro46">
+                <span class="robotoBo">PRERREQUISITOS:</span> Este curso requiere de conocimientos básicos de estadística de nivel licenciatura.
+            </div>
         </div>
     </div>
 
 
-    <!-- Section no. 10: Q&A -->
-    <div class="plan-de-estudios-container">
-        <div class="plan-de-estudios-title crimsonBo fs30 negro19">
-            Plan de estudios
+    <!-- Section no.10: Apply Projects -->
+    <div class="proyectos-container">
+        <div class="proyectos-title crimsonBo fs24 negro28">
+            PROYECTOS DE APLICACIÓN
         </div>
-        <div class="modulos-container">
-            <ul class="collapsible">
-                <li class="active modulo-cont">
-                    <div class="robotoBo fs18 negro19">HERRAMIENTAS Y GESTIÓN DE DATOS</div>
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 1</div>
-                        <div class="module-title robotoRe negro23">Conocimientos básicos de Python. </div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lecturas previas – La red es tu cliente.</p>
-                            <p>
-                                <div class="robotoBo">
-                                    <br>Estructura
-                                </div>
-                            </p>
-                            <p>
-                                <p class="padding-text-modulos">
-                                    <strong>• &nbsp;&nbsp;&nbsp;</strong>De mercados masivos a redes de clientes.</p>
-                                <p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Modelo de mercado masivo vs. modelo de red
-                                        de clientes.</p>
-                                    <p class="padding-text-modulos-1">-&nbsp;&nbsp;&nbsp;Historia #1 – Paliza a tu
-                                        marca (United
-                                        Airlines).</p>
-                                    <p class="padding-text-modulos-1">-&nbsp;&nbsp;&nbsp;Historia #2 – Amor por tu
-                                        marca (Coca-Cola).</p>
-                                    <p class="padding-text-modulos-1">-&nbsp;&nbsp;&nbsp;Historia #3 – Impulso a tu
-                                        negocio (CISCO).</p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Definición de una red de clientes y quién
-                                        está en tu red de
-                                        clientes.</p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Ley de Metcalfe e hipótesis del mundo
-                                        pequeño de Milgram.</p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Leyes del poder y la regla 90-9-1 (curva
-                                        de Bell).</p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>De las herramientas de comunicación uno a
-                                        uno a las
-                                        herramientas de comunicación
-                                        muchos a muchos.</p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Reconsiderar el embudo del marketing.</p>
-                                    <div class="robotoBo">
-                                        <br>Aplicación
-                                    </div>
-                                </p>
-                                <p class="padding-text-modulos">
-                                    <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea: Reflexionar sobre tus interacciones
-                                    digitales personales
-                                    y describir
-                                    la red de clientes para tu negocio.
-                                </p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 2</div>
-                        <div class="module-title robotoRe negro23">La mezcla de publicidad digital: principios y
-                            canales clave.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">
-                                Estructura
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Panorama general de la publicidad digital.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Marketing por correo electrónico.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Publicidad vía el motor de búsqueda.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Publicidad en sitios web y apps.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Publicidad en video.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Principios de la publicidad digital eficaz: público
-                            objetivo.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Principios de la publicidad digital eficaz:
-                            personalización.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Principios de la publicidad digital eficaz:
-                            personalización.</p>
-                        <p>
-                            <div class="robotoBo">
-                                <br>Aplicación:
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Simulación de marketing digital – Aprenderás los
-                            principios de la
-                            publicidad en
-                            línea a través de un escenario del mundo real en un ambiente simulado. </p>
-                        </br>
-                        <p class="padding-text-modulos">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aprenderás a:</p>
-                        <p class="padding-text-modulos-1">1.&nbsp;&nbsp;&nbsp;Realizar búsquedas estratégicas de
-                            palabras claves.</p>
-                        <p class="padding-text-modulos-1">2.&nbsp;&nbsp;&nbsp;Crear campañas de anuncios PPC (Pago Por
-                            Clic).</p>
-                        <p class="padding-text-modulos-1">3.&nbsp;&nbsp;&nbsp;Entender y medir indicadores de desempeño
-                            claves.</p>
-                        <p class="padding-text-modulos-1">4.&nbsp;&nbsp;&nbsp;Escribir mensajes dirigidos.</p>
-                        <p class="padding-text-modulos-1">5.&nbsp;&nbsp;&nbsp;Optimizar páginas de inicio.</p>
-                        <p class="padding-text-modulos-1">6.&nbsp;&nbsp;&nbsp;Operar una campaña de marketing por
-                            correo
-                            electrónico.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 3</div>
-                        <div class="module-title robotoRe negro23">Cinco comportamientos centrales de los clientes en
-                            el mundo digital.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">
-                                Estructura
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco comportamientos centrales de los clientes en el
-                            mundo digital.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>"Teoría de Maslow" y comportamiento de las redes de
-                            clientes.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción al comportamiento central – Acceso,
-                            compromiso,
-                            personalización,
-                            conexión y colaboración.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 4</div>
-                        <div class="module-title robotoRe negro23">Estrategia de acceso.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">
-                                <br> Estructura
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Servicios por encargo.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Carteras en dispositivos móviles y lealtad.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Servicios basados en la ubicación</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Trazar la ruta hacia la compra y micromomentos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Salas de exposiciones.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Pensamiento de omnicanal.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tecnología “vestible” (<i>wearables</i>).</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Retos para la estrategia de acceso.</p>
-                        <p>
-                            <div class="robotoBo">
-                                <br> Aplicación
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea: Analizar y explicar cómo una empresa
-                            seleccionada utiliza la
-                            estrategia
-                            de ACCESO.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 5</div>
-                        <div class="module-title robotoRe negro23">Estrategia de engagement: marketing de contenidos,
-                            utilidad, mensajes y marcas como creadoras de contenido.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">
-                                Estructura
-                            </div>
-                        </p>
-                        <p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la estrategia de compromiso. </p>
-                            <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Ofrecer utilidad y ser relevante.</p>
-                            <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Mostar un rostro personal y dirigirte
-                                a tu
-                                audiencia.</p>
-                            <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Vincular el contenido con las
-                                conversiones.</p>
-                            <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Quién desarrolla el contenido.</p>
-                            <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Temas claves de la estrategia de
-                                compromiso.</p>
-                            <div class="robotoBo">
-                                <br>Aplicación
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea: Analizar y explicar cómo una empresa
-                            seleccionada utiliza la
-                            estrategia
-                            de compromiso.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 6</div>
-                        <div class="module-title robotoRe negro23">Estrategia a la medida: determinación del target,
-                            personalización y comercialización de segmentos a individuos.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">
-                                <u>Estructura:</u>
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la estrategia a la medida – Netflix.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Comercio electrónico personalizado – Lancome y
-                            Warby-Parker.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Empaque personalizado – Coca-Cola.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Productos mezclados y compatibles – Starbucks y
-                            producción para el
-                            cliente.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Comunicaciones dirigidas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Focalización con base en los valores de vida del
-                            cliente – Custora y
-                            Caesars Palace,
-                            Las Vegas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Automatización de marketing.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Estás demasiado focalizado? – La historia de Target.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Temas claves para la estrategia a la medida – La
-                            paradoja de la
-                            elección.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Las cuatro mentalidades para compartir.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El valle inquietante.</p>
-                        <p>
-                            <div class="robotoBo">Aplicación</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea: Analizar y explicar cómo una empresa
-                            seleccionada utiliza la
-                            estrategia
-                            a la medida.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 7</div>
-                        <div class="module-title robotoRe negro23">Estrategia de conexión: redes sociales, comunidades
-                            y el poder de la conversación.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">Estructura</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Escucha y aprende y a qué prestar atención.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplos de escuchar.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Servicio al cliente en redes sociales.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Vuelve lúdicas tus conversaciones.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proporciona un foro.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Pide ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Agrega una capa de valor.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Métrica común para medir y definir tus términos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Retos claves para la estrategia de conexión. </p>
-                        <p>
-                            <div class="robotoBo">
-                                <br>Aplicación
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea: Analizar y explicar cómo una empresa
-                            seleccionada utiliza la
-                            estrategia
-                            de conexión.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 8</div>
-                        <div class="module-title robotoRe negro23">Estrategia de colaboración: <i> crowdsourcing </i>,
-                            fondeo colectivo (<i>crowdfunding</i>) y plataformas abiertas.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">Estructura</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la estrategia de colaboración.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Contribución pasiva – Waze.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Contribución activa – iReport de CNN.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Resolver la brecha de experiencia.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Fondeo colectivo (crowdfunding).</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Competencia abierta – Doritos e ilustraciones de
-                            InnoCentive.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Plataformas abiertas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Temas claves para la estrategia de colaboración.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Motivaciones para la colaboración en
-                            redes.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Modularidad del problema.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Habilidades de los participantes.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;El fondo no es suficiente.</p>
-                        <p>
-                            <div class="robotoBo">Aplicación</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea: Analizar y explicar cómo una empresa
-                            seleccionada utiliza la
-                            estrategia
-                            de colaboración.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 9</div>
-                        <div class="module-title robotoRe negro23">Lecciones de los fracasos de marcas en redes
-                            sociales.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">Estructura</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El piloto automático es para los aviones, no para las
-                            redes
-                            sociales.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El engaño se revela fácilmente. </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Si los empleados actúan por sí mismos no siempre
-                            actuarán para tu
-                            beneficio. </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El <i>bullying</i> no funciona. </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>No eres el dueño de la #conversación. </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Las acciones <i>offline</i> desencadenan
-                            recomendaciones boca a
-                            boca. </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>La participación razonada sí funciona.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>La guerra por la reputación.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 10</div>
-                        <div class="module-title robotoRe negro23">Mejores prácticas para las marcas en redes sociales.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">Estructura</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Orgánico vs. pagado.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Principales redes sociales – pros y contras.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Facebook.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Twitter.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;LinkedIn.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Instagram y Pinterest.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;YouTube.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Snapchat y Messenger.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Evolución de los productos publicitarios.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Anuncios en sitios web, apps y videos.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Generación de prospectos, instalaciones
-                            de apps,
-                            recomendaciones para seguir, hashtags, compre
-                            ahora.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;YouTube.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Opciones de focalización.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Redefinir el público objetivo y las
-                            audiencias
-                            similares a los clientes.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Aplicación de la determinación del
-                            público objetivo
-                            en Facebook.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Personas influyentes (<i>influencers</i>) en línea y
-                            decisiones de
-                            los&nbsp;&nbsp;clientes.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 11</div>
-                        <div class="module-title robotoRe negro23">Hacer que lo digital importe: métricas, Retorno de
-                            Inversión (ROI) y Modelado Ágil (<i>Agile Modelling</i>).</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">Estructura</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Nadar en los datos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Hablar diferentes idiomas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Barreras para medir el ROI.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Peras y manzanas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Qué mitad de mi parte digital está funcionando?</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Modelo basado en tu estrategia.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;El ejemplo del Ford Fiesta.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;El ejemplo de CitiBike.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Enfoque en los Indicadores Claves de Rendimiento
-                            (KPIs).</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;El ejemplo de Visa.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuestiona tus datos.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Correlación.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Atribución del último toque.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Prueba y control.</p>
-                        <p class="padding-text-modulos-1">- &nbsp;&nbsp;&nbsp;Ejemplo de prueba y control – Buzzfeed.
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete hábitos del modelador ágil en marketing.</p>
-                        <p>
-                            <div class="robotoBo">Aplicación </div>
-                        </p>
-                        <p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea: Categorización de la métrica. </p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 12</div>
-                        <div class="module-title robotoRe negro23">Proceso de cinco pasos para la planeación y
-                            ejecución de tu estrategia de marketing digital.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">
-                                <br>Estructura
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco pasos del proceso.</p>
-                        <p class="padding-text-modulos-1">1. &nbsp;&nbsp;&nbsp;Establecimiento de objetivos.</p>
-                        <p class="padding-text-modulos-1">2. &nbsp;&nbsp;&nbsp;Segmentación y posicionamiento de marca.</p>
-                        <p class="padding-text-modulos-1">3. &nbsp;&nbsp;&nbsp;Concepción de ideas y selección del
-                            concepto.</p>
-                        <p class="padding-text-modulos-1">4. &nbsp;&nbsp;&nbsp;Ejecución.</p>
-                        <p class="padding-text-modulos-1">5. &nbsp;&nbsp;&nbsp;Medición.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 13</div>
-                        <div class="module-title robotoRe negro23">Retos organizacionales del marketing digital.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">Estructura</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Habilidades y capacitación.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Velocidad y agilidad.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Colaboración en las divisiones.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Colaboración en las unidades de negocio.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Retos organizacionales de marketing digital.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 14</div>
-                        <div class="module-title robotoRe negro23">Seis rostros del futuro (cercano) del marketing
-                            digital.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-                        <p>
-                            <div class="robotoBo">Estructura</div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El mercadólogo abordable.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tecnodiversidad.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El “Centro del Hueco” (<i>Hollow Middle</i>) de la
-                            publicidad.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Amenazas invisibles.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Dos mentes de marketing.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El director general de marketing se esfuma.</p>
-                    </div>
-                </li>
-            </ul>
+        <div class="proyectos-cont">
+
+            <div class="proyecto">
+                <div class="proyecto-img">
+                    <img src="../assets/img/svg/icono-proyecto-1.svg" alt="Administración-de-datos">
+                </div>
+                <div class="proyecto-title robotoBo fs18 negro23">
+                    Administración de datos utilizando CNC Mill Tool Wear Data
+                </div>
+                <div class="proyecto-descripcion robotoRe fs16 negro23">
+                    Practica utilizando la estructura de Python para procesar y
+                    manipular datos con CNC Mill Tool Weat dataset. 
+                    <br>
+                    <br>
+                    Perfecciona la forma en la que manipulas los datos, así como tus 
+                    habilidades para hacer data munging (cambiar los datos de un 
+                    formato a otro) utilizando las librerías de Pandas y NumPy de 
+                    Python con CNC Mill Tool Wear dataset
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto-img">
+                    <img src="../assets/img/svg/icono-proyecto-2.svg" alt="Administración-de-datos">
+                </div>
+                <div class="proyecto-title robotoBo fs18 negro23">
+                    Prueba de hipótesis utilizando CancerAtlas Data
+                </div>
+                <div class="proyecto-descripcion robotoRe fs16 negro23">
+                    Prueba estadísticamente el impacto de factores de salud en 
+                    relación con las tasas de cáncer alrededor del mundo.
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto-img">
+                    <img src="../assets/img/svg/icono-proyecto-3.svg" alt="Administración-de-datos">
+                </div>
+                <div class="proyecto-title robotoBo fs18 negro23">
+                    Exploración de datos utilizando Lending Club Loan Data
+                </div>
+                <div class="proyecto-descripcion robotoRe fs16 negro23">
+                    Utiliza la librería NumPy de Python para explorar y descubrir 
+                    insights en Lending Clubs Loan Data. 
+                    <br>
+                    <br>
+                    Utiliza la potente librería de Pandas para manipular (wrangle) y 
+                    munch Lending Club Loan Data.
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="proyecto-img">
+                    <img src="../assets/img/svg/icono-proyecto-0.svg" alt="Administración-de-datos">
+                </div>
+                <div class="proyecto-title robotoBo fs18 negro23">
+                    Implementación de Natural Language Processin (NLP) 
+                    utilizando reseñas de productos de Amazon
+                </div>
+                <div class="proyecto-descripcion robotoRe fs16 negro23">
+                    Implementa técnicas de Natural Language Processing (NLP) 
+                    para automatizar la comprensión de las reseñas de producto de 
+                    Amazon.
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -1325,6 +839,394 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <!-- Section no. 11: Q&A -->
+    <div class="plan-de-estudios-container">
+        <div class="plan-de-estudios-title crimsonBo fs30 negro19">
+            PREGUNTAS FRECUENTES
+        </div>
+        <div class="modulos-container">
+            <ul class="collapsible">
+                <li class="active modulo-cont">
+                    <div class="robotoBo fs18 negro19">¿PARA QUIÉN ESTÁ DISEÑADO EL CURSO?</div>
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">¿De qué se trata el curso?</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso de Ciencia de Datos Aplicada es un curso certificado en línea con duración de tres 
+                        meses diseñado para profesionales que trabajan y que quieren adquirir habilidades y 
+                        conocimientos prácticos, establecer una red profesional de contactos y acelerar su acceso 
+                        a carreras relacionadas con Ciencia de Datos.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">¿Por qué debería tomar este curso?</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        La proliferación de la Ciencia de Datos está cambiando a las industrias. Todos, 
+                        desde biólogos y productores de películas hasta los que hacen coches y restauranteros 
+                        empiezan a darse cuenta de que la Ciencia de Datos está transformando sus profesiones. 
+                        Esto ha traído consigo un aumento en la demanda de profesionales en Ciencia de Datos 
+                        que se espera continúe por varios años. El objetivo de este curso es proveer de conocimientos 
+                        fundamentales de la Ciencia de Datos, incluyendo herramientas y términos relevantes, 
+                        así como la capacidad de entendimiento de los algoritmos más populares y sus aplicaciones.
+                        <br>
+                        <br>
+                        Con los conocimientos obtenidos en este curso serás capaz de introducir estas técnicas 
+                        en organizaciones que todavía no utilizan la Ciencia de Datos. Los analistas de negocios 
+                        y los profesionales de datos que buscan desempeñarse como científicos de datos se 
+                        beneficiarán particularmente de este curso.
+
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">¿Para qué tipo de trabajos me preparará este curso?</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Este curso certificado te preparará para una variedad de roles profesionales como 
+                        Científico de Datos, Ingeniero en Ciencia de Datos, Analista de Negocios – Ciencia de 
+                        Datos, Líder de Proyecto en Ciencia de Datos, Director de Data y Analíticas, entre otras.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">¿A quién va dirigido el curso?</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p class="padding-text-modulos">
+                            <strong> - &nbsp;&nbsp;&nbsp;</strong>Analista de datos</p>
+                        <p class="padding-text-modulos">
+                            <strong> - &nbsp;&nbsp;&nbsp;</strong>Analista de negocios</p>
+                        <p class="padding-text-modulos">
+                            <strong> - &nbsp;&nbsp;&nbsp;</strong>Trabajar con estadísticas/matemáticas</p>
+                        <p class="padding-text-modulos">
+                            <strong> - &nbsp;&nbsp;&nbsp;</strong>Ingeniero de datos</p>
+                        <p class="padding-text-modulos">
+                            <strong> - &nbsp;&nbsp;&nbsp;</strong>Ingeniero de Big Data</p>
+                        <p class="padding-text-modulos">
+                            <strong> - &nbsp;&nbsp;&nbsp;</strong>Desarrollador de software</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            Mi actual posición en mi empresa no amerita contacto con Ciencia de Datos. Tomando en cuenta eso, ¿tiene sentido que tome el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        ¡Por supuesto! Saber de Ciencia de Datos se ha convertido en un requisito en muchas 
+                        industrias y todos los negocios necesitarán, eventualmente, utilizar estas técnicas para 
+                        progresar. Aun cuando en tu actual puesto no se requiera de conocimiento en Ciencia de 
+                        Datos, es casi un hecho que las habilidades relacionadas con Ciencia de Datos estarán 
+                        altamente demandadas en casi todas las industrias del futuro.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué debo esperar del curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso está diseñado para profesionales que trabajan y que buscan obtener habilidades 
+                        referentes a conceptos avanzados en Ciencia de Datos. El curso requiere de trabajo 
+                        constante y del compromiso de dedicar entre seis y ocho horas a la semana durante un 
+                        lapso de tres meses.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué no debo esperar del curso de Ciencia de Datos Aplicada?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Este curso NO fue diseñado para proveer conceptos básicos en Ciencia de Datos. Por el 
+                        contrario, el curso profundiza en los conceptos y tiene como objetivo desarrollar 
+                        profesionales que puedan evolucionar para convertirse en científicos de datos. 
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué conceptos se explicarán en el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso de Ciencia de Datos Aplicada está diseñado para profesionales con algo de 
+                        experiencia en el análisis de datos y poca experiencia en programación. Los estudiantes 
+                        aprenderán a analizar datos utilizando Python y SQL y a manipular y limpiar los datos, 
+                        además, podrán aplicar estadísticas para probar hipótesis y crear visualizaciones de datos. 
+                        Los estudiantes también aprenderán técnicas de minería de textos y modelos de machine 
+                        learning (aprendizaje automático) de regresión, clasificación, árboles de decisión y 
+                        agrupaciones.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cuál es la diferencia entre este curso y el curso de Learning Machine 
+                            Applied (aprendizaje automático aplicado)?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                    El curso de Ciencia de Datos Aplicada está diseñado para profesionales con algo de 
+                    experiencia en el análisis de datos y poca experiencia en programación. Los estudiantes 
+                    aprenderán a analizar datos utilizando Python y SQL y a manipular y limpiar los datos, 
+                    además, podrán aplicar estadísticas para probar hipótesis y crear visualizaciones de datos. 
+                    Los estudiantes también aprenderán técnicas de minería de textos y modelos de machine 
+                    Learning (aprendizaje automático) de regresión, clasificación, árboles de decisión y 
+                    agrupaciones. Todo esto preparará a los estudiantes para desempeñarse como científicos 
+                    de datos.
+                    <br>
+                    <br>
+                    El curso de Applied Machine Learning prepara a los estudiantes para profesiones 
+                    relacionadas con el aprendizaje automático. Tanto los trabajos de ciencia de datos como
+                    los de machine learning requieren de conocimientos básicos de machine learning, por lo 
+                    que los programas tienen módulos en común; sin embargo, conforme se ahonda en los 
+                    temas se tocan temas específicos como herramientas, habilidades y técnicas. 
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué tipo de experiencia de aprendizaje tendré durante el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso es una combinación de clases interactivas y tareas individuales y en equipo. 
+                        También incluye sesiones en vivo con los líderes del curso hechas para a guiarte durante 
+                        tu experiencia de aprendizaje. 
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cuál es la estructura del curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso certificado de Ciencia de Datos Aplicada se compone de 12 módulos que se 
+                        cursan a lo largo de tres meses. El curso tiene fechas fijas de inicio y final. Para terminar el 
+                        curso los estudiantes deben completar todos los módulos, haber visto los videos y haber 
+                        entregado las tareas y los proyectos. Los proyectos requieren que los estudiantes apliquen 
+                        los conceptos de Ciencia de Datos a conjuntos de datos y hacer inferencias a partir de 
+                        ellos. Además, los estudiantes podrán participar en foros de discusión y asistir a webinars 
+                        en vivo de la mano de expertos en la materia y profesionales con experiencia en el campo 
+                        de la Ciencia de Datos. 
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cómo puedo aplicar los conceptos y las ideas aprendidas en el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso es una mezcla de teoría, herramientas y casos de estudio (conjunto de datos) que 
+                        son fáciles de entender e implementar. Por ejemplo, los estudiantes trabajan en proyectos 
+                        que requieren la aplicación de conceptos de Ciencia de Datos a conjuntos de datos y 
+                        deben poder hacer inferencias a partir de ellos. De forma intencionada, los proyectos 
+                        pretenden ser todo un reto, por lo que los estudiantes deben pasar un tiempo 
+                        considerable tratando de resolverlos: más o menos de seis a ocho horas a la semana. Para 
+                        el final del curso los estudiantes serán capaces de aplicar conceptos de Ciencia de Datos 
+                        que les permitan resolver muchos de los problemas que se presentan en los negocios.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Hay becas disponibles para este curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Sí, EMERITUS cuenta con becas para un número limitado de participantes. Toma en 
+                        cuenta que se necesita que presentes una solicitud completa y en forma para poder ser 
+                        considerado para una beca. Una vez que la aplicación sea revisada, se te notificará si eres 
+                        acreedor a alguna de las becas el curso.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué relación tienen EMERITUS y Columbia Engineering Executive Education?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Columbia Engineering Executive Education colabora con el proveedor de educación en 
+                        línea, EMERITUS Institute of Management para ofrecer un portafolio de cursos en línea de 
+                        alto impacto. Estos cursos ayudan a Columbia a posicionarse como uno de los líderes en 
+                        gestión de proyectos, liderazgo obtenido después de años de investigación, enseñanza y 
+                        práctica.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cuáles son los prerrequisitos para poder inscribirme?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso requiere cierto conocimiento previo de estadística, así como estar familiarizado 
+                        con Python o, por lo menos, con otro lenguaje de programación y cierto entendimiento de 
+                        álgebra lineal y probabilidad.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="robotoBo fs18 negro19" style="margin-top: 30px;">ADMISIONES</div>
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Debo mandar una solicitud? ¿Cuáles son los criterios de admisión?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Sí, debes mandar una solicitud para inscribirte al curso. Debes llenar un corto formulario. 
+                        Este curso certificado acepta todas las aplicaciones sin importar la experiencia o el 
+                        entorno del que provengas.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿La solicitud tiene algún costo?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        No, no tiene ningún costo.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Existe algún requisito de grado académico para tomar el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        No, este curso certificado acepta todas las aplicaciones sin importar la experiencia o 
+                        el entorno del que provengas.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Debo tener cierta experiencia profesional para tomar el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        No, este curso certificado acepta todas las aplicaciones sin importar la experiencia o el entorno del que provengas.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Estudiar este curso me dará créditos profesionales para futuros estudios 
+                            en la Universidad de Columbia?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                    El curso no da créditos ni puntos académicos para ningún curso de la 
+                    Universidad de Columbia.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cuentan con alguna política de aplazamiento o reembolso para este curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Por favor, consulta el siguiente link sobre nuestra política de reembolsos:
+                        <br>
+                        <br>
+                        <a href="https://sg.EMERITUS.org/academic-policies/#1451347666327-6b5f3fe0-cfca" target="_blank" rel="noopener noreferrer">
+                            https://sg.EMERITUS.org/academic-policies/#1451347666327-6b5f3fe0-cfca
+                        </a>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cómo pago el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Puedes pagar el curso con una tarjeta de débito o crédito internacional. También puedes 
+                        pagar el programa utilizando una transferencia bancaria o telegráfica. A continuación, los 
+                        detalles para hacer transferencias (por favor, incluye el número de la factura):
+                        <br>
+                        <br>
+                        <p class="padding-text-modulos">
+                            Nombre de la cuenta: Emeritus Institute of Management Pte Ltd
+                        </p>
+                        <p class="padding-text-modulos">
+                            Nombre del banco: The Hongkong and Shanghai Banking Corporation Limited
+                        </p>
+                        <p class="padding-text-modulos">
+                            Dirección del banco: 21 Collyer Quay, #07-01 HSBC Building, Singapore 049320
+                        </p>
+                        <p class="padding-text-modulos">
+                            Número de cuenta en dólares: 260-816558-178
+                        </p>
+                        <p class="padding-text-modulos">
+                            Código del banco: 7232
+                        </p>
+                        <p class="padding-text-modulos">
+                            Código de sucursal: 260
+                        </p>
+                        <p class="padding-text-modulos">
+                            Código SWIFT: HSBCSGSG
+                        </p>
+                        <br>
+                        <br>
+                        Una vez que hayas enviado la solicitud para el curso recibirás una factura. Se requiere del 
+                        pago del curso para tener acceso al mismo. Una vez aplicado el pago recibirás un recibo 
+                        para tu archivo o para asuntos relacionados con impuestos.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="robotoBo fs18 negro19" style="margin-top: 30px;">
+                        APRENDIZAJE / ENSEÑANZA / EVALUACIÓN / CERTIFICADO
+                    </div>
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué software y qué versiones necesito para tomar este curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Sí, debes mandar una solicitud para inscribirte al curso. Debes llenar un corto formulario. 
+                        Este curso certificado acepta todas las aplicaciones sin importar la experiencia o el 
+                        entorno del que provengas.
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 
