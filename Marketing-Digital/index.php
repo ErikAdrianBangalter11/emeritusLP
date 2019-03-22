@@ -274,32 +274,32 @@
                 <form class="form-cont" id="fordesk" method="POST" action="https://www2.emeritus.org/l/134351/2018-07-05/3zgtr6">
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                        <input class="fs16 robotoRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
                             required>
-                        <label class="robotoRe mdl-textfield__label" for="first_name">Nombre(s)</label>
+                        <label class="fs16 robotoRe mdl-textfield__label" for="first_name">Nombre(s)</label>
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                        <input class="fs16 robotoRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
                             required>
-                        <label class="robotoRe mdl-textfield__label" for="last_name">Apellido(s)</label>
+                        <label class="fs16 robotoRe mdl-textfield__label" for="last_name">Apellido(s)</label>
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                        <input class="fs16 robotoRe mdl-textfield__input" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
                             required>
-                        <label class="robotoRe mdl-textfield__label" for="email">Email</label>
+                        <label class="fs16 robotoRe mdl-textfield__label" for="email">Email</label>
                     </div>
 
                     <div class="mdl-textfield mov-input mdl-js-textfield mdl-textfield--floating-label">
                         <select id="country" name="Country" class="mdl-textfield__input Country mov-input-class"
                             required>
                         </select>
-                        <label class="robotoRe mdl-textfield__label" for="country">País</label>
+                        <label class="fs16 robotoRe mdl-textfield__label" for="country">País</label>
                     </div>
 
                     <div class="mdl-textfield mov-input mdl-js-textfield mdl-textfield--floating-label">
-                        <select id="work_experience" name="work_experience" class="robotoRe mdl-textfield__input work_experience mov-input-class"
+                        <select id="work_experience" name="work_experience" class="fs16 robotoRe mdl-textfield__input work_experience mov-input-class"
                             required>
                             <option value=""></option>
                             <option value="Less than 5 Years">Menos de 5 años</option>
@@ -308,13 +308,13 @@
                             <option value="15-20 Years">15-20 años</option>
                             <option value="> 20 Years">&gt; 20 años</option>
                         </select>
-                        <label class="mdl-textfield__label" for="work_experience">Experiencia Profesional</label>
+                        <label class="fs16 mdl-textfield__label" for="work_experience">Experiencia Profesional</label>
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="robotoRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="15" minlength="5"
+                        <input class="fs16 robotoRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="15" minlength="5"
                             onkeypress="return valida(event)" pattern="[0-9]+" required>
-                        <label class="robotoRe mdl-textfield__label" for="mobile">Número de celular</label>
+                        <label class="fs16 robotoRe mdl-textfield__label" for="mobile">Número de celular</label>
                     </div>
 
                     <div class="button-container">
@@ -1180,7 +1180,7 @@
 
 
     <!-- Section no. 10: Benefits -->
-    <div class="beneficios-container">
+    <div class="beneficios-container" style="border-bottom: none!important;">
         <div class="beneficios-title crimsonBo fs32 negro28">Beneficios para el alumno</div>
         <div class="beneficios-cont">
             <div class="beneficio">
@@ -1417,7 +1417,7 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex2" rel="modal:open">
                 <div>
-                    <img src="../assets/img/png/certificado.jpg" alt="Certificado">
+                    <img src="../assets/img/png/certificado.png" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->

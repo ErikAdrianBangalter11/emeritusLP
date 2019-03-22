@@ -821,14 +821,13 @@ header {
 .mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
 .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
   color: #3f51b5;
-  font-size: 12px;
+  font-size: 12px !important;
   top: 4px;
   visibility: visible;
 }
 
 .mdl-textfield--floating-label.is-invalid .mdl-textfield__label {
   color: #d50000;
-  font-size: 16px !important;
 }
 
 .mdl-textfield__label::after {
@@ -896,7 +895,7 @@ header {
 .mdl-textfield__label {
   bottom: 0;
   color: #464646 !important;
-  font-size: 16px;
+  font-size: 16px !important;
   left: 15px !important;
   right: 0;
   pointer-events: none;
@@ -1734,6 +1733,10 @@ header {
   padding-left: 20px;
   font-family: robotoRe;
   width: 100%;
+}
+
+.modulos-container .collapsible .modulo-cont:last-child .collapsible-header {
+  border-bottom: none;
 }
 
 .modulo-cont .collapsible-header {
