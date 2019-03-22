@@ -112,6 +112,11 @@
     <!-- Section no. 1: Hero Section -->
     <div class="hero-container">
         <div class="hero-data hero_MD">
+        
+        <div class="idioma">
+            <img src="../assets/img/svg/ahora.svg" alt="Ahora-en-español">
+        </div>
+        
             <div class="hero-data-cont">
                 <div class="hero-title">
                     <div class="CBS-back openRe fs16 blanco">

@@ -36,7 +36,6 @@
     <script src="../assets/js/materialize.min.js"></script> <!-- Materialize Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <!-- Modals -->
-    <script type="text/javascript" src="../assets/libs/slick/slick.js"></script> <!-- Slick JS -->
     <script src="../assets/js/onkeypress.js"></script> <!-- Input number JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- AOS Animations Libraries -->
     <script type="text/javascript" src="https://latam.emeritus.org/programas/../assets/js/countries-latam.js"></script>
@@ -49,8 +48,6 @@
     <link rel="stylesheet" href="../assets/libs/mdl/material.min.css"> <!-- Material Design -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <!-- Modals -->
-    <link rel="stylesheet" href="../assets/libs/slick/slick.css"> <!-- Slick Slider -->
-    <link rel="stylesheet" href="../assets/libs/slick/slick-theme.css"> <!-- Slick Slider -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- AOS Animations -->
 
 
@@ -116,6 +113,11 @@
     <!-- Section no. 1: Hero Section -->
     <div class="hero-container">
         <div class="hero-data hero_DC">
+        
+        <div class="idioma">
+            <img src="../assets/img/svg/ahora.svg" alt="Ahora-en-español">
+        </div>
+        
             <div class="hero-data-cont">
                 <div class="hero-title">
                     <div class="CBS-back openRe fs16 blanco">
@@ -1221,9 +1223,283 @@
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body robotoRe fs16 negro23">
-                        Sí, debes mandar una solicitud para inscribirte al curso. Debes llenar un corto formulario. 
-                        Este curso certificado acepta todas las aplicaciones sin importar la experiencia o el 
-                        entorno del que provengas.
+                        <span class="robotoBo">Requerimientos de sistema recomendados:</span>
+                        <br>
+                        -	Procesadores: 2.60 GHz
+                        <br>
+                        -	RAM: 8 GB de RAM
+                        <br>
+                        -	Espacio en disco: 2 a 3 GB
+                        <br>
+                        -	Sistemas operativos: Windows 10, MacOS y Linux
+                        <br>
+                        -	Link para descargar Python (links a un sitio externo)
+                        <br>
+                        -	Herramientas compatibles: cualquier editor de texto, Command prompt
+                        <br>
+                        <br>
+                        <span class="robotoBo">Requerimientos de sistema necesarios:</span>
+                        <br>
+                        -	Procesadores: 1 GHz
+                        <br>
+                        -	RAM: 1 GB de RAM
+                        <br>
+                        -	Espacio en disco: 1 GB
+                        <br>
+                        -	Sistemas operativos: Windows 7 o posterior, MacOS y Linux
+                        <br>
+                        -	Versiones de Python: 2.7.X, 3.6.X (links a un sitio externo)
+                        <br>
+                        -	Herramientas compatibles: cualquier editor de texto, Command prompt
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué pasa con mi acceso al contenido si no me puedo graduar en el lapso que dura el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Si no te puedes graduar dentro del tiempo estipulado del curso, perderás acceso 
+                        al contenido. Solo los estudiantes que terminan exitosamente el curso continúan 
+                        teniendo acceso a los contenidos.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Puedo tomar el curso a mi propio ritmo?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        No, el inicio y el final del curso tienen fechas fijas y debes entregar todos los trabajos para 
+                        el final del curso. Habrá ciertos momentos en los que podrás trabajar a tu ritmo, pero 
+                        recomendamos cumplir con las fechas del curso, pues esa es la forma de asegurar que no 
+                        te quedes atrás con respecto a tus colegas y que completarás el curso a tiempo.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Puedo suspender temporalmente el curso y continuar después?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        No. Debido a la naturaleza del curso certificado cuya duración está ya determinada y la 
+                        necesidad de mantener un cierto número de estudiantes a lo largo del curso, no existe la 
+                        opción de pausar el curso para continuar después.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Puedo asumir que una vez terminado el curso recibiré mi certificado?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Una vez completado el curso de forma satisfactoria, los participantes se verán 
+                        recompensados con un certificado digital verificado por EMERITUS Institute of 
+                        Management en colaboración con Columbia Engineering Executive Education.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Recibiré una copia impresa del certificado, una digital o ambas?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Recibirás una copia digital del certificado una vez que hayas terminado 
+                        el curso de manera satisfactoria.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cuándo tendrán lugar las sesiones en vivo con los profesores?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Las sesiones de aprendizaje en vivo se agendan usualmente entre las 9 am y las 10 am 
+                        (hora del Este). Todas las sesiones en vivo son grabadas y se le comparten a los 
+                        estudiantes 24 horas después. Los links de las grabaciones también están disponibles en la 
+                        plataforma de aprendizaje de EMERITUS (Canvas).
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Es posible obtener una prórroga para terminar el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Por favor, entra a este link para revisar nuestra política de prórrogas referentes al curso
+                        <br>
+                        <a href="https://sg.EMERITUS.org/academic-policies/#1451347666327-6b5f3fe0-cfca" target="_blank" rel="noopener noreferrer">https://sg.EMERITUS.org/academic-policies/#1451347666327-6b5f3fe0-cfca</a>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cuánto tiempo debo invertir a la semana?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Deberás invertir de seis a ocho horas a la semana para obtener un 
+                        verdadero beneficio del curso.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cómo puedo realizar preguntas durante el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Si los estudiantes tienen dudas técnicas o necesitan pedir una prórroga para la entrega de 
+                        un trabajo, pueden contactar al coordinador del curso a través de un sistema de boletos 
+                        integrado en la plataforma de aprendizaje de EMERITUS. Los estudiantes pueden también 
+                        contactar a los líderes del curso vía inbox en la plataforma de aprendizaje de EMERITUS si 
+                        es que tienen alguna duda relacionada con el contenido del curso.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cómo envío mis trabajos?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Todos los materiales del curso pueden ser consultados a través del portal de aprendizaje de EMERITUS en 
+                        <a href="http://student.emeritus.org" target="_blank" rel="noopener noreferrer">http://student.emeritus.org</a>. 
+                        Una vez que te hayas inscrito al curso y hayas creado tu perfil de usuario, 
+                        se te darán las instrucciones del curso, así como las instrucciones para la entrega de tareas. Todos los 
+                        trabajos deben entregarse de forma digital a través del portal de aprendizaje.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Por qué el profesor no pone todos los videos de una vez?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso tiene una estructura y secuencia determinadas para asegurar una experiencia de 
+                        usuario óptima. Hay muchos trabajos intercalados en puntos específicos del curso cuyo 
+                        objetivo es proveer de una buena experiencia de aprendizaje. Adelantarse a ver videos 
+                        sin haber completado los trabajos tendría un efecto negativo en la experiencia de 
+                        aprendizaje.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Por cuánto tiempo tendré acceso a los videos y a los materiales del curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Tendrás acceso a todos los materiales del curso, incluyendo los videos, 
+                        por un periodo de 12 meses que empiezan a contar a partir de que empieza 
+                        el curso.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Por qué no puedo descargar los videos del curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Nuestros acuerdos de licencias de contenidos con las universidades aliadas no permiten 
+                        que se descarguen los videos. Esto es necesario para proteger la integridad del curso, las 
+                        marcas de las universidades aliadas y la marca de la facultad.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué recursos necesito para tomar el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Además de acceso a internet, todo lo demás lo encontrarás en la plataforma del curso.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Habrá exámenes durante el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        No hay exámenes, pero hay entrega de trabajos al final de prácticamente todos 
+                        los módulos para ayudarte a aplicar lo que aprendiste.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué necesito para aprobar el curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Debes entregar, al menos, el 80 por ciento de los 
+                        trabajos para aprobar el curso.
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Cuál es el diseño y el modelo pedagógico?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        El curso dura 3 meses y cada semana incluye algunas o todas las actividades que se enlistan:
+                        <br>
+                        -	Clases en video
+                        <br>
+                        -	Lecturas adicionales
+                        <br>
+                        -	Casos de estudio
+                        <br>
+                        -	Tareas/trabajos
+                        <br>
+                        -	Webinars
+                        <br>
+                        -	Foros de discusión
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="module-title robotoRe negro23" style="margin: 0!important;">
+                            ¿Qué dispositivos puedo utilizar para acceder al curso?
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body robotoRe fs16 negro23">
+                        Puedes acceder al curso vía una computadora de escritorio, una laptop, una tableta o 
+                        dispositivos móviles con acceso a internet. La plataforma de aprendizaje de EMERITUS 
+                        está basada en la nube y está sincronizada en todos los dispositivos. Si tienes un 
+                        teléfono iPhone o Android, puedes descargar la app de Canvas y acceder por ahí al 
+                        curso. Cuando descargues la aplicación te pedirá que ingreses una URL. Por favor, 
+                        pon: student.emeritus.org (links a un sitio externo) seguido de tu ID y tu contraseña.
                     </div>
                 </li>
             </ul>
@@ -1335,227 +1611,6 @@
     </div>
 
 
-    <!-- Section no. 14: Testimonials -->
-    <div class="testimonios-main-container">
-        <div class="testimonios-title crimsonRe fs24 negro28">
-            TESTIMONIOS <span class="crimsonBo"> DE ESTUDIANTES</span>
-        </div>
-        <div class="slick-items">
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                    "Los ejemplos que se usaron para ilustrar los diferentes aspectos 
-                    del desarrollo de productos fueron extremadamente útiles".
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        Jenny Brown
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        Especialista en desarrollo de productos de UX, Centro de Incubación digital.
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            Qatar
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/jennyellenbrown/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                        “Una experiencia única. El curso no solo abarcó clases interesantes
-                        y estudios de caso, ¡sino también simulaciones que nos permitieron
-                        implementar lo aprendido!”
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        Héctor Iván Lira Hevia
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        Director de Administración, F1rstcomm
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            México
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/hectorlira/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                        “La mejor parte fue la mezcla de diferentes medios educativos (clases
-                        en video, tareas, proyectos grupales, discusiones y webinarios), que
-                        hicieron del curso una experiencia interesante, didáctica y atractiva”
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        France Pizenberg
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        Compradora de Medios Senior, Carat
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            Estados Unidos
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/france-pizenberg-69200336/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                        “Este curso me dio una ruta clara y sencilla del marketing digital; las
-                        simulaciones; la confianza para manejar campañas publicitarias en el
-                        mundo real.”
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        Shikhar Goel
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        Gerente de Marketing y Desarrollo de Negocios,
-                        Manhattan Wellness Psychiatry
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            India
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/shikhar-goel/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                        “Las clases en video del profesor y las simulaciones en
-                        línea fueron una brillante mezcla de práctica y teoría.”
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        Mon Korcharoen
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        Director de Programa, Dhurakij Pundit University
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            Tailandia
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/mon-korcharoen-29a92b13a/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                        “Las clases ayudaron a
-                        aclarar conceptos, mientras que las simulaciones nos permitieron
-                        hacerlos reales en términos de los resultados en las redes sociales.
-                        Las tareas también fueron muy útiles porque prueban la comprensión de
-                        los conceptos, y la red valiosa porque nos ayudó a entender dónde
-                        necesitamos mejorar.”
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        Priya Shah
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        CEO, Blog Brandz
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            India
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/priyashah/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                        “Las simulaciones fueron la mejor parte del curso. Ayudan a mejorar
-                        la técnica del marketing digital y a construir una estrategia robusta.”
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        Marica Buquicchio
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        Propietaria, Marica Buquicchio
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            Italia
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/maricabuquicchio/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- Section no. 15: Colaboration -->
     <div class="colaboracion-container">
         <div class="colaboracion-flex">
@@ -1565,7 +1620,7 @@
                 </div>
                 <div class="colaboracion">
                     <div class="fs11 robotoRe"><i>En colaboración con</i></div>
-                    <img src="../assets/img/svg/columbia-logo-light.svg" alt="CBS">
+                    <img src="../assets/img/svg/Columbia Engineering-white.svg" alt="CBS">
                 </div>
             </div>
             <div class="colaboracion-descripcion fs14 robotoRe">
