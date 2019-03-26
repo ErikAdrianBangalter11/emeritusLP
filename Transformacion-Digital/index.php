@@ -59,13 +59,13 @@
 
     <?php
         //If the HTTPS is not found to be "on"
-        //if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
-        //{
+        if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+        {
             //Tell the browser to redirect to the HTTPS URL.
-            //header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+            header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
             //Prevent the rest of the script from executing.
-            //exit;
-        //}
+            exit;
+        }
         ?>
 
 
@@ -161,7 +161,7 @@
                     <div class="fechas-cont">
                         <div class="fechas">
                             <div class="fecha-title fs14 robotoRe gris6E">Comienza</div>
-                            <div class="fecha fs18 robotoRe negro">24/07/2019</div>
+                            <div class="fecha fs18 robotoRe negro">24/06/2019</div>
                         </div>
 
                         <div class="fechas">
@@ -361,8 +361,7 @@
                     <span class="openBo">opciones flexibles de pago. </span>
                 </div>
                 <a class="fs20 rosa51 openBo" href="#ex1" rel="modal:open">
-                    <!-- Obtén más información aquí -->
-                    Proximamente...
+                    Obtén más información aquí
                 </a>
             </div>
         </div> <!-- fomulario-container -->
@@ -372,7 +371,7 @@
 
 
     <!-- Section no. 4: Flexible payments modal container -->
-    <div id="ex1-not" class="modal modal-pagos-flexibles">
+    <div id="ex1" class="modal modal-pagos-flexibles">
         <div class="modal-pagos-title fs20 openBo negro28">
             Plan de pagos flexibles
         </div>
@@ -384,7 +383,7 @@
         </div>
         <div class="modal-pagos-subtitle robotoRe fs16 negro46">
             Las siguientes opciones de pago están disponibles para el
-            <span class="robotoBo">Curso de Design Thinking:</span>
+            <span class="robotoBo">Curso de Transformación Digital:</span>
         </div>
         <div class="pagos">
             <div class="pagos-title fs18 openBo gris70">
@@ -404,7 +403,7 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$594 USD</span> a pagar
-                del 21 de junio de 2019.
+                el 19 de julio de 2019.
             </div>
         </div>
         <div class="pagos no-border">
@@ -417,11 +416,11 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de <span class="robotoBo">$435 USD</span> a pagar
-                del 21 de junio de 2019.
+                el 19 de julio de 2019.
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$435 USD</span> a pagar
-                del 6 de julio de 2019.
+                el 3 de agosto de 2019.
             </div>
         </div>
     </div> <!-- modal-pagos-flexibles -->
@@ -605,7 +604,9 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 1</div>
-                        <div class="module-title robotoRe negro23">Habilidades del <i>Design Thinking.</i></div>
+                        <div class="module-title robotoRe negro23">
+                            Transformación digital: de los productos a las plataformas; efectos de red.
+                        </div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
@@ -615,9 +616,10 @@
                                     <br>Trabajo previo
                                 </div>
                             </p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Leer: Design Thinking de Tim Brown (Harvard
-                                Business Review)</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Capítulo 1: "Revolución de las plataformas".</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Después de que Google Maps incorporó la navegación, el valor de los desarrolladores independientes de GPS cayó alrededor de 85%.</p>
                             <p>
                                 <p>
                                     <div class="robotoBo">
@@ -626,51 +628,45 @@
                                 </p>
                                 <p>
                                     <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres retos de la innovación</p>
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción al módulo y definiciones: cadenas de valor (lineal vs. triangular).</p>
+                                    <p class="padding-text-modulos">
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>El modelo de negocio de productos y servicios es inservible.</p>
+                                    <p class="padding-text-modulos">
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Qué cambia: Marketing.</p>
+                                    <p class="padding-text-modulos">
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Qué cambia: Finanzas.</p>
+                                    <p class="padding-text-modulos">
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Qué cambia: Cadenas de suministro.</p>
+                                    <p class="padding-text-modulos">
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Qué cambia: Organización interna.</p>
+                                    <p class="padding-text-modulos">
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Qué cambia: Innovación.</p>
                                     <p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Deseabilidad de las
-                                            personas.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Viabilidad del negocio.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Factibilidad técnica.</p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplos de los tres retos de la
-                                            innovación:</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;NEST.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;AIRBNB.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;APPLE.</p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Habilidades del <i>design thinking.</i></p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de innovación sistemática de
-                                            IDEO.</p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cómo clasificar las ideas</p>
                                         <div class="robotoBo">
                                             <br>Aplicación
                                         </div>
                                     </p>
                                     <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Torneo en línea – Presentar DOS
-                                        oportunidades de producto, servicio o software. Implementar cuatro elementos de
-                                        liderazgo.
-                                    </p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Aplicar el modelo de los tres retos de la
-                                        innovación para evaluar los productos/servicios de tu propio negocio.
-                                    </p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Clasifica 40 de las oportunidades
-                                        presentadas.
+                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea individual – Reflexión: ¿Puedes predecir qué elementos de tu negocio son susceptibles de ser transformados por nuevos competidores o nuevos participantes?.
                                     </p>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 2</div>
-                        <div class="module-title robotoRe negro23">Identificando necesidades del cliente.</div>
+                        <div class="module-title robotoRe negro23">Conceptos: mercados, entorno y estructura.</div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                Trabajo previo 
+                            </div>
+                        </p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Capítulo 2: "Revolución de las plataformas".</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Apple vs. Google: ¿Aprendió Apple de su guerra con Microsoft?.</p>
                         <p>
                             <div class="robotoBo">
                                 Estructura
@@ -678,133 +674,268 @@
                         </p>
                         <p class="padding-text-modulos">
                             <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de desarrollo de productos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de desarrollo de conceptos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Aplicación de la innovación para el usuario</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Necesidades de los clientes y mercados.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplo de usuarios propensos a innovar (lead users) –
-                            estudio de iluminación.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Pasos del proceso de análisis de las necesidades de
-                            los clientes – NEST.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco guías para escribir los enunciados de
-                            necesidades.</p>
                         <div class="robotoBo">
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Pensamiento en tubería vs. pensamiento en plataforma.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción al módulo.</p>
+                            <p class="padding-text-modulos-1">
+                                <strong>- &nbsp;&nbsp;&nbsp;</strong>Efectos de la red.</p>
+                            <p class="padding-text-modulos-1">
+                                <strong>- &nbsp;&nbsp;&nbsp;</strong>Definiciones de plataformas de negocios.</p>
+                            <p class="padding-text-modulos-1">
+                                <strong>- &nbsp;&nbsp;&nbsp;</strong>Retos distintivos.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Economías de escala del lado de la demanda vs. la oferta.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cadena de valor lineal tradicional.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Costos de homing y switching.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Redes de dos lados.</p>
                             <br>Aplicación:
                         </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real: Ejercicio de las
-                            necesidades de los clientes—determinar necesidades latentes y no satisfechas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Encontrar (en casa o en la oficina) un ejemplo de un
-                            producto innovador. Subir una foto y explicar por qué la eligieron.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real: Seleccionar las ideas
-                            mejor calificadas por el equipo y trabajar en lo siguiente:</p>
-                        </br>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Evaluación de oportunidades y desarrollo
-                            de conceptos.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Identificar necesidades para su idea de
-                            proyecto.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Recibir las revisiones de los otros
-                            miembros del equipo.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal – Estudio de caso – Quickbooks de Intuit : Del producto a la plataforma.</p>
+                        <br>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 3</div>
-                        <div class="module-title robotoRe negro23">Creatividad aplicada.</div>
+                        <div class="module-title robotoRe negro23">Diseñando tu modelo digital de negocio para el éxito. </div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
                         <p>
                             <div class="robotoBo">
+                                Trabajo previo 
+                            </div>
+                        </p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Capítulos 3 y 6: "Revolución de las plataformas".</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – "¿Cómo valuar a un cliente gratuito?".</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – "Estrategias para mercados de dos lados".</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – "¿Por qué Amazon donó capítulos gratuitos?".</p>
+                        <p>
+                            <div class="robotoBo">
                                 Estructura
                             </div>
                         </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Invención, innovación y creatividad.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplo: auto conceptual YCC.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Grandes ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Reglas comunes para la lluvia de ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Investigación sobre lluvia de ideas y creatividad.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Bosquejos de conceptos y modelado de los bosquejos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de generación de conceptos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Búsqueda externa e interna – lluvia de ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Generación de conceptos – ejemplo de combinación de
-                            ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Concepto de selección restringida .</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Pensamiento en tubería vs. pensamiento en plataforma.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cadena de suministro tradicional y creación de plataformas B2C.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Entonces, ¿cómo diseñar una plataforma? – Tres principios del diseño de plataformas.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Cómo optimizamos la cadena de valor de las plataformas?.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>De qué manera la arquitectura puede aumentar los efectos de la red.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Mínima plataforma viable – El ejemplo de LinkedIn.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Monetización.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Flujos de las plataformas y cuatro formas de monetizar una plataforma.</p>
                         <div class="robotoBo">
                             <br>Aplicación:
                         </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Separar la idea del proyecto en elementos claves.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real: Desarrollar un
-                            concepto de solución.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal - Estudios de caso - Brightcove.</p>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 4</div>
-                        <div class="module-title robotoRe negro23">
-                            Diseño de servicios.</div>
+                        <div class="module-title robotoRe negro23">Lanzar y hacer crecer una plataforma digital.</div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
                         <p>
                             <div class="robotoBo">
+                                <br> Trabajo previo 
+                            </div>
+                        </p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Capítulo 5: "Revolución de las plataformas".</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – "Plataformas de dos lados".</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Artículo – Google Health, Microsoft Health y WebMD.</p>
+                        <p>
+                            <div class="robotoBo">
                                 <br> Estructura
                             </div>
                         </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>La diferencia entre bienes y servicios.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Innovación de servicios en Bank of America.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ciclos de experiencia de servicios.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplos de ciclos de experiencia de servicios:</p>
-                        </br>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Ejemplo de la sala de cine.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Zipcar.</p>
-
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Introducción al módulo – La historia de Paypal; cuando la persistencia da frutos.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Ocho formas de resolver el problema del huevo y la gallina:</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Seguir al conejo.</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia del “caballito.</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia del sembrado.</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia del Marquee.</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia de un solo lado.</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia de evangelización del productor.</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia del Big Bang.</p>
+                                <p class="padding-text-modulos-1">
+                                    <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia del micromercado.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Efectos de la red: Primero el consumidor.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Efectos de la red: Primero el productor.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Cerrar el círculo.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Modularidad: Introducción.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Modularidad: Arquitectura de la industria de cómputo.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong> Modularidad: Claves para la computación en la nube: APIs.</p>
                         <div class="robotoBo">
                             <br> Aplicación
                         </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Descomponer el ejemplo de la sala de cine.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real:</p>
-                        </br>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Análisis y desarrollo de conceptos.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Trazar un plan del ciclo de experiencia
-                            del cliente para su idea de proyecto.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Pensar en oportunidades de innovación
-                            surgidas de ese ciclo.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea individual – Google Health, Microsoft Health Vault y WebMD.</p>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 5</div>
-                        <div class="module-title robotoRe negro23">
-                            Análisis financiero. </div>
+                        <div class="module-title robotoRe negro23">Las ventajas de innovación abierta.</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                Trabajo previo 
+                            </div>
+                        </p>
+                        <p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Capítulo 7: "Revolución de las plataformas".</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Estudio de caso de Makerbot.</p>
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                        <p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Innovación abierta – Ideas de uso interno y externo.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Qué es la apertura? ¿Es importante la apertura?.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Plataformas de negocios – Microeconomías.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Captación del valor y tasa impositiva de los ecosistemas de plataforma.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Impacto de las decisiones de apertura.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Google recupera el control sobre Android.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Apple: ¿Qué controlar y absorber?.</p>
+                            <div class="robotoBo">
+                                <br>Aplicación
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal – Estudio de caso – Makerbot.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 6</div>
+                        <div class="module-title robotoRe negro23">Cómo manejar tu plataforma digital.</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                Trabajo previo 
+                            </div>
+                        </p>
+                        <p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Capítulo 8: "Revolución de las plataformas".</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – El caso de SAP.</p>
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                        <p>
+                                <p class="padding-text-modulos">
+                                    <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Por qué gobernar las plataformas?.</p>
+                                <p class="padding-text-modulos">
+                                    <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Qué queremos decir con "gobernanza"?.</p>
+                                <p class="padding-text-modulos">
+                                    <strong>• &nbsp;&nbsp;&nbsp;</strong>¿De qué manera gobernar bien? ¿Cuáles son las herramientas?.</p>
+                                <p class="padding-text-modulos">
+                                    <strong>• &nbsp;&nbsp;&nbsp;</strong>Herramientas para regular la plataforma.</p>
+                                <p class="padding-text-modulos">
+                                    <strong>• &nbsp;&nbsp;&nbsp;</strong>Herramientas para gobernar la plataforma.</p>
+                            <div class="robotoBo">
+                                <br>Aplicación
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal – Estudio de caso – SAP.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 7</div>
+                        <div class="module-title robotoRe negro23">Estrategia y competencia en la era digital. </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                Trabajo previo 
+                            </div>
+                        </p>
+                        <p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Lectura previa – Capítulo 10: "Revolución de las plataformas".</p>
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                        <p>
+                        <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Por qué las plataformas están por encima de los productos.</p>
+                        <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Qué cambia: Estrategia.</p>
+                        <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Por qué la estrategia de plataformas es diferente.</p>
+                        <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Por qué los viejos competidores no son los nuevos competidores.</p>
+                        <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Efectos de la red e invertir los cambios de la firma.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 8</div>
+                        <div class="module-title robotoRe negro23">La transformación digital en diversas industrias: una visión de futuro.</div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
@@ -815,58 +946,19 @@
                         </p>
                         <p>
                             <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la estrategia de compromiso.</p>
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Disrupción de la plataforma en la industria de medios.</p>
                             <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Experimento mental y flujo de efectivo del
-                                desarrollo de productos.</p>
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Futuro de la plataforma en la industria de servicios profesionales.</p>
                             <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Mercadotecnia financiera del proyecto de
-                                desarrollo de productoss.</p>
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Futuro de la plataforma en el sector educativo.</p>
                             <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Valor actual neto (NPV) y ejemplo de Nespresso.</p>
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Futuro de la plataforma en el sector financiero.</p>
                             <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplo de Nespresso: </p>
-                            </br>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Número de máquinas y cápsulas.</p>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Incertidumbre del modelo.</p>
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Futuro de la plataforma en el sector salud.</p>
                             <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Modelaje en hoja de cálculo – ¿cuánto más
-                                necesitamos vender para recuperar el programa de reciclamiento? </p>
-                            </br>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Poner varios de los peores casos y ver
-                                qué le pasa al NPV.</p>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Poner varios de los mejores casos y
-                                ver qué le pasa al NPV.</p>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Rendir un informe de las anteriores
-                                discusiones.</p>
-                            <div class="robotoBo">
-                                <br>Aplicación
-                            </div>
-                        </p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Analizar el caso de Nespresso desde una perspectiva
-                            financiera. Ejercicio: Enumerar 5 razones por las cuales las firmas pueden elegir ir tras
-                            un producto incluso si el análisis revela un NPV negativo.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real: Completar el factoraje
-                            del reporte conforme a cualquier análisis financiero adicional que hayan aprendido.</p>
-                    </div>
-                </li>
-                <li class="active modulo-cont">
-                    <div class="collapsible-header robotoBo fs16">
-                        <div class="No negro46">Módulo 6</div>
-                        <div class="module-title robotoRe negro23">
-                            Revisiones del proyecto entre pares del proyecto y cierre del curso.</div>
-                        <div class="collapsible-header-img"></div>
-                    </div>
-                    <div class="collapsible-body">
-
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la economía del desarrollo de
-                            productos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Experimento mental y flujo de efectivo del desarrollo
-                            de productos.</p>
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Futuro de la plataforma en la industria energética.</p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Futuro de la plataforma en el gobierno.</p>
                     </div>
                 </li>
             </ul>
@@ -1120,7 +1212,7 @@
                     Emeritus y la MIT Sloan School of Management.
                 </div>
                 <div class="certificado-button">
-                    <a class="robotoRe fs16 blanco" href="http://bit.ly/2PeMK8K" target="_blank" rel="noopener noreferrer">
+                    <a class="robotoRe fs16 blanco" href="https://bit.ly/2PeMK8K" target="_blank" rel="noopener noreferrer">
                         Inscríbete
                     </a>
                 </div>
@@ -1141,26 +1233,25 @@
                         <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
                     </div>
                     <div class="comentario fs16 robotoRe negro23">
-                        El contenido del curso y la colaboración con colegas de todo el mundo fueron una gran
-                        experiencia de aprendizaje.
-                        ¡El resultado al cabo de dos semanas fue extraordinario!
+                        "La conexión con los otros participantes y el trabajar en red con ellos fue algo realmente bueno. 
+                        El curso ayudó a mejorar el conocimiento sobre el tema. El líder del curso fue capaz de abordar 
+                        todas las preguntas de los temas, tanto durante el propio curso como en los webinarios."
                     </div>
                     <div class="linea-slide"></div>
                     <div class="nombre fs18 robotoBo negro46">
-                        Andreas Cem Vogt
+                        Anna Khanzhina
                     </div>
                     <div class="cargo fs14 robotoRe negro46">
-                        Equipo de ventas,
-                        <br>jefe de Procesos de Negocios
+                        Directora de Categorías, X5 Retail Group
                     </div>
                     <div class="cont-pais">
                         <img src="../assets/img/svg/world.svg" alt="Mundo">
                         <div class="pais fs14 robotoRe cafe6C">
-                            Alemania
+                            Singapur
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="https://de.linkedin.com/in/cemvogt">
+                        <a href="https://www.linkedin.com/in/anna-khanzhina/">
                             <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
                         </a>
                     </div>
@@ -1172,31 +1263,25 @@
                         <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
                     </div>
                     <div class="comentario fs16 robotoRe negro23">
-                        "De lejos, la primera lección fue la lección más importante. Ese marco ha orientado la
-                        dirección de
-                        todo el curso y es absolutamente
-                        fundamental para recordar durante todo el proceso de diseño. Hoy, estoy aprovechando ese marco
-                        en mi
-                        trabajo
-                        para cuestionar la relación valor / innovación que brindamos con nuestros canales de
-                        comercialización".
+                        "El modelo, la estrategia y la gobernanza de los negocios en plataforma, así como las 
+                        discusiones en Canvas, me ayudaron a entender y conocer más sobre el tema. Las tareas 
+                        y las discusiones en grupo contribuyeron aún más a la comprensión".
                     </div>
                     <div class="linea-slide"></div>
                     <div class="nombre fs18 robotoBo negro46">
-                        Kevin Ly
+                        Cheuk Ying Chan
                     </div>
                     <div class="cargo fs14 robotoRe negro46">
-                        Director Asociado de Análisis Comercial,
-                        <br>Bristol Myers Squibb
+                        Analista de Negocios Senior, Crown Worldwide Holdings
                     </div>
                     <div class="cont-pais">
                         <img src="../assets/img/svg/world.svg" alt="Mundo">
                         <div class="pais fs14 robotoRe cafe6C">
-                            India
+                            Hong kong
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/kevin-ly-21906b32/">
+                        <a href="https://www.linkedin.com/in/cheuk-y-chan-a79069a5/">
                             <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
                         </a>
                     </div>
@@ -1208,26 +1293,24 @@
                         <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
                     </div>
                     <div class="comentario fs16 robotoRe negro23">
-                        Los ejemplos que se usaron para ilustrar los diferentes aspectos del desarrollo de productos
-                        fueron
-                        extremadamente útiles".
+                        "La mejor parte del curso es que cubre todos los aspectos de una plataforma, 
+                        desde la creación y el crecimiento hasta la gobernanza y la innovación".
                     </div>
                     <div class="linea-slide"></div>
                     <div class="nombre fs18 robotoBo negro46">
-                        Jenny Brown
+                        Dreyser Eguía
                     </div>
                     <div class="cargo fs14 robotoRe negro46">
-                        Especialista en desarrollo de productos de UX,
-                        <br>Centro de incubación digital.
+                        Cemex
                     </div>
                     <div class="cont-pais">
                         <img src="../assets/img/svg/world.svg" alt="Mundo">
                         <div class="pais fs14 robotoRe cafe6C">
-                            Qatar
+                            México
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/jennyellenbrown/">
+                        <a href="https://www.linkedin.com/in/dreyser-eguia-arroyo-b575488/">
                             <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
                         </a>
                     </div>
@@ -1239,17 +1322,17 @@
                         <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
                     </div>
                     <div class="comentario fs16 robotoRe negro23">
-                        "Los videos de la facultad, ejemplos reales, estudios de casos y tareas fueron muy útiles
-                        para
-                        proporcionar una mejor comprensión
-                        del pensamiento de diseño".
+                        "El diseño general del curso y los videos del docente resultaron muy buenos. 
+                        Brindaron el nivel de detalle adecuado para estimular el autoaprendizaje. El 
+                        contenido del curso proporciona un gran conocimiento y el valor de una tendencia 
+                        verdaderamente disruptiva".
                     </div>
                     <div class="linea-slide"></div>
                     <div class="nombre fs18 robotoBo negro46">
-                        Ramesh Arora
+                        Siva Devireddy
                     </div>
                     <div class="cargo fs14 robotoRe negro46">
-                        Asistente del Gerente General, TATA Power
+                        CEO, GoCoop.com
                     </div>
                     <div class="cont-pais">
                         <img src="../assets/img/svg/world.svg" alt="Mundo">
@@ -1258,7 +1341,69 @@
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/ramesh-arora-8482ba7/">
+                        <a href="https://www.linkedin.com/in/siva-devireddy-9a5353/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "El curso y la colaboración con los colegas mostró claramente cómo distintas 
+                        ideas alrededor de un tema pueden generar valor para todos. Esta fue una oportunidad 
+                        única para aprender no solo del extraordinario cuerpo docente, sino también de 
+                        colegas de todo el mundo".
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Héctor Iván Lira Hevia
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Director de Administración, F1rstcomm
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            México
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/hectorlira/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "Las discusiones/sesiones informativas a cargo del líder del curso fueron la mejor parte 
+                        para mí. Pude interactuar con los demás participantes y con el coordinador para comprender 
+                        sus puntos de vista. Esto mejoró el aprendizaje y, al mismo tiempo, hizo que el curso 
+                        resultara disfrutable".
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Abhinav Jain
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Comercializador Senior, M.H. Alshaya co. WLL
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Kuwait
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/abhinavjain3/">
                             <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
                         </a>
                     </div>
@@ -1404,7 +1549,7 @@
             function async_load() {
                 var s = document.createElement('script');
                 s.type = 'text/javascript';
-                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') +
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'https://cdn') +
                     '.pardot.com/pd.js';
                 var c = document.getElementsByTagName('script')[0];
                 c.parentNode.insertBefore(s, c);

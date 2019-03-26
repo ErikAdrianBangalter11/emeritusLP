@@ -440,7 +440,7 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$594 USD</span> a pagar
-                del 21 de junio de 2019.
+                el 21 de junio de 2019.
             </div>
         </div>
         <div class="pagos no-border">
@@ -453,11 +453,11 @@
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La segunda parcialidad de <span class="robotoBo">$435 USD</span> a pagar
-                del 21 de junio de 2019.
+                el 21 de junio de 2019.
             </div>
             <div class="precio-pago">
                 <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$435 USD</span> a pagar
-                del 6 de julio de 2019.
+                el 6 de julio de 2019.
             </div>
         </div>
     </div> <!-- modal-pagos-flexibles -->
@@ -1217,7 +1217,7 @@
                     Emeritus y la MIT Sloan School of Management.
                 </div>
                 <div class="certificado-button">
-                    <a class="robotoRe fs16 blanco" href="http://bit.ly/2JFFnEa" target="_blank"
+                    <a class="robotoRe fs16 blanco" href="https://bit.ly/2JFFnEa" target="_blank"
                         rel="noopener noreferrer">
                         Inscríbete
                     </a>
@@ -1506,7 +1506,7 @@
             function async_load() {
                 var s = document.createElement('script');
                 s.type = 'text/javascript';
-                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') +
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'https://cdn') +
                     '.pardot.com/pd.js';
                 var c = document.getElementsByTagName('script')[0];
                 c.parentNode.insertBefore(s, c);

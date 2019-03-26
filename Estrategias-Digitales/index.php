@@ -162,7 +162,7 @@
                     <div class="fechas-cont">
                         <div class="fechas">
                             <div class="fecha-title fs14 robotoRe gris6E">Comienza</div>
-                            <div class="fecha fs18 robotoRe negro">10/08/2019</div>
+                            <div class="fecha fs18 robotoRe negro">10/06/2019</div>
                         </div>
 
                         <div class="fechas">
@@ -320,7 +320,7 @@
                         <input type="hidden" name="utm_content" id="utm_content" value="">
                         <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                         <input type="hidden" name="browser" id="browser" value="">
-                        <input type="hidden" name="course" id="course" value="Marketing Digital">
+                        <input type="hidden" name="course" id="course" value="Estrategias-Digitales">
                         <!--This value is different in each in the pages-->
                         <input type="hidden" name="retURL" value="https://latam.emeritus.org/programas/Thank-you-page-ED.php?<?php echo $queryString; ?>">
                         <button class="robotoRe fs18 blanco" type="submit">
@@ -354,8 +354,7 @@
                     <span class="openBo">opciones flexibles de pago. </span>
                 </div>
                 <a class="fs20 rosa51 openBo" href="#ex1" rel="modal:open">
-                    <!-- Obtén más información aquí -->
-                    Proximamente...
+                    Obtén más información aquí
                 </a>
             </div>
         </div> <!-- fomulario-container -->
@@ -365,7 +364,7 @@
 
 
     <!-- Section no. 4: Flexible payments modal container -->
-    <div id="ex1-not" class="modal modal-pagos-flexibles">
+    <div id="ex1" class="modal modal-pagos-flexibles">
         <div class="modal-pagos-title fs20 openBo negro28">
             Plan de pagos flexibles
         </div>
@@ -377,9 +376,8 @@
             realizar el pago.
         </div>
         <div class="modal-pagos-subtitle robotoRe fs16 negro46">
-            Las siguientes opciones de pago están disponibles para el <strong>Curso
-                        de
-                        Estrategias Digitales:</strong>
+            Las siguientes opciones de pago están disponibles para el 
+            <strong> Curso de Estrategias Digitales:</strong>
         </div>
         <div class="pagos">
             <div class="pagos-title fs18 openBo gris70">
@@ -398,7 +396,7 @@
                 al inicio.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$594 USD</span> a partir del 06 de Abril del 2019
+                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$594 USD</span> a partir el 05 de julio del 2019
             </div>
         </div>
         <div class="pagos no-border">
@@ -410,10 +408,10 @@
                 al inicio.
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La segunda parcialidad de <span class="robotoBo">$435 USD</span> a partir del 06 de Abril del 2019
+                <div class="dot-pagos"></div>La segunda parcialidad de <span class="robotoBo">$435 USD</span> a partir el 05 de julio del 2019
             </div>
             <div class="precio-pago">
-                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$435 USD</span> a partir del 01 de Mayo del 2019
+                <div class="dot-pagos"></div>La última parcialidad de <span class="robotoBo">$435 USD</span> a partir el 20 de julio del 2019
             </div>
         </div>
     </div> <!-- modal-pagos-flexibles -->
@@ -1401,7 +1399,7 @@
                     Emeritus y Columbia Business School.
                 </div>
                 <div class="certificado-button">
-                    <a class="robotoRe fs16 blanco" href="http://bit.ly/2ubwV9V" target="_blank" rel="noopener noreferrer">
+                    <a class="robotoRe fs16 blanco" href="https://bit.ly/2ubwV9V" target="_blank" rel="noopener noreferrer">
                         Inscríbete
                     </a>
                 </div>
@@ -1931,7 +1929,7 @@
             function async_load() {
                 var s = document.createElement('script');
                 s.type = 'text/javascript';
-                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') +
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'https://cdn') +
                     '.pardot.com/pd.js';
                 var c = document.getElementsByTagName('script')[0];
                 c.parentNode.insertBefore(s, c);
