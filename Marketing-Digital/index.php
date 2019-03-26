@@ -1742,7 +1742,7 @@
     </div>
 
 
-    <!--<script async type="text/javascript" src="https://latam.emeritus.org/programas/../assets/js/gdpr.js"></script>-->
+    <!--<script async type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/gdpr.js"></script>-->
 
 
     <!-- Populating the countrie, using a function in Countries Script added at the top of this file. -->

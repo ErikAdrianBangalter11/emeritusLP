@@ -1583,12 +1583,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex2" rel="modal:open">
                 <div>
-                    <img src="../assets/img/png/certificado.png" alt="Certificado">
+                    <img src="../assets/img/jpg/certificado4.jpg" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex2" class="modal modal-certificado">
-                <img src="../assets/img/jpg/big-ceritificate-1.jpg" alt="Certificado">
+                <img src="../assets/img/jpg/big-certificado-4.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title crimsonBo fs24 blanco">

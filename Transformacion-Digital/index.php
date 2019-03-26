@@ -5,48 +5,26 @@
     <!-- Script's for Tag Manager -->
 
     <!-- Google Tag Manager INTOConsultancy-->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KTMJG7J');
-    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KTMJG7J');</script>
     <!-- End Google Tag Manager -->
 
     <!-- Google Tag Manager Admazing-->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5LNX736');
-    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5LNX736');</script>
     <!-- End Google Tag Manager -->
 
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Design Thinking | Diseño de soluciones para la innovación</title>
+    <title>Transformación Digital | Transformación de los negocios a gran escala</title>
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/emfavicon.png" />
 
 
@@ -81,13 +59,13 @@
 
     <?php
         //If the HTTPS is not found to be "on"
-        if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
-        {
+        //if(!isset($_SERVER["HTTPS"]) || $_SERVER["HTTPS"] != "on")
+        //{
             //Tell the browser to redirect to the HTTPS URL.
-            header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
+            //header("Location: https://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
             //Prevent the rest of the script from executing.
-            exit;
-        }
+            //exit;
+        //}
         ?>
 
 
@@ -103,14 +81,12 @@
 
 
     <!-- Google Tag Manager (noscript) INTOConsultancy-->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTMJG7J" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTMJG7J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
 
     <!-- Google Tag Manager (noscript) Admazing -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LNX736" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LNX736" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
 
@@ -137,21 +113,21 @@
 
     <!-- Section no. 1: Hero Section -->
     <div class="hero-container">
-        <div class="hero-data hero_DT">
-
+        <div class="hero-data hero_TD">
+        
             <div class="idioma">
                 <img src="../assets/img/svg/ahora.svg" alt="Ahora-en-español">
             </div>
             <div class="hero-data-cont">
                 <div class="hero-title">
-                    <div class="MIT-back openRe fs16 blanco">
+                    <div class="TD-back openRe fs16 blanco">
                         <span class="openBo">NUEVO</span> programa <i>online</i>
                     </div>
                     <div class="robotoRE fs26 blanco">
-                        DESIGN <span class="robotoBo">THINKING</span>
+                        TRANSFORMACIÓN <span class="robotoBo">DIGITAL</span>
                     </div>
                     <div class="robotoBo fs16 blanco">
-                        Diseño de soluciones para la innovación
+                        Transformación de los negocios a gran escala
                     </div>
                 </div>
             </div>
@@ -185,12 +161,12 @@
                     <div class="fechas-cont">
                         <div class="fechas">
                             <div class="fecha-title fs14 robotoRe gris6E">Comienza</div>
-                            <div class="fecha fs18 robotoRe negro">27/05/2019</div>
+                            <div class="fecha fs18 robotoRe negro">24/07/2019</div>
                         </div>
 
                         <div class="fechas">
                             <div class="fecha-title fs14 robotoRe gris6E">Termina</div>
-                            <div class="fecha fs18 robotoRe negro">28/07/2019</div>
+                            <div class="fecha fs18 robotoRe negro">09/11/2019</div>
                         </div>
                     </div>
 
@@ -219,82 +195,70 @@
 
         <div class="informacion-container">
             <div class="informacion-title fs24 crimsonRe negro23">
-                SOLUCIONES REALES
-                <span class="crimsonBo"> PARA PERSONAS REALES</span>
+                ACEPTA EL
+                <span class="crimsonBo"> DESAFÍO DIGITAL</span>
             </div> <!-- informacion-title -->
 
             <div class="informacion robotoRe fs16">
-                Innovar no es opcional… pero tampoco es fruto de inspiración divina; requiere de
-                inteligencia, disciplina y la generación <a class="button-enable robotoBo fs16 rosa51">...más</a>
+                Las plataformas de negocio, como Uber y Airbnb, están cambiando las reglas del juego 
+                a gran velocidad. Comprender estos <a class="button-enable robotoBo fs16 rosa51">...más</a>
 
                 <span class="enable">
-                    de soluciones para problemas concretos y
-                    necesidades sentidas, colocando a las personas en el centro de los procesos.Hoy, la
-                    reinvención es, más que un tema de estética y funcionalidad, una cuestión de empatía.
+                    nuevos modelos y aprender a explotarlos a tu favor es una cuestión indispensable 
+                    para prosperar en la era digital.
                     <br>
                     <br>
-                    Ahí es donde entra Design Thinking: un enfoque de innovación que integra aspectos del
-                    diseño, la ingeniería y la mercadotecnia para la creación sistemática de soluciones
-                    centradas en las necesidades y comportamiento de los clientes.
+                    El Certificado en Transformación Digital de Emeritus, en colaboración con la MIT 
+                    Sloan School of Management, te ofrece nuevas perspectivas de uso de la tecnología 
+                    para conectar personas, organizaciones y recursos en ecosistemas interactivos.
                     <br>
                     <br>
-                    En este <span class="robotoBo">curso de Steve Eppinger, creador del Centro para la Innovación en el
-                        Desarrollo
-                        de Productos del MIT</span>, aprenderás a utilizar técnicas de design thinking para resolver
-                    los
-                    problemas de tu empresa, re-pensar la oferta de tus productos y servicios, crecer en los
-                    mercados que te interesan, dar mayor valor a tus clientes, e innovar para ser más
-                    competitivo.
+                    <span class="robotoBo">Conoce los cinco dominios de la transformación digital y 
+                    capitaliza los principios para el desarrollo exitoso de plataformas con Geoffrey 
+                    G. Parker, investigador de la Iniciativa para la Economía Digital del MIT.</span> 
+                    Analiza casos de empresas que han hecho la transición de estrucuturas tradicionales 
+                    a modelos disruptivos y desarrolla habilidades para liderar el cambio que exigen 
+                    las nuevas iniciativas de negocio.
                 </span>
             </div> <!-- informacion -->
             <span class="enable">
                 <div class="informacion-relevante">
 
                     <div class="relevante-container">
-                        <div class="No-relevante fs44 robotoBo azulBC">
-                            83%
+                        <div class="fs44 robotoBo azulBC">
+                            <div class="No-relevante">3 de las 5 <span class="robotoRe fs30">compañías más grandes</span></div>
                         </div>
                         <div class="desc fs20 robotoBo cafe6C">
-                            impulsadas por el diseño han duplicado su participación de mercado con respecto al promedio
+                            por capitalización bursátil son plataformas: Apple, Google y Microsoft
                         </div>
                         <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: CONSEJO DE DISEÑO DEL REINO UNIDO.
+                            FUENTE: CONSEJO DE DISEÑO DEL REINO UNIDO. 
                         </div>
                     </div> <!-- relevante-container -->
 
                     <div class="relevante-container">
-                        <div class="fs44 rosa75">
-                            <div class="No-relevante robotoBo desktop">40% <span class="robotoRe fs30">de los
-                                    productos</span></div>
-                            <div class="No-relevante robotoBo movil">40% <span class="robotoRe fs30">de los
-                                    productos</span></div>
+                        <div class="fs30 rosa75">
+                            <div class="No-relevante robotoRe">En 2020, <span class="robotoBo fs44">75% de las empresas</span></div>
                         </div>
                         <div class="desc fs20 robotoBo cafe6C">
-                            fracasan por no llegar al mercado. De los productos que sí llegan, 40% son retirados por
-                            falta de rentabildad.
+                            serán proveedoras de servicios digitales a través de las nubes colaborativas de la industria.
                         </div>
                         <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: M. RAYNOR DIRECTOR DE DELOITTE Y C. CHRISTENSEN: HARVARD BUSINESS SCHOOL, #1 EN
-                            THINKERS SO.
+                            FUENTE: NEARSHORE AMERICAS & MEXICO IT.
                         </div>
                     </div><!-- relevante-container -->
 
                     <div class="relevante-container">
-                        <div class="fs44 azulBC">
-                            <div class="No-relevante robotoBo desktop">2/3 partes <span class="robotoRe fs30">del
-                                    esfuerzo</span></div>
-                            <div class="No-relevante robotoBo movil">2/3 partes <span class="robotoRe fs30">del
-                                    esfuerzo</span></div>
+                        <div class="fs30 azulBC">
+                            <div class="No-relevante robotoRe">En 2019 <span class="robotoBo fs44">2.1 billones USD</span></div>
                         </div>
 
                         <div class="desc fs20 robotoBo cafe6C">
-                            y recursos de las comunicaciones entre marcas y clientes se llevará a cabo sin
-                            intervenciones humanas.
+                            se invertirán en transformación digital.
                         </div>
 
                         <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: M. RAYNOR DIRECTOR DE DELOITTE Y C. CHRISTENSEN: HARVARD BUSINESS SCHOOL, #1 EN
-                            THINKERS SO.
+                            FUENTE: PRICEWATHERHOUSE COOPERS 
                         </div>
                     </div> <!-- relevante-container -->
 
@@ -309,23 +273,23 @@
         <div class="fomulario-container">
             <div class="form" id="form">
                 <div class="form-title robotoBo fs18 blanco">Obtén información del programa</div>
-                <form class="form-cont" method="POST" action="https://www2.emeritus.org/l/134351/2018-07-23/41bt9j">
+                <form class="form-cont" method="POST" action="https://www2.emeritus.org/l/134351/2018-08-28/44bbrd">
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="fs16 robotoRe mdl-textfield__input" type="text" id="first_name" name="first_name"
-                            pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required>
+                        <input class="fs16 robotoRe mdl-textfield__input" type="text" id="first_name" name="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                            required>
                         <label class="fs16 robotoRe mdl-textfield__label" for="first_name">Nombre(s)</label>
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="fs16 robotoRe mdl-textfield__input" type="text" id="last_name" name="last_name"
-                            pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required>
+                        <input class="fs16 robotoRe mdl-textfield__input" type="text" id="last_name" name="last_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
+                            required>
                         <label class="fs16 robotoRe mdl-textfield__label" for="last_name">Apellido(s)</label>
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="fs16 robotoRe mdl-textfield__input" type="email" id="email" name="email"
-                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" required>
+                        <input class="fs16 robotoRe mdl-textfield__input" type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$"
+                            required>
                         <label class="fs16 robotoRe mdl-textfield__label" for="email">Email</label>
                     </div>
 
@@ -337,8 +301,8 @@
                     </div>
 
                     <div class="mdl-textfield mov-input mdl-js-textfield mdl-textfield--floating-label">
-                        <select id="work_experience" name="work_experience"
-                            class="fs16 robotoRe mdl-textfield__input work_experience mov-input-class" required>
+                        <select id="work_experience" name="work_experience" class="fs16 robotoRe mdl-textfield__input work_experience mov-input-class"
+                            required>
                             <option value=""></option>
                             <option value="Less than 5 Years">Menos de 5 años</option>
                             <option value="5-10 Years">5-10 años</option>
@@ -350,8 +314,8 @@
                     </div>
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="fs16 robotoRe mdl-textfield__input" type="tel" id="mobile" name="mobile"
-                            maxlength="15" minlength="5" onkeypress="return valida(event)" pattern="[0-9]+" required>
+                        <input class="fs16 robotoRe mdl-textfield__input" type="tel" id="mobile" name="mobile" maxlength="15" minlength="5"
+                            onkeypress="return valida(event)" pattern="[0-9]+" required>
                         <label class="fs16 robotoRe mdl-textfield__label" for="mobile">Número de celular</label>
                     </div>
 
@@ -363,10 +327,9 @@
                         <input type="hidden" name="utm_content" id="utm_content" value="">
                         <input type="hidden" name="utm_campaign" id="utm_campaign" value="">
                         <input type="hidden" name="browser" id="browser" value="">
-                        <input type="hidden" name="course" id="course" value="Design-Thinking">
+                        <input type="hidden" name="course" id="course" value="Transformación-Digital">
                         <!--This value is different in each in the pages-->
-                        <input type="hidden" name="retURL"
-                            value="https://latam.emeritus.org/programas/Thank-you-page-DT.php">
+                        <input type="hidden" name="retURL" value="https://latam.emeritus.org/programas/Thank-you-page-TD.php">
                         <button class="robotoRe fs18 blanco" type="submit">
                             Descarga el folleto
                             <img src="../assets/img/svg/icon-descargar.svg" alt="Download">
@@ -398,7 +361,8 @@
                     <span class="openBo">opciones flexibles de pago. </span>
                 </div>
                 <a class="fs20 rosa51 openBo" href="#ex1" rel="modal:open">
-                    Obtén más información aquí
+                    <!-- Obtén más información aquí -->
+                    Proximamente...
                 </a>
             </div>
         </div> <!-- fomulario-container -->
@@ -408,7 +372,7 @@
 
 
     <!-- Section no. 4: Flexible payments modal container -->
-    <div id="ex1" class="modal modal-pagos-flexibles">
+    <div id="ex1-not" class="modal modal-pagos-flexibles">
         <div class="modal-pagos-title fs20 openBo negro28">
             Plan de pagos flexibles
         </div>
@@ -468,37 +432,27 @@
         <div class="el-certificado-title crimsonRe fs24 negro28">
             EL CERTIFICADO EN
             <span class="crimsonBo">
-                DESIGN THINKING ES PARA TI SI:
+                TRANSFORMACIÓN DIGITAL ES PARA TI SI
             </span>
         </div>
         <div class="el-certificado-img">
-            <img class="el-certificado-desktop" src="../assets/img/jpg/es-para-ti-si-imagen-DT.jpg"
-                alt="El certificado en marketing digital">
-            <img class="el-certificado-movil" src="../assets/img/jpg/es-para-ti-si-imagen-DT-movil.jpg"
-                alt="El certificado en marketing digital">
+            <img class="el-certificado-desktop" src="../assets/img/jpg/es-para-ti-si-imagen-PD.jpg" alt="El-certificado-en">
+            <img class="el-certificado-movil" src="../assets/img/jpg/es-para-ti-si-imagen-movil-PD.jpg" alt="El-certificado-en">
         </div>
         <div class="el-certificado-requisitos-cont">
             <div class="requisito fs16 robotoRe negro">
-                Necesitas solucionar problemas de forma creativa.
-                Con este enfoque no solo diseñas productos y
-                servicios, sino que aprendes a enfrentar nuevos
-                retos y aprovechar oportunidades coyunturales.
+                Necesitas desarrollar las habilidades y conocimientos 
+                que demanda el modelo de plataforma para ser un líder 
+                efectivo.
             </div>
             <div class="requisito fs16 robotoRe negro">
-                Buscas nuevas metodologías que te permitan profundizar
-                en las necesidades y comportamiento de los usuarios
-                para ofrecerles soluciones novedosas.
+                Te interesa conocer y elaborar estrategias que permitan 
+                transformar un negocio tradicional en uno de plataforma.
             </div>
             <div class="requisito fs16 robotoRe negro">
-                Necesitas complementar tus conocimientos para mantenerte
-                vigente y crecer en tu campo profesional, o generar y
-                evaluar nuevos conceptos de productos y/o servicios.
-            </div>
-            <div class="requisito fs16 robotoRe negro">
-                Eres emprendedor y quieres impulsar el crecimiento de
-                tu negocio empleando la gestión de innovación para
-                diseñar productos y servicios y crear experiencias
-                nuevas para tus consumidores.
+                Requieres de herramientas de investigación para conocer 
+                qué elementos de tu negocio son susceptibles de ser 
+                transformados por nuevos competidores.
             </div>
         </div>
     </div>
@@ -513,34 +467,30 @@
             <div class="profesor-desc">
                 <div class="profesor-desc-cont">
                     <div class="profesor-img">
-                        <img class="MIT-bord" src="../assets/img/jpg/steven-eppinger.jpg" alt="Steve Eppinger">
+                        <img class="MIT-bord" src="../assets/img/jpg/geoffrey.jpg" alt="Geoffrey-G.-Parker">
                     </div>
                     <div class="profesor-data">
                         <div class="robotoRe fs16 negro46">Autor y profesor titular</div>
-                        <div class="robotoBo fs18 negro46">Steve Eppinger</div>
-                        <div class="robotoRe fs16 vino38"> <i> MIT Sloan School of Management </i> </div>
+                        <div class="robotoBo fs18 negro46">Geoffrey G. Parker</div>
+                        <div class="robotoRe fs16 vino38"> <i> Thayer School of Engineering (Dartmouth). </i> </div>
                     </div>
                 </div>
                 <div class="profesor-description robotoRe fs14 negro46">
-                    Experto mundialmente reconocido por su experiencia en las áreas de
-                    desarrollo de productos y gestión de proyectos técnicos, <span class="robotoBo">Steve Eppinger es
-                        pionero de la metodología DSM – Design Structure Matrix (Matriz de la
-                        Estructura de Diseño</span>), empleada para la administración y manejo de
-                    sistemas complejos.
+                    Académico visitante e investigador de la Iniciativa para la Economía Digital del MIT, 
+                    Geoffrey G. Parker ha realizado contribuciones significativas en el campo de las 
+                    estrategias de redes económicas. Junto con otros expertos, se le reconoce como uno 
+                    de los desarrolladores de la teoría de los mercados de dos caras.
                     <br>
                     <br>
-                    Académico destacado de la MIT Sloan School of Management y Líder de
-                    Operaciones Globales en General Motors, participó en la co-autoría del libro
-                    Product Design and Development (Diseño y desarrollo de producto)
-                    colocándolo como experto en el tema; así como en la co-autoría del libro
-                    <i>Design Structure Matrix Methods and Applications</i> (Métodos y aplicaciones
-                    de la Matriz de la Estructura de Diseño).
+                    Asesor de ejecutivos líderes en sus estrategias de plataforma y ponente en conferencias 
+                    académicas e industriales, es también co-autor del libro <i>Platform Revolution: How 
+                    Networked Markets Are Transforming the Economy--And How to Make Them Work for You </i>
+                    (La revolución de las plataformas: cómo los mercados de redes están transformando 
+                    la economía – y cómo hacer que trabajen para ti). 
                 </div>
             </div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/zcFLF-MKK4M" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/bnG6HDao9j8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -552,79 +502,35 @@
             Tutores expertos
         </div>
         <div class="tutores-expertos-subtitle robotoBo fs18 gris61">
-            Para culminar tu viaje de aprendizaje con éxito cuentas
-            con la asesoría de expertos en Design Thinking en español,
-            quienes te acompañaran y resolverán cualquier duda que tengas:
-            Mauricio Guadarrama, Nasly Galindo y Carlos de la Mora.
+            Para culminar con éxito tu viaje de aprendizaje cuentas con asesoría 
+            en tu idioma por parte de una experta en transformación digital: 
         </div>
         <div class="tutor-container">
-            <div class="tutor-cont tutor-cont-v2">
+            <div class="tutor-cont tutor-cont-v1">
                 <div class="tutor-desc">
                     <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/Mauricio-Guadarrama.jpg" alt="Mauricio Guadarrama">
+                        <img src="../assets/img/jpg/Kalina-Hadzhitodorova.jpg" alt="Kalina-Hadzhitodorova">
                     </div>
                     <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Mauricio Guadarrama</div>
+                        <div class="robotoBo fs20 negro46">Kalina Hadzhitodorova</div>
+                        <div class="robotoRe fs14 negro46">
+                            Conferencista
+                        </div>
                     </div>
                 </div>
                 <hr>
                 <div class="tutor-description robotoRe fs16 negro23">
-                    Líder del curso Design Thinking de Emeritus Institute of Management,
-                    Mauricio se ha destacado como consultor de proyectos de innovación
-                    centrados en el usuario. Ocupó la dirección de Investigación Cualitativa
-                    en la Presidencia de la República Mexicana y en la Fundación BBVA-Bancomer.
+                    Moderadora de Emeritus Institute of Management, Kalina ha destacado como 
+                    consultora estratégica para clientes de industrias diversas, aplicando 
+                    su conocimiento de modelos digitales de plataforma de negocio en áreas 
+                    como venta en línea de bienes raíces, servicios on-demand y comercio electrónico.
                     <br>
                     <br>
-                    Los proyectos en los que Mauricio ha trabajado desde hace más de 11 años
-                    tienen como objetivo temas estratégicos, conocimiento de clientes, estrategia
-                    de marca y diseño de servicios. Los sectores en donde ha enfocado su trabajo
-                    son: finanzas, telecom, energía, consumo masivo, educación y tecnología.
-                </div>
-            </div>
-            <div class="tutor-cont tutor-cont-v2">
-                <div class="tutor-desc">
-                    <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/nasly-galindo.jpg" alt="Nasly Galindo">
-                    </div>
-                    <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Nasly Galindo</div>
-                    </div>
-                </div>
-                <hr>
-                <div class="tutor-description robotoRe fs16 negro23">
-                    Líder del curso Design Thinking de Emeritus Institute of Management, Nasly se ha
-                    especializado como diseñadora de estrategias realizando investigaciones para el
-                    desarrollo de modelos de negocio y estrategias de comunicación.
-                    <br>
-                    <br>
-                    La experiencia de Nasly también incluye la creación de proyectos que vinculan el
-                    diseño, el arte y el impacto social; así como la colaboración en eventos de diseño
-                    de experiencias. Su trayectoria académica ha sido en temas de diseño industrial,
-                    investigación cualitativa y sustentabilidad.
-                </div>
-            </div>
-            <div class="tutor-cont tutor-cont-v2">
-                <div class="tutor-desc">
-                    <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/carlos-de-la-mora.jpg" alt="Carlos de la Mora">
-                    </div>
-                    <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Carlos de la Mora</div>
-                    </div>
-                </div>
-                <hr>
-                <div class="tutor-description robotoRe fs16 negro23">
-                    Líder del curso Design Thinking de Emeritus Institute of Management y Director
-                    Ejecutivo del Urban Land Institute (ULI) en México, Carlos forma parte de proyectos
-                    de promoción y desarrollo desde hace más de 25 años. También ha representado a
-                    empresas globales en las áreas de diseño, arquitectura y planeación, incluyendo
-                    KMD Architects, Nolte Associates y AECOM Design + Planning.
-                    <br>
-                    <br>
-                    Como consultor, Carlos asesora a inversionistas, artistas, arquitectos, ingenieros
-                    y desarrolladores inmobiliarios. Algunos de sus clientes incluyen empresas como
-                    Grupo Aeropuertario del Pacífico (GAP), LEGO Real Estate, Standard Vision, SBE
-                    Group, La Europea y Soho House.
+                    McS en Manejo y Psicología de Medios con enfoque en medios digitales, ha 
+                    dirigido la transformación digital de empresas tradicionales y ha sido 
+                    fundadora, CEO y asesora de startups digitales nativas. También se desempeña 
+                    como conferencista y tiene experiencia internacional en Asia (China y Japón), 
+                    Europa (Bélgica, Francia y Alemania) y Latinoamérica (Brasil, México y Centroamérica). 
                 </div>
             </div>
         </div>
@@ -634,11 +540,11 @@
     <!-- Section no. 8: Certificate  -->
     <div class="con-certificado-container">
         <div class="con-certificado-title fs28 crimsonRe">
-            CON EL CERTIFICADO EN <span class="crimsonBo">DESIGN THINKING APRENDERÁS A:</span>
+            CON EL CERTIFICADO EN <span class="crimsonBo">TRANSFORMACIÓN DIGITAL APRENDERÁS A:</span>
         </div>
         <div class="con-certificado-cont">
             <div class="con-certificado-img">
-                <img src="../assets/img/jpg/aprenderas-a-imagen-DT.jpg" alt="aprenderas-a-imagen">
+                <img src="../assets/img/jpg/aprenderas-a-imagen-PD.jpg" alt="aprenderas-a-imagen">
             </div>
 
             <div class="con-certificado-flex">
@@ -649,8 +555,8 @@
                             1
                         </div>
                         <div class="paso-texto fs16">
-                            Combinar las perspectivas de la mercadotecnia, el diseño y la ingeniería bajo un enfoque
-                            sistemático para el desarrollo innovador de productos y servicios.
+                            Definir las bases para construir un negocio de plataforma a través de los fundamentos de 
+                            la transformación digital. 
                         </div>
                     </div>
                     <div class="paso-cont">
@@ -658,9 +564,8 @@
                             2
                         </div>
                         <div class="paso-texto fs16">
-                            Desarrollar un proceso de diseño centrado en los consumidores, partiendo de sus necesidades
-                            y tomándololos en cuenta en cada una de las etapas de desarrollo y prueba en las que se
-                            basa design thinking.
+                            Comprender cómo los modelos de precios tradicionales se transforman y /o debilitan en el 
+                            contexto de los negocios de plataforma. 
                         </div>
                     </div>
 
@@ -671,8 +576,8 @@
                             3
                         </div>
                         <div class="paso-texto fs16">
-                            Aplicar un proceso innovador de solución de problemas basado en el desarrollo de
-                            habilidades y en la práctica efectiva de la creatividad.
+                            Reconocer las estrategias centradas en la información (data), así como la forma en que 
+                            promueven tecnologías disruptivas. 
                         </div>
                     </div>
                     <div class="paso-cont">
@@ -680,9 +585,8 @@
                             4
                         </div>
                         <div class="paso-texto fs16">
-
-                            Capitalizar los conocimientos que encierran los fracasos, mejores prácticas y grandes
-                            éxitos de marcas en industrias diversas.
+                            Capitalizar las mejores prácticas de empresas de plataforma que han logrado un crecimiento 
+                            rápido y disruptivo. 
                         </div>
                     </div>
                 </div>
@@ -735,8 +639,7 @@
                                         <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;AIRBNB.</p>
                                         <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;APPLE.</p>
                                         <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Habilidades del <i>design thinking.</i>
-                                        </p>
+                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Habilidades del <i>design thinking.</i></p>
                                         <p class="padding-text-modulos">
                                             <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de innovación sistemática de
                                             IDEO.</p>
@@ -1083,10 +986,10 @@
         <div class="tu-viaje-cont">
             <div class="tu-viaje-icon">
                 <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/video-lectures.svg" alt="Clases en video">
+                    <img src="../assets/img/svg/video-lectures.svg" alt="Clases-en-video">
                 </div>
                 <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    62
+                    120
                 </div>
                 <div class="tu-viaje-name robotoBo fs16 gris61">
                     Clases en video
@@ -1094,13 +997,13 @@
             </div>
             <div class="tu-viaje-icon">
                 <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/real-world-applications.svg" alt="Aplicaciones del mundo real">
+                    <img src="../assets/img/svg/tareas.svg" alt="Tareas">
                 </div>
                 <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    4
+                    12
                 </div>
                 <div class="tu-viaje-name robotoBo fs16 gris61">
-                    Aplicaciones del mundo real
+                    Tareas
                 </div>
             </div>
             <div class="tu-viaje-icon">
@@ -1116,10 +1019,10 @@
             </div>
             <div class="tu-viaje-icon">
                 <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/estudios-de-caso.svg" alt="Estudios de caso">
+                    <img src="../assets/img/svg/estudios-de-caso.svg" alt="Estudios-de-caso">
                 </div>
                 <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    4
+                    3
                 </div>
                 <div class="tu-viaje-name robotoBo fs16 gris61">
                     Estudios de caso
@@ -1127,7 +1030,7 @@
             </div>
             <div class="tu-viaje-icon">
                 <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/proyecto-final.svg" alt="Proyecto final">
+                    <img src="../assets/img/svg/proyecto-final.svg" alt="Proyecto-final">
                 </div>
                 <div class="tu-viaje-numero robotoBo fs24 gris6E">
                     1
@@ -1199,12 +1102,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex2" rel="modal:open">
                 <div>
-                    <img src="../assets/img/png/certificado2.png" alt="Certificado">
+                    <img src="../assets/img/png/certificado4.png" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex2" class="modal modal-certificado">
-                <img src="../assets/img/jpg/big-certificate-2.jpg" alt="Certificado">
+                <img src="../assets/img/jpg/big-certificate-4.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title crimsonBo fs24 blanco">
@@ -1217,8 +1120,7 @@
                     Emeritus y la MIT Sloan School of Management.
                 </div>
                 <div class="certificado-button">
-                    <a class="robotoRe fs16 blanco" href="http://bit.ly/2JFFnEa" target="_blank"
-                        rel="noopener noreferrer">
+                    <a class="robotoRe fs16 blanco" href="http://bit.ly/2PeMK8K" target="_blank" rel="noopener noreferrer">
                         Inscríbete
                     </a>
                 </div>
@@ -1299,7 +1201,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> 
             <div class="cont-slide">
                 <div class="slide">
                     <div class="icn-comillas">
@@ -1365,7 +1267,7 @@
         </div>
     </div>
 
-
+    
     <!-- Section no. 15: Colaboration -->
     <div class="colaboracion-container">
         <div class="colaboracion-flex" style="justify-content: space-between;max-width: 800px;">
@@ -1384,9 +1286,8 @@
                 </div>
                 <div class="colaboracion-info-descripcion fs16 robotoRe">
                     Si quieres más información acerca de la colaboración entre MIT Sloan School of Management y
-                    EMERITUS Institute of Management para este curso, <a class="rosaD8 robotoBo"
-                        href="https://executive.mit.edu/article/emeritus-institute-of-management" target="_blank">da
-                        clic aquí</a>
+                    EMERITUS Institute of Management para este curso, <a class="rosaD8 robotoBo" href="https://executive.mit.edu/article/emeritus-institute-of-management"
+                        target="_blank">da clic aquí</a>
                 </div>
             </div>
         </div>
@@ -1425,12 +1326,10 @@
             | Periodo: del 29 de marzo del 2018 al 28 de marzo de 2022
         </div>
         <div class="terminos-politicas-container rosa75">
-            <a class="fs12 rosa75 robotoRe" href="https://latam.emeritus.org/terminos-de-servicio.php"
-                target="_blank">Términos
+            <a class="fs12 rosa75 robotoRe" href="https://latam.emeritus.org/terminos-de-servicio.php" target="_blank">Términos
                 de servicio</a>
             |
-            <a class="fs12 rosa75 robotoRe" href="https://latam.emeritus.org/politica-de-privacidad.php"
-                target="_blank">Política
+            <a class="fs12 rosa75 robotoRe" href="https://latam.emeritus.org/politica-de-privacidad.php" target="_blank">Política
                 de privacidad</a>
         </div>
     </div>
@@ -1468,8 +1367,7 @@
 
 
     <!-- Populating the countrie, using a function in Countries Script added at the top of this file. -->
-    <script type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js">
-    </script>
+    <script type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/countries-latam-update.js"></script>
     <script type="text/javascript">
         populateCountries("country");
     </script>

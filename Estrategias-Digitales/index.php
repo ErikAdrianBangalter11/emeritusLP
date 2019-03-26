@@ -24,7 +24,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Estrategias Digitales </title>
+    <title>Estrategias Digitales | Innovación empresarial y nuevos modelos de negocio</title>
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/emfavicon.png" />
 
 
@@ -38,13 +38,13 @@
     <script type="text/javascript" src="../assets/libs/slick/slick.js"></script> <!-- Slick JS -->
     <script src="../assets/js/onkeypress.js"></script> <!-- Input number JS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- AOS Animations Libraries -->
-    <script type="text/javascript" src="https://latam.emeritus.org/programas/../assets/js/countries-latam.js"></script>
+    <script type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/countries-latam.js"></script>
     <!-- Countries Script provided by Ruchira's Team -->
     <script type="text/javascript" src="../assets/js/logs.js"></script>
     <!-- Script for register the UTM parameters in Logs -->
 
     <!-- Styling -->
-    <link rel="stylesheet" href="../assets/scss/stylesheet.css"> <!-- Custom Styling -->
+    <link rel="stylesheet" href="../assets/css/stylesheet.css"> <!-- Custom Styling -->
     <link rel="stylesheet" href="../assets/libs/mdl/material.min.css"> <!-- Material Design -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <!-- Modals -->
@@ -114,10 +114,14 @@
 
     <!-- Section no. 1: Hero Section -->
     <div class="hero-container">
-        <div class="hero-data hero_DT">
+        <div class="hero-data hero_ED">
+        
+            <div class="idioma">
+                <img src="../assets/img/svg/ahora.svg" alt="Ahora-en-español">
+            </div>
             <div class="hero-data-cont">
                 <div class="hero-title">
-                    <div class="MIT-back openRe fs16 blanco">
+                    <div class="CBS-back openRe fs16 blanco">
                         <span class="openBo">NUEVO</span> programa <i>online</i>
                     </div>
                     <div class="robotoRE fs26 blanco">
@@ -135,7 +139,7 @@
             <div class="logo-universidad-title fs12 robotoRe gris6E">
                 <i>En colaboración con</i>
             </div>
-            <img src="../assets/img/svg/MIT-Management-executive-education.svg" alt="MIT">
+            <img src="../assets/img/svg/logo-columbia-business-school-executive-education.svg" alt="Columbia Business School">
         </div>
 
         <div class="precio-container">
@@ -158,12 +162,12 @@
                     <div class="fechas-cont">
                         <div class="fechas">
                             <div class="fecha-title fs14 robotoRe gris6E">Comienza</div>
-                            <div class="fecha fs18 robotoRe negro">11/02/2019</div>
+                            <div class="fecha fs18 robotoRe negro">10/08/2019</div>
                         </div>
 
                         <div class="fechas">
                             <div class="fecha-title fs14 robotoRe gris6E">Termina</div>
-                            <div class="fecha fs18 robotoRe negro">12/04/2019</div>
+                            <div class="fecha fs18 robotoRe negro">26/09/2019</div>
                         </div>
                     </div>
 
@@ -183,7 +187,7 @@
         <div class="logo-universidad-title fs12 robotoRe gris6E">
             <i>En colaboración con</i>
         </div>
-        <img src="../assets/img/svg/MIT-Management-executive-education.svg" alt="MIT">
+        <img src="../assets/img/svg/logo-columbia-business-school-executive-education.svg" alt="Columbia Business School">
     </div>
 
 
@@ -213,48 +217,41 @@
                 <div class="informacion-relevante">
 
                     <div class="relevante-container">
-                        <div class="No-relevante fs44 robotoBo azulBC">
-                            83%
+                        <div class="fs30 robotoRe azulBC">
+                            <div class="desktop">En 2020 <span class="robotoBo fs44">+85%</span></div>
+                            <div class="No-relevante movil">En 2020 <br><span class="robotoBo fs44">+85%</span></div>
                         </div>
                         <div class="desc fs20 robotoBo cafe6C">
-                            impulsadas por el diseño han duplicado su participación de mercado con respecto al promedio
+                            de las comunicaciones entre clientes y marcas se llevará a cabo sin intervenciones humanas.
                         </div>
                         <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: CONSEJO DE DISEÑO DEL REINO UNIDO.
+                            FUENTE: GARTNER, 2018.
                         </div>
                     </div> <!-- relevante-container -->
 
                     <div class="relevante-container">
                         <div class="fs44 rosa75">
-                            <div class="No-relevante robotoBo desktop">40% <span class="robotoRe fs30">de los productos</span></div>
-                            <div class="No-relevante robotoBo movil">40% <span class="robotoRe fs30">de los productos</span></div>
+                            <div class="No-relevante robotoBo">25%</div>
                         </div>
                         <div class="desc fs20 robotoBo cafe6C">
-                            fracasan por no llegar al mercado. De los productos que sí llegan, 40% son retirados por
-                            falta de rentabildad.
+                            de la economía mundial será digital en 2020.
                         </div>
                         <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: M. RAYNOR DIRECTOR DE DELOITTE Y C. CHRISTENSEN: HARVARD BUSINESS SCHOOL, #1 EN
-                            THINKERS SO.
+                            FUENTE: ÍNDICE DEL VALOR ECONÓMICO DIGITAL.
                         </div>
                     </div><!-- relevante-container -->
 
                     <div class="relevante-container">
-                        <div class="fs44 azulBC">
-                            <div class="No-relevante robotoBo desktop">2/3 partes <span class="robotoRe fs30">del
-                                    esfuerzo</span></div>
-                            <div class="No-relevante robotoBo movil">2/3 partes <span class="robotoRe fs30">del
-                                    esfuerzo</span></div>
+                        <div class="fs30 robotoRe azulBC">
+                            <div class="desktop">Para el año <span class="robotoBo fs44">2021,</span></div>
+                            <div class="N-relevanteo movil">Para el año <br><span class="robotoBo fs44">2021,</span></div>
                         </div>
-
                         <div class="desc fs20 robotoBo cafe6C">
-                            y recursos de las comunicaciones entre marcas y clientes se llevará a cabo sin
-                            intervenciones humanas.
+                            las marcas pioneras que rediseñen sus sitios web para respaldar la búsqueda 
+                            visual y de voz aumentarán los ingresos del ecommerce en un 30%.
                         </div>
-
                         <div class="fuente fs14 robotoRe gris6E">
-                            FUENTE: M. RAYNOR DIRECTOR DE DELOITTE Y C. CHRISTENSEN: HARVARD BUSINESS SCHOOL, #1 EN
-                            THINKERS SO.
+                            FUENTE: GARTNER, 2018.
                         </div>
                     </div> <!-- relevante-container -->
 
@@ -263,13 +260,13 @@
         </div> <!-- informacion-container -->
 
         <!--
-            This is the form container with action: 'https://www2.emeritus.org/l/134351/2018-07-05/3zgtr6'
+            This is the form container with action: 'https://www2.emeritus.org/l/134351/2018-08-12/43bb5v'
             This action (webservice) was provided by Ruchira's team. Each of the landing pages has a different endpoint in the action param.
         -->
         <div class="fomulario-container">
             <div class="form" id="form">
                 <div class="form-title robotoBo fs18 blanco">Obtén información del programa</div>
-                <form class="form-cont" method="POST" action="https://www2.emeritus.org/l/134351/2018-07-05/3zgtr6">
+                <form class="form-cont" method="POST" action="https://www2.emeritus.org/l/134351/2018-08-12/43bb5v">
 
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                         <input class="robotoRe mdl-textfield__input" type="text" id="first_name" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+"
@@ -325,7 +322,7 @@
                         <input type="hidden" name="browser" id="browser" value="">
                         <input type="hidden" name="course" id="course" value="Marketing Digital">
                         <!--This value is different in each in the pages-->
-                        <input type="hidden" name="retURL" value="https://latam.emeritus.org/programas/Thank-you-page-MD.php?<?php echo $queryString; ?>">
+                        <input type="hidden" name="retURL" value="https://latam.emeritus.org/programas/Thank-you-page-ED.php?<?php echo $queryString; ?>">
                         <button class="robotoRe fs18 blanco" type="submit">
                             Descarga el folleto
                             <img src="../assets/img/svg/icon-descargar.svg" alt="Download">
@@ -357,7 +354,8 @@
                     <span class="openBo">opciones flexibles de pago. </span>
                 </div>
                 <a class="fs20 rosa51 openBo" href="#ex1" rel="modal:open">
-                    Obtén más información aquí
+                    <!-- Obtén más información aquí -->
+                    Proximamente...
                 </a>
             </div>
         </div> <!-- fomulario-container -->
@@ -367,7 +365,7 @@
 
 
     <!-- Section no. 4: Flexible payments modal container -->
-    <div id="ex1" class="modal modal-pagos-flexibles">
+    <div id="ex1-not" class="modal modal-pagos-flexibles">
         <div class="modal-pagos-title fs20 openBo negro28">
             Plan de pagos flexibles
         </div>
@@ -426,7 +424,7 @@
         <div class="el-certificado-title crimsonRe fs24 negro28">
             EL CERTIFICADO EN
             <span class="crimsonBo">
-                DESIGN THINKING ES PARA TI SI:
+                ESTRATEGIAS DIGITALES ES PARA TI SI:
             </span>
         </div>
         <div class="el-certificado-img">
@@ -435,26 +433,18 @@
         </div>
         <div class="el-certificado-requisitos-cont">
             <div class="requisito fs16 robotoRe negro">
-                Necesitas solucionar problemas de forma creativa.
-                Con este enfoque no solo diseñas productos y
-                servicios, sino que aprendes a enfrentar nuevos
-                retos y aprovechar oportunidades coyunturales.
+                Eres un profesional de mercadotecnia, ventas o tienes tu 
+                propio negocio y necesitas integrar una estrategia digital 
+                como parte fundamental de tu plan y modelo de negocio. 
             </div>
             <div class="requisito fs16 robotoRe negro">
-                Buscas nuevas metodologías que te permitan profundizar
-                en las necesidades y comportamiento de los usuarios
-                para ofrecerles soluciones novedosas.
+                Eres emprendedor y necesitas claves estratégicas para 
+                desarrollar o competir con modelos de negocio disruptivos. 
             </div>
             <div class="requisito fs16 robotoRe negro">
-                Necesitas complementar tus conocimientos para mantenerte
-                vigente y crecer en tu campo profesional, o generar y
-                evaluar nuevos conceptos de productos y/o servicios.
-            </div>
-            <div class="requisito fs16 robotoRe negro">
-                Eres emprendedor y quieres impulsar el crecimiento de
-                tu negocio empleando la gestión de innovación para
-                diseñar productos y servicios y crear experiencias
-                nuevas para tus consumidores.
+                Por tus responsabilidades debes ampliar tus conocimientos 
+                del mundo digital para implementar estrategias efectivas 
+                en los mercados digitales. 
             </div>
         </div>
     </div>
@@ -469,37 +459,29 @@
             <div class="profesor-desc">
                 <div class="profesor-desc-cont">
                     <div class="profesor-img">
-                        <img class="MIT-bord" src="../assets/img/jpg/steven-eppinger.jpg" alt="Steve Eppinger">
+                        <img class="CBS-bord" src="../assets/img/jpg/rogers250x250.jpg" alt="David Rogers">
                     </div>
                     <div class="profesor-data">
                         <div class="robotoRe fs16 negro46">Autor y profesor titular</div>
-                        <div class="robotoBo fs18 negro46">Steve Eppinger</div>
-                        <div class="robotoRe fs16 vino38"> <i> MIT Sloan School of Management </i> </div>
+                        <div class="robotoBo fs18 negro46">David Rogers</div>
+                        <div class="robotoRe fs16 azulC4"><i>Columbia Business School</i></div>
                     </div>
                 </div>
                 <div class="profesor-description robotoRe fs14 negro46">
-                    Experto mundialmente reconocido por su experiencia en las áreas de
-                    desarrollo de productos y gestión de proyectos técnicos, <span class="robotoBo">Steve Eppinger es
-                        pionero de la metodología DSM – Design Structure Matrix (Matriz de la
-                        Estructura de Diseño</span>), empleada para la administración y manejo de
-                    sistemas complejos.
-                    <br>
-                    <br>
-                    Académico destacado de la MIT Sloan School of Management y Líder de
-                    Operaciones Globales en General Motors, participó en la co-autoría del libro
-                    Product Design and Development (Diseño y desarrollo de producto)
-                    colocándolo como experto en el tema; así como en la co-autoría del libro
-                    <i>Design Structure Matrix Methods and Applications</i> (Métodos y aplicaciones
-                    de la Matriz de la Estructura de Diseño).
+                Experto mundialmente reconocido por su conocimiento en materia de marcas y estrategias de 
+                negocios digitales, <span class="robotoBo">David Rogers es el creador del modelo pionero 
+                de redes de clientes.</span>
+                <br>
+                <br>
+                Académico destacado de la Columbia Business School, ha escrito varios libros sobre el tema, 
+                entre los que destacan <i>The Network Is Your Customer</i> (La red es tu cliente) y el recientemente
+                publicado <i>The Digital Transformation Playbook: Rethink Your Business to Adapt and Thrive in 
+                the Digital Age</i> (Manual de estrategias para la transformación digital: Repensar el negocio 
+                para adaptar y prevalecer en la era digital). 
                 </div>
             </div>
-            <div class="profesor-media desktop">
-                <iframe width="600" height="350" src="https://www.youtube.com/embed/zcFLF-MKK4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="profesor-media movil">
-                <iframe width="360" height="350" src="https://www.youtube.com/embed/zcFLF-MKK4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <div class="video-container">
+                <iframe  src="https://www.youtube.com/embed/K9LXA3qBl6s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -511,79 +493,35 @@
             Tutores expertos
         </div>
         <div class="tutores-expertos-subtitle robotoBo fs18 gris61">
-            Para culminar tu viaje de aprendizaje con éxito cuentas
-            con la asesoría de expertos en Design Thinking en español,
-            quienes te acompañaran y resolverán cualquier duda que tengas:
-            Mauricio Guadarrama, Nasly Galindo y Carlos de la Mora.
+            Para culminar tu viaje de aprendizaje con éxito cuentas con 
+            la asesoría de una experta en Estrategias Digitales en español: 
         </div>
         <div class="tutor-container">
-            <div class="tutor-cont tutor-cont-v2">
+            <div class="tutor-cont tutor-cont-v1">
                 <div class="tutor-desc">
                     <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/Mauricio-Guadarrama.jpg" alt="Mauricio Guadarrama">
+                        <img src="../assets/img/jpg/Kalina-Hadzhitodorova.jpg" alt="Kalina-Hadzhitodorova">
                     </div>
                     <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Mauricio Guadarrama</div>
+                        <div class="robotoBo fs20 negro46">Kalina Hadzhitodorova</div>
+                        <div class="robotoRe fs14 negro46">
+                            Conferencista
+                        </div>
                     </div>
                 </div>
                 <hr>
                 <div class="tutor-description robotoRe fs16 negro23">
-                    Líder del curso Design Thinking de Emeritus Institute of Management,
-                    Mauricio se ha destacado como consultor de proyectos de innovación
-                    centrados en el usuario. Ocupó la dirección de Investigación Cualitativa
-                    en la Presidencia de la República Mexicana y en la Fundación BBVA-Bancomer.
+                    Moderadora de Emeritus Institute of Management, Kalina ha destacado como 
+                    consultora estratégica para clientes de industrias diversas, aplicando 
+                    su conocimiento de modelos digitales de plataforma de negocio en áreas 
+                    como venta en línea de bienes raíces, servicios on-demand y comercio electrónico.
                     <br>
                     <br>
-                    Los proyectos en los que Mauricio ha trabajado desde hace más de 11 años
-                    tienen como objetivo temas estratégicos, conocimiento de clientes, estrategia
-                    de marca y diseño de servicios. Los sectores en donde ha enfocado su trabajo
-                    son: finanzas, telecom, energía, consumo masivo, educación y tecnología.
-                </div>
-            </div>
-            <div class="tutor-cont tutor-cont-v2">
-                <div class="tutor-desc">
-                    <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/nasly-galindo.jpg" alt="Nasly Galindo">
-                    </div>
-                    <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Nasly Galindo</div>
-                    </div>
-                </div>
-                <hr>
-                <div class="tutor-description robotoRe fs16 negro23">
-                    Líder del curso Design Thinking de Emeritus Institute of Management, Nasly se ha
-                    especializado como diseñadora de estrategias realizando investigaciones para el
-                    desarrollo de modelos de negocio y estrategias de comunicación.
-                    <br>
-                    <br>
-                    La experiencia de Nasly también incluye la creación de proyectos que vinculan el
-                    diseño, el arte y el impacto social; así como la colaboración en eventos de diseño
-                    de experiencias. Su trayectoria académica ha sido en temas de diseño industrial,
-                    investigación cualitativa y sustentabilidad.
-                </div>
-            </div>
-            <div class="tutor-cont tutor-cont-v2">
-                <div class="tutor-desc">
-                    <div class="tutor-imagen">
-                        <img src="../assets/img/jpg/carlos-de-la-mora.jpg" alt="Carlos de la Mora">
-                    </div>
-                    <div class="tutor-data">
-                        <div class="robotoBo fs20 negro46">Carlos de la Mora</div>
-                    </div>
-                </div>
-                <hr>
-                <div class="tutor-description robotoRe fs16 negro23">
-                    Líder del curso Design Thinking de Emeritus Institute of Management y Director
-                    Ejecutivo del Urban Land Institute (ULI) en México, Carlos forma parte de proyectos
-                    de promoción y desarrollo desde hace más de 25 años. También ha representado a
-                    empresas globales en las áreas de diseño, arquitectura y planeación, incluyendo
-                    KMD Architects, Nolte Associates y AECOM Design + Planning.
-                    <br>
-                    <br>
-                    Como consultor, Carlos asesora a inversionistas, artistas, arquitectos, ingenieros
-                    y desarrolladores inmobiliarios. Algunos de sus clientes incluyen empresas como
-                    Grupo Aeropuertario del Pacífico (GAP), LEGO Real Estate, Standard Vision, SBE
-                    Group, La Europea y Soho House.
+                    McS en Manejo y Psicología de Medios con enfoque en medios digitales, ha 
+                    dirigido la transformación digital de empresas tradicionales y ha sido 
+                    fundadora, CEO y asesora de startups digitales nativas. También se desempeña 
+                    como conferencista y tiene experiencia internacional en Asia (China y Japón), 
+                    Europa (Bélgica, Francia y Alemania) y Latinoamérica (Brasil, México y Centroamérica). 
                 </div>
             </div>
         </div>
@@ -593,11 +531,11 @@
     <!-- Section no. 8: Certificate  -->
     <div class="con-certificado-container">
         <div class="con-certificado-title fs28 crimsonRe">
-            CON EL CERTIFICADO EN <span class="crimsonBo">DESIGN THINKING APRENDERÁS A:</span>
+            CON EL CERTIFICADO EN <span class="crimsonBo">ESTRATEGIAS DIGITALES APRENDERÁS A:</span>
         </div>
         <div class="con-certificado-cont">
             <div class="con-certificado-img">
-                <img src="../assets/img/jpg/aprenderas-a-imagen-DT.jpg" alt="aprenderas-a-imagen">
+                <img src="../assets/img/jpg/aprenderas-a-imagen-ED.jpg" alt="aprenderas-a-imagen">
             </div>
 
             <div class="con-certificado-flex">
@@ -608,8 +546,8 @@
                             1
                         </div>
                         <div class="paso-texto fs16">
-                            Combinar las perspectivas de la mercadotecnia, el diseño y la ingeniería bajo un enfoque
-                            sistemático para el desarrollo innovador de productos y servicios.
+                            Plantear estrategias y modelos de negocio que exploten las posibilidades de la 
+                            era digital para generar valor para tus clientes y oportunidades para tu negocio. 
                         </div>
                     </div>
                     <div class="paso-cont">
@@ -617,9 +555,8 @@
                             2
                         </div>
                         <div class="paso-texto fs16">
-                            Desarrollar un proceso de diseño centrado en los consumidores, partiendo de sus necesidades
-                            y tomándololos en cuenta en cada una de las etapas de desarrollo y prueba en las que se
-                            basa design thinking.
+                            Comprender el comportamiento de los clientes a nivel digital y sus implicaciones 
+                            para tu modelo de negocio. 
                         </div>
                     </div>
 
@@ -630,8 +567,8 @@
                             3
                         </div>
                         <div class="paso-texto fs16">
-                            Aplicar un proceso innovador de solución de problemas basado en el desarrollo de
-                            habilidades y en la práctica efectiva de la creatividad.
+                            Analizar nuevas plataformas de negocio y cómo están replanteando la competitividad 
+                            a escala global. 
                         </div>
                     </div>
                     <div class="paso-cont">
@@ -639,9 +576,7 @@
                             4
                         </div>
                         <div class="paso-texto fs16">
-
-                            Capitalizar los conocimientos que encierran los fracasos, mejores prácticas y grandes
-                            éxitos de marcas en industrias diversas.
+                            Desarrollar y utilizar Big Data como un activo estratégico a nivel empresarial. 
                         </div>
                     </div>
                 </div>
@@ -660,19 +595,24 @@
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 1</div>
-                        <div class="module-title robotoRe negro23">Habilidades del <i>Design Thinking.</i></div>
+                        <div class="module-title robotoRe negro23">Los cinco dominios de la transformación digital: marco holístico</div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
                         <p>
                             <p>
                                 <div class="robotoBo">
-                                    <br>Trabajo previo
+                                    <br>Trabajo previo 
                                 </div>
                             </p>
                             <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Leer: Design Thinking de Tim Brown (Harvard
-                                Business Review)</p>
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                                Qué tan preparado estás para la revolución digital – Encuesta de autoevaluación Lecturas previas sobre – "La red es tu cliente".
+                            </p>
+                            <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                                Lectura previa – "Cómo se califican las ciudades".
+                            </p>
                             <p>
                                 <p>
                                     <div class="robotoBo">
@@ -680,49 +620,28 @@
                                     </div>
                                 </p>
                                 <p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres retos de la innovación</p>
-                                    <p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Deseabilidad de las
-                                            personas.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Viabilidad del negocio.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Factibilidad técnica.</p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplos de los tres retos de la
-                                            innovación:</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;NEST.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;AIRBNB.</p>
-                                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;APPLE.</p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Habilidades del <i>design thinking.</i></p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de innovación sistemática de
-                                            IDEO.</p>
-                                        <p class="padding-text-modulos">
-                                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cómo clasificar las ideas</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco dominios de la transformación digital – Introducción – Parte 1.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco dominios de la transformación digital – Introducción – Parte 2.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco dominios de la transformación digital.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Clientes – Ejemplo de la Academia Khan.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Competencia – Coopetencia (Co-opetition), desintermediación y competidores asimétricos.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Datos – Ejemplo de Weather.com.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Innovación – Ejemplo de JC Penny.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Innovación – Ejemplo intuitivo de los agricultores indios.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Valor – Ejemplo del Museo Metropolitano de Arte.</p>
                                         <div class="robotoBo">
                                             <br>Aplicación
                                         </div>
                                     </p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Torneo en línea – Presentar DOS
-                                        oportunidades de producto, servicio o software. Implementar cuatro elementos de
-                                        liderazgo.
-                                    </p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Aplicar el modelo de los tres retos de la
-                                        innovación para evaluar los productos/servicios de tu propio negocio.
-                                    </p>
-                                    <p class="padding-text-modulos">
-                                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Clasifica 40 de las oportunidades
-                                        presentadas.
+                                    <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>
+                                        Tarea individual – ¿Cuáles son las fortalezas y debilidades de tu empresa, tu industria o la industria en la que deseas trabajar?.
                                     </p>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 2</div>
-                        <div class="module-title robotoRe negro23">Identificando necesidades del cliente.</div>
+                        <div class="module-title robotoRe negro23">Redes de clientes y la nueva ruta de compra.</div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
@@ -732,48 +651,47 @@
                             </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de desarrollo de productos.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Proceso de desarrollo de productos.
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de desarrollo de conceptos.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Ejemplo de Life Church.
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Aplicación de la innovación para el usuario</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Paradigma de la red de clientes – Mercado masivo vs. modelo de red de clientes.
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Necesidades de los clientes y mercados.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Reconsiderar el embudo de mercadotecnia.
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplo de usuarios propensos a innovar (lead users) –
-                            estudio de iluminación.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Trazar el mapa del “Camino hacia la compra”.
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Pasos del proceso de análisis de las necesidades de
-                            los clientes – NEST.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Amenaza del multicanal para los minoristas – Parte 1 – Salón de exposiciones.
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco guías para escribir los enunciados de
-                            necesidades.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Amenaza del multicanal para los minoristas – Parte 2 – Ejemplo de Wal-Mart (omnicanal).    
+                        </p>
                         <div class="robotoBo">
                             <br>Aplicación:
                         </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real: Ejercicio de las
-                            necesidades de los clientes—determinar necesidades latentes y no satisfechas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Encontrar (en casa o en la oficina) un ejemplo de un
-                            producto innovador. Subir una foto y explicar por qué la eligieron.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real: Seleccionar las ideas
-                            mejor calificadas por el equipo y trabajar en lo siguiente:</p>
-                        </br>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Evaluación de oportunidades y desarrollo
-                            de conceptos.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Identificar necesidades para su idea de
-                            proyecto.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Recibir las revisiones de los otros
-                            miembros del equipo.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Tarea grupal – Desarrollar una iniciativa innovadora para los clientes con base en la estructura aprendida.
+                        </p>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 3</div>
-                        <div class="module-title robotoRe negro23">Creatividad aplicada.</div>
+                        <div class="module-title robotoRe negro23">Entendiendo el comportamiento de los consumidores digitales.</div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
@@ -784,25 +702,22 @@
                         </p>
                         <p class="padding-text-modulos">
                             <strong>• &nbsp;&nbsp;&nbsp;</strong>Invención, innovación y creatividad.</p>
+                            <p class="padding-text-modulos-1">
+                                <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia de compromiso.
+                            </p>
+                            <p class="padding-text-modulos-1">
+                                <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia de compromiso - Parte 1.
+                            </p>
                         <p class="padding-text-modulos">
                             <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplo: auto conceptual YCC.</p>
+                            <p class="padding-text-modulos-1">
+                                <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia a la medida - Parte 1.
+                            </p>
+                            <p class="padding-text-modulos-1">
+                                <strong>- &nbsp;&nbsp;&nbsp;</strong>Estrategia a la medida - Parte 2.
+                            </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Grandes ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Reglas comunes para la lluvia de ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Investigación sobre lluvia de ideas y creatividad.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Bosquejos de conceptos y modelado de los bosquejos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proceso de generación de conceptos.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Búsqueda externa e interna – lluvia de ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Generación de conceptos – ejemplo de combinación de
-                            ideas.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Concepto de selección restringida .</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Estrategia de colaboración.</p>
                         <div class="robotoBo">
                             <br>Aplicación:
                         </div>
@@ -818,7 +733,8 @@
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 4</div>
                         <div class="module-title robotoRe negro23">
-                            Diseño de servicios.</div>
+                            Modelos de plataformas de negocios. 
+                        </div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
@@ -828,38 +744,40 @@
                             </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>La diferencia entre bienes y servicios.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Innovación de servicios en Bank of America.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ciclos de experiencia de servicios.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplos de ciclos de experiencia de servicios:</p>
-                        </br>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Ejemplo de la sala de cine.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Zipcar.</p>
-
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción y surgimiento de plataformas.</p> 
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Qué es una plataforma?.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro tipos de plataformas.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Plataformas – Antes y ahora.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El poder de los efectos en red.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro ventajas de las plataformas.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Herramienta – Mapa del modelo de negocios de las plataformas.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cómo compiten las plataformas – Parte 1.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cómo compiten las plataformas – Parte 2.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Preguntas estratégicas para las plataformas.</p>
+                        <br>
                         <div class="robotoBo">
                             <br> Aplicación
                         </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Descomponer el ejemplo de la sala de cine.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real:</p>
-                        </br>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Análisis y desarrollo de conceptos.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Trazar un plan del ciclo de experiencia
-                            del cliente para su idea de proyecto.</p>
-                        <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Pensar en oportunidades de innovación
-                            surgidas de ese ciclo.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea individual: Trazar un plan del modelo de negocios de las plataformas.</p>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 5</div>
                         <div class="module-title robotoRe negro23">
-                            Análisis financiero. </div>
+                            Coopetición (colaboración entre competidores), desintermediación y competidores asimétricos.
+                        </div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
@@ -871,57 +789,376 @@
                         <p>
                             <p class="padding-text-modulos">
                                 <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la estrategia de compromiso.</p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Experimento mental y flujo de efectivo del
-                                desarrollo de productos.</p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Mercadotecnia financiera del proyecto de
-                                desarrollo de productoss.</p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Valor actual neto (NPV) y ejemplo de Nespresso.</p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Ejemplo de Nespresso: </p>
-                            </br>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Número de máquinas y cápsulas.</p>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Incertidumbre del modelo.</p>
-                            <p class="padding-text-modulos">
-                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Modelaje en hoja de cálculo – ¿cuánto más
-                                necesitamos vender para recuperar el programa de reciclamiento? </p>
-                            </br>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Poner varios de los peores casos y ver
-                                qué le pasa al NPV.</p>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Poner varios de los mejores casos y
-                                ver qué le pasa al NPV.</p>
-                            <p class="padding-text-modulos-1">o&nbsp;&nbsp;&nbsp;Rendir un informe de las anteriores
-                                discusiones.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Coopetencia (Co-opetition).</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Herramienta – Capacitación de valor competitivo.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Herramienta – Capacitación de valor competitivo – Desintermediación e intermediación.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Dos reglas de poder en capacitaciones de poder.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Cambios en los supuestos estratégicos. </p>
                             <div class="robotoBo">
                                 <br>Aplicación
                             </div>
                         </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Analizar el caso de Nespresso desde una perspectiva
-                            financiera. Ejercicio: Enumerar 5 razones por las cuales las firmas pueden elegir ir tras
-                            un producto incluso si el análisis revela un NPV negativo.</p>
-                        <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Proyecto grupal del mundo real: Completar el factoraje
-                            del reporte conforme a cualquier análisis financiero adicional que hayan aprendido.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea individual: Delinea una capacitación de valor competitivo.</p>
                     </div>
                 </li>
                 <li class="active modulo-cont">
                     <div class="collapsible-header robotoBo fs16">
                         <div class="No negro46">Módulo 6</div>
                         <div class="module-title robotoRe negro23">
-                            Revisiones del proyecto entre pares del proyecto y cierre del curso.</div>
+                            Convirtiendo los datos en un activo estratégico del negocio.
+                        </div>
                         <div class="collapsible-header-img"></div>
                     </div>
                     <div class="collapsible-body">
 
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción + datos como activo estratégico – Parte 1 – Google Maps/ Apple Maps.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Datos como un activo estratégico clave – Parte 2 – Nokia, The Weather Company.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Todos los negocios necesitan una estrategia de datos .</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Estudio de caso: Coca-Cola.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Estudio de caso: British Airways.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Estudio de caso: The New York Times.</p>
+                            <div class="robotoBo">
+                                <br>Aplicación
+                            </div>
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la economía del desarrollo de
-                            productos.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea individual: Autorreflexión – ¿Tu negocio está utilizando datos como un activo estratégico?, ¿Dónde puede mejorar?.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 7</div>
+                        <div class="module-title robotoRe negro23">
+                            Big Data en acción: Datos nuevos, herramientas nuevas y formularios de valor.
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <p>
+                                <p>
+                                    <div class="robotoBo">
+                                        <br>Estructura
+                                    </div>
+                                </p>
+                                <p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Big Data.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Nuevas fuentes de datos no estructurados.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Herramientas para datos no estructurados.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Disponibilidad de las herramientas.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro plantillas de valor – Conocimiento.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro plantillas de valor – Focalización.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro plantillas de valor – Personalización.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro plantillas de valor – Contexto.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Tres mitos del Big Data – Mito 1.</p>
+                                        <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>Tres mitos del Big Data – Mito 2 y 3.</p>
+                                        <div class="robotoBo">
+                                            <br>Aplicación
+                                        </div>
+                                    </p>
+                                    <p class="padding-text-modulos"><strong>• &nbsp;&nbsp;&nbsp;</strong>
+                                        Tarea grupal: Aplicar las cuatro plantillas de valor de los datos: Elegir una empresa y determinar cuál de las cuatro plantillas usar para generar más valor con nuevos datos.
+                                    </p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 8</div>
+                        <div class="module-title robotoRe negro23">Innovación a través de la experimentación: Prueba AB y productos mínimamente viables.</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
                         <p class="padding-text-modulos">
-                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Experimento mental y flujo de efectivo del desarrollo
-                            de productos.</p>
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Dos clases de experimentos.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete principios de la experimentación – 1. Aprende pronto.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete principios de la experimentación – 2. Sé rápido y reiterativo.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete principios de la experimentación – 3. Enamórate del problema, no de la solución.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete principios de la experimentación – 4. Obtén retroalimentación creíble.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete principios de la experimentación – 5. Mide lo que importa ahora.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete principios de la experimentación – 6. Pon a prueba tus supuestos.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Siete principios de la experimentación – 7. Fracasa con inteligencia.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El método experimental convergente.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El método experimental convergente – Experimentos de Petco y Obama.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuándo usar experimentos convergentes.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El método experimental divergente.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El método experimental divergente – Establecer límites y más de una solución.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>El método experimental divergente – MPV – Mínimo pProducto (o prototipo) vViable.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Las 4 “P”: Decisiones reiterativas en innovación empresarial.</p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuándo usar experimentos divergentes.</p>
+                        <div class="robotoBo">
+                            <br>Aplicación:
+                        </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>
+                            Tarea grupal: Cómo diseñarían un experimento para aprender el mejor camino con un escenario determinado.
+                        </p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 9</div>
+                        <div class="module-title robotoRe negro23">Traducir la estrategia de Lean Startup en innovación a escala empresarial.</div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Invención, innovación y creatividad.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción + cuatro caminos para ampliar una innovación</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro caminos – Camino 1 – Presentación del MVP</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro caminos – Camino 2 – Lanzamiento del MVP</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro caminos – Camino 3 – Presentación afinada</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Cuatro caminos – Camino 4 – Lanzamiento afinado</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Elegir el camino equivocado – El ejemplo de Google Glass</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Retos organizacionales – Parte 1 – Liderazgo y quién experimenta</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Retos organizacionales – Parte 2 – Crear una prueba y adquirir cultura</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Retos organizacionales – Parte 3 – Planear un fracaso</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Retos organizacionales – Parte 4 – Celebrar el fracaso</p>
+                        <div class="robotoBo">
+                            <br>Aplicación:
+                        </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea individual: Evaluar las barreras a la innovación de la propia empresa.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 10</div>
+                        <div class="module-title robotoRe negro23">                            
+                            Adaptando la propuesta de valor. 
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                <br> Estructura
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Cómo adaptarse a un mercado contraído – Tres rutas para salir de un mercado contraído.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>1ª ruta – Nuevos clientes.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>2ª ruta – Nuevo valor.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>3ª ruta – Nuevos clientes + nuevo valor.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>The New York Times – Adaptación a su propuesta de valor – El problema y el nuevo valor creado.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>The New York Times – Adaptación a su propuesta de valor – Cambios organizacionales y resultados.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Adaptarse antes de que sea forzoso hacerlo.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Cinco conceptos de valor de mercado.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Introducción a la herramienta – Hoja de ruta de la propuesta de valor.</p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Cambios en los supuestos estratégicos: Valor.</p>
+                        <br>
+                        <div class="robotoBo">
+                            <br> Aplicación
+                        </div>
+                        </p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea individual: Evaluar las barreras a la innovación de la propia empresa.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal 1: Identificar tipos de clientes claves por valor recibido.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal 2: Definir el valor actual para cada cliente.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal 3: Identificar amenazas emergentes.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal 4: Evaluar la fortaleza de los actuales elementos de valor.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal 5: Generar nuevos elementos de valor potenciales.</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal 6: Sintetizar una nueva propuesta de valor en prospectiva.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 11</div>
+                        <div class="module-title robotoRe negro23">
+                            Dominando modelos de negocio disruptivos.
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                        <p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Qué es la disrupción? – Parte 1 – Definición.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>¿Qué es la disrupción? – Parte 2 – No todas las innovaciones son disruptivas y la disrupción requiere un titular.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>La disrupción en la era digital.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Teorías de la disrupción – Schumpeter + Christensen.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Teorías de la disrupción – Problemas con la teoría de Christensen.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Una teoría de la disrupción del modelo de negocio.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Dos factores diferenciales de los modelos de negocio disruptivos.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres casos de disrupción del modelo de negocio – iPhone.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres casos de disrupción del modelo de negocio – Netflix.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres casos de disrupción del modelo de negocio – Warby Parker.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Herramienta + resumen.</p>
+                            <div class="robotoBo">
+                                <br>Aplicación
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal: Crear y evaluar un modelo de negocio disruptivo.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 12</div>
+                        <div class="module-title robotoRe negro23">
+                            Sobreviviendo a la disrupción: Seis respuestas que incumben a un reto disruptivo.
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres variables de modelos de negocio disruptivos – Trayectoria del cliente</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres variables de modelos de negocio disruptivos – Alcance</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tres variables de modelos de negocio disruptivos – Múltiples titulares</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Respuesta – El planeador de la respuesta disruptiva</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Seis respuestas – 1. Adquirir al disruptor</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Seis respuestas – 2. Lanzar un disruptor independiente</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Seis respuestas – 3. Dividir el modelo de negocio del disruptor</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Seis respuestas – 4. Reenfocarte en tus clientes defendibles</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Seis respuestas – 5. Diversificar tu portafolio</p>
+                            <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Seis respuestas – 6. Planear para una salida rápida</p>
+                            <div class="robotoBo">
+                                <br>Aplicación
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal: A partir de un escenario dado, analizar la amenaza y planear su respuesta – utilizando como herramienta el planeador de respuesta disruptiva.</p>
+                    </div>
+                </li>
+                <li class="active modulo-cont">
+                    <div class="collapsible-header robotoBo fs16">
+                        <div class="No negro46">Módulo 13</div>
+                        <div class="module-title robotoRe negro23">
+                            Liderazgo y el imperativo de valor para el cliente.
+                        </div>
+                        <div class="collapsible-header-img"></div>
+                    </div>
+                    <div class="collapsible-body">
+                        <p>
+                            <div class="robotoBo">
+                                <br> Trabajo previo
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                        <strong>• &nbsp;&nbsp;&nbsp;</strong>Autoevaluación – ¿Estás preparado para la transformación digital?.</p>
+                        <p>
+                            <div class="robotoBo">
+                                Estructura
+                            </div>
+                        </p>
+                        <p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Tu juego de herramientas para la estrategia.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Cambio organizacional.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Incubación + Integración.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Imperativo del valor del cliente y conclusión del programa.</p>
+                                <p class="padding-text-modulos">
+                                <strong>• &nbsp;&nbsp;&nbsp;</strong>Cierre del curso.</p>
+                            <div class="robotoBo">
+                                <br>Aplicación
+                            </div>
+                        </p>
+                        <p class="padding-text-modulos">
+                            <strong>• &nbsp;&nbsp;&nbsp;</strong>Tarea grupal: Crear y evaluar un modelo de negocio disruptivo.</p>
                     </div>
                 </li>
             </ul>
@@ -930,7 +1167,7 @@
 
 
     <!-- Section no. 10: Benefits -->
-    <div class="beneficios-container">
+    <div class="beneficios-container" style="border-bottom: none!important;">
         <div class="beneficios-title crimsonBo fs32 negro28">Beneficios para el alumno</div>
         <div class="beneficios-cont">
             <div class="beneficio">
@@ -979,7 +1216,7 @@
                     <div class="text-cont">
                         <div class="negro23 fs16">•</div>
                         <div class="text fs16 robotoRe negro23">
-                            Certificado de estudios expedido por Emeritus y la MIT Sloan School of Management.
+                            Certificado de estudios expedido por Emeritus y la Columbia Business School, Executive Education. 
                         </div>
                     </div>
                 </div>
@@ -1044,7 +1281,7 @@
                     <img src="../assets/img/svg/video-lectures.svg" alt="Clases en video">
                 </div>
                 <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    62
+                    120
                 </div>
                 <div class="tu-viaje-name robotoBo fs16 gris61">
                     Clases en video
@@ -1052,13 +1289,13 @@
             </div>
             <div class="tu-viaje-icon">
                 <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/real-world-applications.svg" alt="Aplicaciones del mundo real">
+                    <img src="../assets/img/svg/tareas.svg" alt="Tareas">
                 </div>
                 <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    4
+                    12
                 </div>
                 <div class="tu-viaje-name robotoBo fs16 gris61">
-                    Aplicaciones del mundo real
+                    Tareas
                 </div>
             </div>
             <div class="tu-viaje-icon">
@@ -1077,21 +1314,10 @@
                     <img src="../assets/img/svg/estudios-de-caso.svg" alt="Estudios de caso">
                 </div>
                 <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    4
+                    3
                 </div>
                 <div class="tu-viaje-name robotoBo fs16 gris61">
                     Estudios de caso
-                </div>
-            </div>
-            <div class="tu-viaje-icon">
-                <div class="tu-viaje-img">
-                    <img src="../assets/img/svg/proyecto-final.svg" alt="Proyecto final">
-                </div>
-                <div class="tu-viaje-numero robotoBo fs24 gris6E">
-                    1
-                </div>
-                <div class="tu-viaje-name robotoBo fs16 gris61">
-                    Proyecto final
                 </div>
             </div>
         </div>
@@ -1157,12 +1383,12 @@
             <!-- Link to open the modal -->
             <a class="certificado-img" href="#ex2" rel="modal:open">
                 <div>
-                    <img src="../assets/img/png/certificado2.png" alt="Certificado">
+                    <img src="../assets/img/png/certificado3.png" alt="Certificado">
                 </div>
             </a>
             <!-- Modal HTML embedded directly into document -->
             <div id="ex2" class="modal modal-certificado">
-                <img src="../assets/img/jpg/big-certificate-2.jpg" alt="Certificado">
+                <img src="../assets/img/jpg/big-certificate-3.jpg" alt="Certificado">
             </div>
             <div class="certificado-datos">
                 <div class="certificado-title crimsonBo fs24 blanco">
@@ -1172,7 +1398,7 @@
                     Al concluir satisfactoriamente el programa, los
                     participantes son reconocidos con un certificado
                     oficial de conclusión de estudios respaldado por
-                    Emeritus y la MIT Sloan School of Management.
+                    Emeritus y Columbia Business School.
                 </div>
                 <div class="certificado-button">
                     <a class="robotoRe fs16 blanco" href="http://bit.ly/2ubwV9V" target="_blank" rel="noopener noreferrer">
@@ -1196,17 +1422,17 @@
                         <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
                     </div>
                     <div class="comentario fs16 robotoRe negro23">
-                        El contenido del curso y la colaboración con colegas de todo el mundo fueron una gran
-                        experiencia de aprendizaje.
-                        ¡El resultado al cabo de dos semanas fue extraordinario!
+                        "Las tareas individuales y el carácter reflexivo del curso son las cosas que realmente me 
+                        llevó de esta experiencia. Todos los ejercicios y, particularmente, las discusiones en 
+                        grupo me ayudaron a reflexionar sobre muchos temas que hicieron muy fácil y extremadamente 
+                        valioso el aprendizaje entre colegas."
                     </div>
                     <div class="linea-slide"></div>
                     <div class="nombre fs18 robotoBo negro46">
-                        Andreas Cem Vogt
+                        Steven Janiec
                     </div>
                     <div class="cargo fs14 robotoRe negro46">
-                        Equipo de ventas,
-                        <br>jefe de Procesos de Negocios
+                        Consultor Senior de Estrategia, EY
                     </div>
                     <div class="cont-pais">
                         <img src="../assets/img/svg/world.svg" alt="Mundo">
@@ -1215,7 +1441,7 @@
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="https://de.linkedin.com/in/cemvogt">
+                        <a href="https://www.linkedin.com/in/steven-janiec-69966927/?locale=en_US">
                             <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
                         </a>
                     </div>
@@ -1227,22 +1453,51 @@
                         <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
                     </div>
                     <div class="comentario fs16 robotoRe negro23">
-                        "De lejos, la primera lección fue la lección más importante. Ese marco ha orientado la
-                        dirección de
-                        todo el curso y es absolutamente
-                        fundamental para recordar durante todo el proceso de diseño. Hoy, estoy aprovechando ese marco
-                        en mi
-                        trabajo
-                        para cuestionar la relación valor / innovación que brindamos con nuestros canales de
-                        comercialización".
+                        "Este programa era justo lo que necesitaba. Me preparó con el conocimiento estratégico 
+                        y las herramientas para mis próximas funciones como director de un Laboratorio de 
+                        Transformación Digital para Instituciones Financieras. En general, uno de los cursos 
+                        mejor diseñados que he tomado, con clases muy claras a cargo de David Rogers, junto 
+                        con un contenido y materiales lógicamente estructurados y tareas basadas en preguntas 
+                        clave. La coordinación del programa fue fantástica."
                     </div>
                     <div class="linea-slide"></div>
                     <div class="nombre fs18 robotoBo negro46">
-                        Kevin Ly
+                        Martijn van Rooij
                     </div>
                     <div class="cargo fs14 robotoRe negro46">
-                        Director Asociado de Análisis Comercial,
-                        <br>Bristol Myers Squibb
+                        Director de Fundamental Credit Risk México, Citigroup
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            México
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/martijnvanrooij/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "Las clases del curso fueron excelentes. Las he empleado ampliamente para explorar los temas 
+                        discutidos. Trabajo para un fabricante automotriz de Tier 1 en India, y la penetración de 
+                        lo digital en esta industria es relativamente limitada. Por lo tanto, la exposición que 
+                        obtuve y la forma como se construyen los negocios digitales alrededor del mundo me parecieron 
+                        fascinantes."
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Sudeep Patil
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Director General de Ventas, Greaves Cotton Ltd.
                     </div>
                     <div class="cont-pais">
                         <img src="../assets/img/svg/world.svg" alt="Mundo">
@@ -1251,7 +1506,7 @@
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/kevin-ly-21906b32/">
+                        <a href="https://www.linkedin.com/in/sudeep-patil-a253276b/">
                             <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
                         </a>
                     </div>
@@ -1263,48 +1518,15 @@
                         <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
                     </div>
                     <div class="comentario fs16 robotoRe negro23">
-                        Los ejemplos que se usaron para ilustrar los diferentes aspectos del desarrollo de productos
-                        fueron
-                        extremadamente útiles".
+                        "El plan de estudios, las herramientas y las técnicas que aprendí en este curso han 
+                        sido muy útiles. En general, el curso me brindo una nueva perspectiva de pensamiento."                        
                     </div>
                     <div class="linea-slide"></div>
                     <div class="nombre fs18 robotoBo negro46">
-                        Jenny Brown
+                        Wruta Mayekar
                     </div>
                     <div class="cargo fs14 robotoRe negro46">
-                        Especialista en desarrollo de productos de UX,
-                        <br>Centro de incubación digital.
-                    </div>
-                    <div class="cont-pais">
-                        <img src="../assets/img/svg/world.svg" alt="Mundo">
-                        <div class="pais fs14 robotoRe cafe6C">
-                            Qatar
-                        </div>
-                    </div>
-                    <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/jennyellenbrown/">
-                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="cont-slide">
-                <div class="slide">
-                    <div class="icn-comillas">
-                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
-                    </div>
-                    <div class="comentario fs16 robotoRe negro23">
-                        "Los videos de la facultad, ejemplos reales, estudios de casos y tareas fueron muy útiles
-                        para
-                        proporcionar una mejor comprensión
-                        del pensamiento de diseño".
-                    </div>
-                    <div class="linea-slide"></div>
-                    <div class="nombre fs18 robotoBo negro46">
-                        Ramesh Arora
-                    </div>
-                    <div class="cargo fs14 robotoRe negro46">
-                        Asistente del Gerente General, TATA Power
+                        Directora, Accenture
                     </div>
                     <div class="cont-pais">
                         <img src="../assets/img/svg/world.svg" alt="Mundo">
@@ -1313,7 +1535,248 @@
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="https://www.linkedin.com/in/ramesh-arora-8482ba7/">
+                        <a href="https://www.linkedin.com/in/wrutasarang/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "David Rogers en un conferencista brillante. Mantiene la atención y comparte un enfoque 
+                        estratégico perfecto para la transformación digital. Todo el concepto de la plataforma 
+                        de aprendizaje y el correspondiente soporte son sumamente potentes. También me gustó 
+                        el apoyo muy cordial del equipo del programa."                                               
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Alexis Johann
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Director de Administración, Styria Digital One GmbH
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Austria
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/alexis-johann-6b32343/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "Este curso ha sido muy importante para mí en cuanto a la construcción de la 
+                        estrategia para una nueva empresa digital."                                                                      
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Vlad Bratasanacu
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Socio Director, Capital Development Partners.
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Rumania
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/bratasanu-vlad-6990b928/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "El profesor Rogers ha impartido clases excelentes. Esta experiencia de aprendizaje es verdaderamente 
+                        impresionante. Con el contenido se aseguró que comprendiéramos muy bien todo el ciclo digital. Los 
+                        ejemplos reales de la industria que se usaron para explicar los conceptos fueron muy buenos y me 
+                        ayudaron a descubrir "cómo" se aplicaron realmente."                                                                                             
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Aravind Balasaheb Kolaki
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Consultor, CGI
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            India
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/aravind-kolaki-9156879/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "En mi opinión, la combinación de clases y tareas fue muy eficaz para desarrollar una comprensión 
+                        realmente buena y tangible de los diversos temas digitales. Se aprenden nuevos enfoques estratégicos 
+                        efectivos que, de inmediato, se pueden aplicar para abordar los retos de negocios de la vida real. 
+                        En general, la experiencia de aprendizaje fue fantástica e impresionante."
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Babak Moghrarrab
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Arquitecto de Negocios Senior de ICT, Swisscom
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Suiza
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/babak-mogharrab-8a179ba7/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "No solo aprendí sobre el tema del curso, sino que también adquirí una nueva forma de 
+                        pensar. Considero que mi forma de percibir las cosas ha cambiado mucho. Esto me llevó 
+                        a inscribirme al siguiente curso sobre Marketing Digital. ¡Gracias!."
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Dihim Burkhalter
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Líder de RP, JOSEPH’S Toiletries
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Suiza
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/dihim-burkhalter-0369b22/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "Me gustaron las ideas y estructuras propuestas en el curso. Las tareas individuales 
+                        fueron estimulantes y obtuve una buena retroalimentación."
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Diogo DAlessandro
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Consultor Senior, Bayer
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Brasil
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/diogoduarte/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "¡Muy práctico! He generado tres posibles plataformas para el desarrollo a través de la 
+                        comprensión integral de qué es el marketing digital y las oportunidades que pueden 
+                        identificarse. ¡Fantástico!."
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Glenn Du Toit
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Líder de IOT, Acer Africa
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Sudáfrica
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/glenn-du-toit-2a050134/">
+                            <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cont-slide">
+                <div class="slide">
+                    <div class="icn-comillas">
+                        <img src="../assets/img/svg/quotation-marks.svg" alt="Comillas">
+                    </div>
+                    <div class="comentario fs16 robotoRe negro23">
+                        "Las diversas teorías (sobre innovación, disrupción, value train, etc.), con los ejemplos del mundo 
+                        real que se presentaron en este curso, fueron de un enorme valor. Las clases en video semanales 
+                        resultaron también extremadamente informativas y muy bien producidas."
+                    </div>
+                    <div class="linea-slide"></div>
+                    <div class="nombre fs18 robotoBo negro46">
+                        Isabelle Perreault
+                    </div>
+                    <div class="cargo fs14 robotoRe negro46">
+                        Socia, Transformación Digital, IsabellePerreault.com y Blueprintpr.ca
+                    </div>
+                    <div class="cont-pais">
+                        <img src="../assets/img/svg/world.svg" alt="Mundo">
+                        <div class="pais fs14 robotoRe cafe6C">
+                            Canadá
+                        </div>
+                    </div>
+                    <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/isabelleperreault/">
                             <img src="../assets/img/svg/linkedin.svg" alt="LinkedIn">
                         </a>
                     </div>
@@ -1399,7 +1862,7 @@
     </div>
 
 
-    <!--<script async type="text/javascript" src="https://latam.emeritus.org/programas/../assets/js/gdpr.js"></script>-->
+    <!--<script async type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/gdpr.js"></script>-->
 
 
     <!-- Inline script to control the AOSanimations -->

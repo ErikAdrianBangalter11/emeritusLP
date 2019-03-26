@@ -361,6 +361,14 @@ img {
 }
 
 //
+.TD-back{
+    background-color: #b30838;
+}
+
+.TD-bord{
+    border: 5px solid #b30838;
+}
+
 .CBS-back {
     background-color: #2083BC;
 }
@@ -389,9 +397,30 @@ img {
 
 .hero_DT {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%),
-    url('../img/jpg/main-image-ED.jpg') !important;
-    background-position: 0px 0px, 100% 0px !important;
-    @media only screen and (max-width: 1024px) {}
+    url('../img/jpg/main-image-MIT.jpg') !important;
+    background-size: cover;
+    @media only screen and (max-width: 1024px) {
+    }
+}
+
+.hero_ED {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%),
+    url('../img/jpg/main-image-ED-mobile.jpg');
+    background-position-y: 10%!important;
+    @media only screen and (min-width: 1024px) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%),
+        url('../img/jpg/main-image-ED.jpg') !important;
+    }
+}
+
+.hero_TD {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(0, 0, 0, 0.41) 50%, rgba(255, 255, 255, 0) 75%),
+    url('../img/jpg/main-image-DT-mobile.jpg');
+    background-position-y: center!important;
+    @media only screen and (min-width: 1024px) {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41) 25%, rgba(0, 0, 0, 0.41) 50%, rgba(255, 255, 255, 0) 75%),
+        url('../img/jpg/main-image-DT.jpg') !important;
+    }
 }
 
 .hero_DC {
@@ -556,7 +585,10 @@ header {
     top: 25px;
     left: 25px;
     img{
-        width: 191px;
+        width: 165px;
+        @media only screen and (min-width: 1024px){
+            width: 190px;
+        }
     }
 }
 .hero-container {
@@ -568,8 +600,8 @@ header {
         width: 100%;
         position: relative;
         background-size: cover;
-        background-position-y: 10% !important;
-        background-position-x: center !important;
+        background-position-y: center;
+        background-position-x: center;
         height: 330px;
 
         .hero-data-cont {
@@ -715,8 +747,6 @@ header {
 
         .hero-data {
             height: 410px;
-            background-position-y: 55% !important;
-            background-position-x: center !important;
 
             .hero-data-cont {
                 .hero-title {
@@ -1129,7 +1159,7 @@ header {
         .relevante-container {
             &:nth-child(1) {
                 div {
-                    max-width: 520px !important;
+                    max-width: 530px !important;
 
                     &:nth-child(1) {
                         line-height: 53px;
@@ -1148,7 +1178,7 @@ header {
 
             &:nth-child(2) {
                 div {
-                    max-width: 520px !important;
+                    max-width: 530px !important;
 
                     &:nth-child(1) {
                         line-height: 53px;
@@ -1167,7 +1197,7 @@ header {
 
             &:nth-child(3) {
                 div {
-                    max-width: 520px !important;
+                    max-width: 530px !important;
 
                     &:nth-child(1) {
                         line-height: 53px;
@@ -1377,6 +1407,26 @@ header {
             line-height: 22px;
             padding: 0 0 0 10px;
             border-left: 1px solid #C6CFD1;
+            border-right: none;
+            &:last-child{
+                border-right: none;
+            }
+
+            &:nth-child(1) {
+                padding: 0 10px 0;
+            }
+
+            &:nth-child(2) {
+                padding: 0 10px;
+            }
+
+            &:nth-child(3) {
+                padding: 0 10px;
+            }
+
+            &:nth-child(4) {
+                padding: 0 0 0 10px;
+            }
         }
     }
 }
@@ -1406,20 +1456,21 @@ header {
                 line-height: 22px;
                 padding: 0 0 0 10px;
                 border-left: none;
+                border-right: 1px solid #C6CFD1;
+                &:last-child{
+                    border-right: none!important;
+                }
 
                 &:nth-child(1) {
                     padding: 0 10px 0;
-                    border-right: 1px solid #C6CFD1;
                 }
 
                 &:nth-child(2) {
                     padding: 0 10px;
-                    border-right: 1px solid #C6CFD1;
                 }
 
                 &:nth-child(3) {
                     padding: 0 10px;
-                    border-right: 1px solid #C6CFD1;
                 }
 
                 &:nth-child(4) {
@@ -1632,7 +1683,7 @@ header {
         display: flex;
         flex-wrap: wrap;
         align-items: initial;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .tutor-cont-v2 {
@@ -2364,6 +2415,7 @@ header {
         justify-content: center;
         align-items: initial;
         margin: 0 auto;
+        max-width: 1230px;
         background-color: #EBF4F5;
 
         .tu-viaje-icon {
@@ -2410,7 +2462,6 @@ header {
         }
 
         .tu-viaje-cont {
-            max-width: 1135px;
 
             .tu-viaje-icon {
                 display: block;

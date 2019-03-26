@@ -46,12 +46,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="c-thank-tittles">
           <div class="text-tittle-pri fs50">¡Gracias!</div>
           <div class="text-tittle-sub fs22">Gracias por tu interés en el programa
-            <br><strong>"Design Thinking: Metodología para éxito en innovación"</strong></div>
+            <br><strong>"strategias Digitales: Innovación empresarial y nuevos modelos de negocio"</strong></div>
         </div>
         <div class="c-button-link">
-          <div class="button-text fs18">Si tu descarga no comienza,</div><a target="_blank" href="http://bit.ly/2JxfPce" download="Folleto-Digital_Marketing-CBS" class="btn-link w-button fs18" id="download">da clic aquí</a></div>
+          <div class="button-text fs18">Si tu descarga no comienza,</div><a target="_blank" href="http://bit.ly/2vxSYJl" download="Folleto-Digital_Marketing-CBS" class="btn-link w-button fs18" id="download">da clic aquí</a></div>
         <div class="thank-line"></div>
-        <div class="button-thank-tittle fs34">¿Listo para el próximo paso?</div><a href="http://bit.ly/2JFFnEa" class="btn-thank fs20 w-button" id="btn-apply-now">Llena la solicitud</a></div>
+        <div class="button-thank-tittle fs34">¿Listo para el próximo paso?</div><a href="http://bit.ly/2M5RwYW" class="btn-thank fs20 w-button" id="btn-apply-now">Llena la solicitud</a></div>
       <div class="c-thank-footer-desk">
       <div class="thank-footer-tittle">Conéctate con nosotros</div>
       <div class="thank-footer-icons">
