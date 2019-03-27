@@ -24,8 +24,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta http-equiv="refresh" CONTENT="1;URL= https://bit.ly/2IZ7mOJ">
   <link rel="stylesheet" href="assets/css/stylesheet.css">
   <link href="assets/css/thank-you-page.css" rel="stylesheet" type="text/css">
-  <link href="emfavicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="emfavicon.png" rel="apple-touch-icon">
+  <link href="assets/img/png/emfavicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="assets/img/png/emfavicon.png" rel="apple-touch-icon">
 </head>
 <body class="altura-auto">
 

@@ -28,21 +28,6 @@
     <link rel="shortcut icon" type="image/png" href="../assets/img/png/emfavicon.png" />
 
 
-    <!-- Javascript Files -->
-    <script type="text/javascript" src="../assets/libs/jquery-3.3.1.min.js"></script> <!-- jQuery -->
-    <script src="../assets/libs/mdl/material.min.js"></script> <!-- Material Design -->
-    <script src="../assets/js/main.js"></script> <!-- Custom Functionality -->
-    <script src="../assets/js/materialize.min.js"></script> <!-- Materialize Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <!-- Modals -->
-    <script type="text/javascript" src="../assets/libs/slick/slick.js"></script> <!-- Slick JS -->
-    <script src="../assets/js/onkeypress.js"></script> <!-- Input number JS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- AOS Animations Libraries -->
-    <script type="text/javascript" src="https://latam.emeritus.org/programas/assets/js/countries-latam.js"></script>
-    <!-- Countries Script provided by Ruchira's Team -->
-    <script type="text/javascript" src="../assets/js/logs.js"></script>
-    <!-- Script for register the UTM parameters in Logs -->
-
     <!-- Styling -->
     <link rel="stylesheet" href="../assets/css/stylesheet.css"> <!-- Custom Styling -->
     <link rel="stylesheet" href="../assets/libs/mdl/material.min.css"> <!-- Material Design -->
@@ -50,7 +35,19 @@
     <!-- Modals -->
     <link rel="stylesheet" href="../assets/libs/slick/slick.css"> <!-- Slick Slider -->
     <link rel="stylesheet" href="../assets/libs/slick/slick-theme.css"> <!-- Slick Slider -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- AOS Animations -->
+    <!-- Javascript Files -->
+    <script type="text/javascript" src="../assets/libs/jquery-3.3.1.min.js"></script> <!-- jQuery -->
+    <script src="../assets/libs/mdl/material.min.js"></script> <!-- Material Design -->
+    <script src="../assets/js/main.js"></script> <!-- Custom Functionality -->
+    <script src="../assets/js/materialize.js"></script> <!-- Materialize Libraries -->
+    <script src="../assets/js/materialize.min.js"></script> <!-- Materialize Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <!-- Modals -->
+    <script type="text/javascript" src="../assets/libs/slick/slick.js"></script> <!-- Slick JS -->
+    <script src="../assets/js/onkeypress.js"></script> <!-- Input number JS -->
+    <!-- Countries Script provided by Ruchira's Team -->
+    <script type="text/javascript" src="../assets/js/logs.js"></script>
+    <!-- Script for register the UTM parameters in Logs -->
 
 
 </head>
@@ -167,7 +164,7 @@
 
                         <div class="fechas">
                             <div class="fecha-title fs14 robotoRe gris6E">Termina</div>
-                            <div class="fecha fs18 robotoRe negro">26/09/2019</div>
+                            <div class="fecha fs18 robotoRe negro">26/08/2019</div>
                         </div>
                     </div>
 
