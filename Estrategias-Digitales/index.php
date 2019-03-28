@@ -310,7 +310,7 @@
                     </div>
 
                     <div class="button-container">
-                        <input type="hidden" name="lead_source" id="lead_source" value="Web">
+                        <input type="hidden" name="utm_source" id="lead_source" value="">
                         <input type="hidden" name="utm_source" id="utm_source" value="">
                         <input type="hidden" name="utm_medium" id="utm_medium" value="">
                         <input type="hidden" name="utm_term" id="utm_term" value="">
@@ -1908,6 +1908,7 @@
         }
 
         jQuery(document).ready(function () {
+            jQuery('#utm_source').val(getParameterByName("lead_source"));
             jQuery('#utm_source').val(getParameterByName("utm_source"));
             jQuery('#utm_medium').val(getParameterByName("utm_medium"));
             jQuery('#utm_content').val(getParameterByName("utm_content"));

@@ -1765,6 +1765,7 @@
         }
 
         jQuery(document).ready(function () {
+            jQuery('#utm_source').val(getParameterByName("lead_source"));
             jQuery('#lead_source').val(getParameterByName("utm_source"));
             jQuery('#utm_source').val(getParameterByName("utm_source"));
             jQuery('#utm_medium').val(getParameterByName("utm_medium"));
